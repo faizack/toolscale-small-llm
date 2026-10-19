@@ -1,0 +1,19 @@
+2026-10-19 14:45:02,161 INFO config=configs/rq3_retrieval.yaml hash=415bfceaba commit=1926f3f
+2026-10-19 14:45:02,169 INFO evaluating 100 of 400 queries (subsample=100)
+2026-10-19 14:45:02,179 INFO model=qwen2.5:1.5b-instruct already done=0
+2026-10-19 14:46:40,498 INFO model=qwen2.5:1.5b-instruct N=64 seed=0 k=1 new=100 acc_new=0.630 time=98s
+2026-10-19 14:48:13,201 INFO model=qwen2.5:1.5b-instruct N=64 seed=0 k=3 new=100 acc_new=0.600 time=93s
+2026-10-19 14:49:56,635 INFO model=qwen2.5:1.5b-instruct N=64 seed=0 k=5 new=100 acc_new=0.610 time=103s
+2026-10-19 14:49:56,635 INFO model=qwen2.5:3b-instruct already done=0
+2026-10-19 14:52:26,569 INFO model=qwen2.5:3b-instruct N=64 seed=0 k=1 new=100 acc_new=0.810 time=150s
+2026-10-19 14:55:00,904 INFO model=qwen2.5:3b-instruct N=64 seed=0 k=3 new=100 acc_new=0.730 time=154s
+2026-10-19 14:57:30,487 INFO model=qwen2.5:3b-instruct N=64 seed=0 k=5 new=100 acc_new=0.680 time=150s
+2026-10-19 14:57:30,488 INFO model=llama3.2:latest already done=0
+2026-10-19 14:59:43,909 INFO model=llama3.2:latest N=64 seed=0 k=1 new=100 acc_new=0.220 time=133s
+2026-10-19 15:02:07,611 INFO model=llama3.2:latest N=64 seed=0 k=3 new=100 acc_new=0.230 time=144s
+2026-10-19 15:04:47,095 INFO model=llama3.2:latest N=64 seed=0 k=5 new=100 acc_new=0.230 time=159s
+2026-10-19 15:04:47,098 INFO model=qwen3.5:2b already done=0
+2026-10-19 15:10:34,329 INFO model=qwen3.5:2b N=64 seed=0 k=1 new=100 acc_new=0.710 time=347s
+2026-10-19 15:14:56,173 INFO model=qwen3.5:2b N=64 seed=0 k=3 new=100 acc_new=0.740 time=262s
+2026-10-19 15:19:29,207 INFO model=qwen3.5:2b N=64 seed=0 k=5 new=100 acc_new=0.720 time=273s
+2026-10-19 15:19:29,209 INFO finished rq3_retrieval

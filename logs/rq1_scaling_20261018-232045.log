@@ -1,0 +1,20 @@
+2026-10-18 23:20:45,288 INFO config=configs/rq1_scaling.yaml hash=ae61da5aa2 commit=e1dcd24-dirty
+2026-10-18 23:20:45,302 INFO evaluating 100 of 400 queries (subsample=100)
+2026-10-18 23:20:45,335 INFO model=qwen2.5:1.5b-instruct already done=1957
+2026-10-18 23:20:45,359 INFO model=qwen2.5:3b-instruct already done=700
+2026-10-18 23:20:45,398 INFO model=llama3.2:latest already done=421
+2026-10-18 23:20:48,992 INFO model=llama3.2:latest N=16 seed=0 k=None new=1 acc_new=0.000 time=4s
+2026-10-18 23:29:27,530 INFO model=llama3.2:latest N=16 seed=1 k=None new=78 acc_new=0.179 time=519s
+2026-10-18 23:54:23,513 INFO model=llama3.2:latest N=64 seed=0 k=None new=100 acc_new=0.200 time=1496s
+2026-10-18 23:55:40,841 WARNING request error: N64|s1|kNone|simple_python_363 ReadError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-10-18 23:55:42,899 WARNING request error: N64|s1|kNone|simple_python_317 ConnectError: [WinError 10061] No connection could be made because the target machine actively refused it
+2026-10-18 23:55:44,943 WARNING request error: N64|s1|kNone|simple_python_92 ConnectError: [WinError 10061] No connection could be made because the target machine actively refused it
+2026-10-18 23:55:46,992 WARNING request error: N64|s1|kNone|simple_python_251 ConnectError: [WinError 10061] No connection could be made because the target machine actively refused it
+2026-10-18 23:55:49,043 WARNING request error: N64|s1|kNone|simple_python_332 ConnectError: [WinError 10061] No connection could be made because the target machine actively refused it
+2026-10-18 23:55:51,091 WARNING request error: N64|s1|kNone|simple_python_199 ConnectError: [WinError 10061] No connection could be made because the target machine actively refused it
+2026-10-18 23:55:53,136 WARNING request error: N64|s1|kNone|simple_python_358 ConnectError: [WinError 10061] No connection could be made because the target machine actively refused it
+2026-10-18 23:55:55,191 WARNING request error: N64|s1|kNone|simple_python_334 ConnectError: [WinError 10061] No connection could be made because the target machine actively refused it
+2026-10-18 23:55:57,255 WARNING request error: N64|s1|kNone|simple_python_65 ConnectError: [WinError 10061] No connection could be made because the target machine actively refused it
+2026-10-18 23:55:59,312 WARNING request error: N64|s1|kNone|simple_python_61 ConnectError: [WinError 10061] No connection could be made because the target machine actively refused it
+2026-10-18 23:56:01,350 WARNING request error: N64|s1|kNone|simple_python_160 ConnectError: [WinError 10061] No connection could be made because the target machine actively refused it
+2026-10-18 23:56:03,400 WARNING request error: N64|s1|kNone|simple_python_324 ConnectError: [WinError 10061] No connection could be made because the target machine actively refused it

@@ -1,0 +1,29 @@
+records per experiment/model:
+ exp            model                
+rq1_scaling    llama3.2:latest          700
+               qwen2.5:1.5b-instruct    700
+               qwen2.5:3b-instruct      700
+               qwen3.5:2b               700
+rq3_retrieval  llama3.2:latest          300
+               qwen2.5:1.5b-instruct    300
+               qwen2.5:3b-instruct      300
+               qwen3.5:2b               300
+context-overflow risks: 0 | request errors: 0
+                    model   N  n_calls    acc  acc_std    len  prompt_tokens  latency_s
+0         llama3.2:latest   1      100  0.220    0.000  0.860          249.5      1.286
+1         llama3.2:latest   4      200  0.210    0.028  0.830          623.5      1.417
+2         llama3.2:latest  16      200  0.200    0.014  0.800         2116.5      2.991
+3         llama3.2:latest  64      200  0.205    0.007  0.685         8154.0     11.785
+4   qwen2.5:1.5b-instruct   1      100  0.640    0.000  0.640          246.5      0.673
+5   qwen2.5:1.5b-instruct   4      200  0.680    0.057  0.680          612.0      0.720
+6   qwen2.5:1.5b-instruct  16      200  0.540    0.042  0.540         2062.0      0.653
+7   qwen2.5:1.5b-instruct  64      200  0.425    0.021  0.425         7955.0      0.733
+8     qwen2.5:3b-instruct   1      100  0.830    0.000  0.830          246.5      0.793
+9     qwen2.5:3b-instruct   4      200  0.790    0.000  0.790          612.0      0.890
+10    qwen2.5:3b-instruct  16      200  0.645    0.049  0.645         2062.0      0.823
+11    qwen2.5:3b-instruct  64      200  0.580    0.014  0.580         7955.0      1.453
+12             qwen3.5:2b   1      100  0.700    0.000  0.700          385.5      2.229
+13             qwen3.5:2b   4      200  0.805    0.007  0.805          847.5      2.479
+14             qwen3.5:2b  16      200  0.735    0.035  0.735         2688.0      2.933
+15             qwen3.5:2b  64      200  0.665    0.035  0.665        10155.5      3.235
+wrote C:\Users\faiza\Videos\parul\agent_survey\results\processed\summary.json

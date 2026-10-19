@@ -1,0 +1,9 @@
+\section{Conclusion}
+\label{sec:conclusion}
+
+We measured how off-the-shelf 1.5--3B language models, running on a 4\,GB laptop GPU, cope with growing tool catalogs.
+Accuracy holds up to about four tools and then drops by \DropQwenThreeFive--\DropQwenThree{} points at 64 tools, with Llama-3.2-3B's \LenDropLlama-point drop visible only under lenient scoring.
+The lost accuracy comes less from picking the wrong tool than from \emph{not calling} and from \emph{breaking the call format}, and a local serving stack can hide both unless the raw tokens are logged.
+A small embedding retriever that shows the model only a few tools recovers most of the loss.
+On native BFCL data, the same small models rarely choose the wrong tool, but one of them calls a tool almost every time even when none applies. In executable multi-turn episodes, none completes more than a quarter of the tasks.
+We release every configuration, raw output and analysis script, together with the lab notebook, so that the whole study can be rerun or extended on modest hardware.

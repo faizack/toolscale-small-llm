@@ -1,0 +1,7 @@
+2026-10-19 15:47:19,019 INFO config=configs/rq3_retrieval.yaml hash=415bfceaba commit=0055fce-dirty
+2026-10-19 15:47:19,024 INFO evaluating 100 of 400 queries (subsample=100)
+2026-10-19 15:47:19,032 INFO model=qwen2.5:1.5b-instruct already done=300
+2026-10-19 15:47:19,039 INFO model=qwen2.5:3b-instruct already done=300
+2026-10-19 15:47:19,046 INFO model=llama3.2:latest already done=300
+2026-10-19 15:47:19,053 INFO model=qwen3.5:2b already done=300
+2026-10-19 15:47:19,055 INFO finished rq3_retrieval

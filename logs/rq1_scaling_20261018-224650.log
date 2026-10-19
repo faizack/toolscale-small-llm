@@ -1,0 +1,41 @@
+2026-10-18 22:46:50,482 INFO config=configs/rq1_scaling.yaml hash=ae61da5aa2 commit=4c73c79
+2026-10-18 22:46:50,488 INFO evaluating 100 of 400 queries (subsample=100)
+2026-10-18 22:46:50,502 INFO model=qwen2.5:1.5b-instruct already done=1558
+2026-10-18 22:48:09,260 INFO model=qwen2.5:1.5b-instruct N=16 seed=0 k=None new=100 acc_new=0.570 time=79s
+2026-10-18 22:49:33,473 INFO model=qwen2.5:1.5b-instruct N=16 seed=1 k=None new=100 acc_new=0.510 time=84s
+2026-10-18 22:51:40,040 INFO model=qwen2.5:1.5b-instruct N=64 seed=0 k=None new=100 acc_new=0.440 time=127s
+2026-10-18 22:53:39,086 INFO model=qwen2.5:1.5b-instruct N=64 seed=1 k=None new=100 acc_new=0.410 time=119s
+2026-10-18 22:53:39,087 INFO model=qwen2.5:3b-instruct already done=0
+2026-10-18 22:55:06,022 INFO model=qwen2.5:3b-instruct N=1 seed=0 k=None new=100 acc_new=0.830 time=87s
+2026-10-18 22:56:37,315 INFO model=qwen2.5:3b-instruct N=4 seed=0 k=None new=100 acc_new=0.790 time=91s
+2026-10-18 22:58:09,365 INFO model=qwen2.5:3b-instruct N=4 seed=1 k=None new=100 acc_new=0.790 time=92s
+2026-10-18 22:59:55,251 INFO model=qwen2.5:3b-instruct N=16 seed=0 k=None new=100 acc_new=0.610 time=106s
+2026-10-18 23:01:39,432 INFO model=qwen2.5:3b-instruct N=16 seed=1 k=None new=100 acc_new=0.680 time=104s
+2026-10-18 23:05:06,932 INFO model=qwen2.5:3b-instruct N=64 seed=0 k=None new=100 acc_new=0.590 time=207s
+2026-10-18 23:08:14,530 INFO model=qwen2.5:3b-instruct N=64 seed=1 k=None new=100 acc_new=0.570 time=188s
+2026-10-18 23:08:14,531 INFO model=llama3.2:latest already done=0
+2026-10-18 23:10:30,470 INFO model=llama3.2:latest N=1 seed=0 k=None new=100 acc_new=0.220 time=136s
+2026-10-18 23:12:52,703 INFO model=llama3.2:latest N=4 seed=0 k=None new=100 acc_new=0.190 time=142s
+2026-10-18 23:15:17,251 INFO model=llama3.2:latest N=4 seed=1 k=None new=100 acc_new=0.230 time=145s
+2026-10-18 23:18:22,686 WARNING request error: N16|s0|kNone|simple_python_137 ReadError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-10-18 23:19:30,768 INFO model=llama3.2:latest N=16 seed=0 k=None new=100 acc_new=0.210 time=254s
+2026-10-18 23:20:16,212 WARNING request error: N16|s1|kNone|simple_python_373 ReadError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-10-18 23:20:18,246 WARNING request error: N16|s1|kNone|simple_python_7 ConnectError: [WinError 10061] No connection could be made because the target machine actively refused it
+2026-10-18 23:20:20,289 WARNING request error: N16|s1|kNone|simple_python_204 ConnectError: [WinError 10061] No connection could be made because the target machine actively refused it
+2026-10-18 23:20:22,327 WARNING request error: N16|s1|kNone|simple_python_348 ConnectError: [WinError 10061] No connection could be made because the target machine actively refused it
+2026-10-18 23:20:24,367 WARNING request error: N16|s1|kNone|simple_python_258 ConnectError: [WinError 10061] No connection could be made because the target machine actively refused it
+2026-10-18 23:20:26,401 WARNING request error: N16|s1|kNone|simple_python_286 ConnectError: [WinError 10061] No connection could be made because the target machine actively refused it
+2026-10-18 23:26:06,560 INFO model=llama3.2:latest N=16 seed=1 k=None new=100 acc_new=0.180 time=396s
+2026-10-18 23:52:11,474 INFO model=llama3.2:latest N=64 seed=0 k=None new=100 acc_new=0.200 time=1565s
+2026-10-18 23:55:40,834 WARNING request error: N64|s1|kNone|simple_python_61 ReadError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-10-18 23:55:42,898 WARNING request error: N64|s1|kNone|simple_python_160 ConnectError: [WinError 10061] No connection could be made because the target machine actively refused it
+2026-10-18 23:55:44,944 WARNING request error: N64|s1|kNone|simple_python_324 ConnectError: [WinError 10061] No connection could be made because the target machine actively refused it
+2026-10-18 23:55:46,992 WARNING request error: N64|s1|kNone|simple_python_170 ConnectError: [WinError 10061] No connection could be made because the target machine actively refused it
+2026-10-18 23:55:49,044 WARNING request error: N64|s1|kNone|simple_python_204 ConnectError: [WinError 10061] No connection could be made because the target machine actively refused it
+2026-10-18 23:55:51,091 WARNING request error: N64|s1|kNone|simple_python_375 ConnectError: [WinError 10061] No connection could be made because the target machine actively refused it
+2026-10-18 23:55:53,136 WARNING request error: N64|s1|kNone|simple_python_202 ConnectError: [WinError 10061] No connection could be made because the target machine actively refused it
+2026-10-18 23:55:55,191 WARNING request error: N64|s1|kNone|simple_python_67 ConnectError: [WinError 10061] No connection could be made because the target machine actively refused it
+2026-10-18 23:55:57,240 WARNING request error: N64|s1|kNone|simple_python_345 ConnectError: [WinError 10061] No connection could be made because the target machine actively refused it
+2026-10-18 23:55:59,281 WARNING request error: N64|s1|kNone|simple_python_381 ConnectError: [WinError 10061] No connection could be made because the target machine actively refused it
+2026-10-18 23:56:01,319 WARNING request error: N64|s1|kNone|simple_python_106 ConnectError: [WinError 10061] No connection could be made because the target machine actively refused it
+2026-10-18 23:56:03,383 WARNING request error: N64|s1|kNone|simple_python_344 ConnectError: [WinError 10061] No connection could be made because the target machine actively refused it

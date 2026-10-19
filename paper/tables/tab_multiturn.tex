@@ -1,0 +1,9 @@
+\begin{tabular}{lcccccc}
+\toprule
+Model & Success (95\% CI) & Calls / GT calls & Exec.\ errors / ep. & Dropped calls & Forced quit & Top failure \\
+\midrule
+Qwen2.5-1.5B & 6.7 (1.8--21.3) & 0.50 & 0.9 & 5.9\% of steps & 0.0 & \small{empty turn model response} \\
+Qwen2.5-3B & 23.3 (11.8--40.9) & 0.84 & 1.4 & 6.6\% of steps & 0.0 & \small{instance state mismatch} \\
+Qwen3.5-2B & 20.0 (9.5--37.3) & 1.42 & 2.3 & 0.0\% of steps & 10.0 & \small{instance state mismatch} \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,3 @@
+2026-10-19 15:47:19,848 INFO live_multiple: 1053 eligible, 125 sampled
+2026-10-19 15:47:19,872 INFO live_irrelevance: 880 eligible, 100 sampled
+2026-10-19 15:47:19,883 INFO finished rq4_native

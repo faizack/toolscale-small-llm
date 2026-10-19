@@ -1,0 +1,10 @@
+2026-10-19 12:42:08,568 INFO config=configs/rq1_scaling.yaml hash=ae61da5aa2 commit=72e1458-dirty
+2026-10-19 12:42:08,575 INFO evaluating 100 of 400 queries (subsample=100)
+2026-10-19 12:42:08,594 INFO model=qwen2.5:1.5b-instruct already done=1957
+2026-10-19 12:42:08,609 INFO model=qwen2.5:3b-instruct already done=700
+2026-10-19 12:42:08,630 INFO model=llama3.2:latest already done=614
+2026-10-19 12:52:29,681 INFO model=llama3.2:latest N=64 seed=1 k=None new=86 acc_new=0.209 time=621s
+2026-10-19 12:52:29,686 INFO model=qwen3.5:2b already done=0
+2026-10-19 12:58:22,382 INFO model=qwen3.5:2b N=1 seed=0 k=None new=100 acc_new=0.700 time=353s
+2026-10-19 13:18:53,141 WARNING request error: N4|s0|kNone|simple_python_389 ReadTimeout: timed out
+2026-10-19 13:28:53,154 WARNING request error: N4|s0|kNone|simple_python_41 ReadTimeout: timed out

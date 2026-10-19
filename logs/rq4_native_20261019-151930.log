@@ -1,0 +1,7 @@
+2026-10-19 15:19:30,632 INFO live_multiple: 1053 eligible, 125 sampled
+2026-10-19 15:19:30,659 INFO live_irrelevance: 880 eligible, 100 sampled
+2026-10-19 15:22:57,573 INFO model=qwen2.5:1.5b-instruct native new=225 acc_new=0.622 time=207s
+2026-10-19 15:28:08,489 INFO model=qwen2.5:3b-instruct native new=225 acc_new=0.702 time=311s
+2026-10-19 15:35:03,547 INFO model=llama3.2:latest native new=225 acc_new=0.298 time=415s
+2026-10-19 15:46:26,165 INFO model=qwen3.5:2b native new=225 acc_new=0.658 time=683s
+2026-10-19 15:46:26,166 INFO finished rq4_native

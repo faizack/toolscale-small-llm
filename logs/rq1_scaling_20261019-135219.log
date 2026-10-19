@@ -1,0 +1,13 @@
+2026-10-19 13:52:19,702 INFO config=configs/rq1_scaling.yaml hash=ae61da5aa2 commit=6e86db3-dirty
+2026-10-19 13:52:19,710 INFO evaluating 100 of 400 queries (subsample=100)
+2026-10-19 13:52:19,730 INFO model=qwen2.5:1.5b-instruct already done=1957
+2026-10-19 13:52:19,745 INFO model=qwen2.5:3b-instruct already done=700
+2026-10-19 13:52:19,764 INFO model=llama3.2:latest already done=700
+2026-10-19 13:52:19,777 INFO model=qwen3.5:2b already done=167
+2026-10-19 13:53:34,754 INFO model=qwen3.5:2b N=4 seed=0 k=None new=33 acc_new=0.818 time=75s
+2026-10-19 13:58:20,712 INFO model=qwen3.5:2b N=4 seed=1 k=None new=100 acc_new=0.810 time=286s
+2026-10-19 14:03:38,842 INFO model=qwen3.5:2b N=16 seed=0 k=None new=100 acc_new=0.710 time=318s
+2026-10-19 14:08:52,206 INFO model=qwen3.5:2b N=16 seed=1 k=None new=100 acc_new=0.760 time=313s
+2026-10-19 14:38:15,381 INFO model=qwen3.5:2b N=64 seed=0 k=None new=100 acc_new=0.640 time=1763s
+2026-10-19 14:45:01,296 INFO model=qwen3.5:2b N=64 seed=1 k=None new=100 acc_new=0.690 time=406s
+2026-10-19 14:45:01,297 INFO finished rq1_scaling

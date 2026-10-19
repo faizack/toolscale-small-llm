@@ -1,0 +1,28 @@
+\section{Discussion}
+\label{sec:discussion}
+
+\paragraph{Practical guidance for laptop-scale agents.}
+Our results suggest three simple rules for sub-4B models.
+(1)~Keep the visible tool list short. Accuracy is stable up to about 4 tools and drops clearly from 16.
+(2)~Put an embedding retriever in front of the model and show as few tools as its recall allows. A 0.6B embedder plus top-1 or top-3 restored most of the lost accuracy in our controlled setting, at a fraction of the prompt length.
+(3)~Make the tool executor tolerant of serialisation. Coercing \texttt{"10"} to \texttt{10} changes Llama-3.2-3B from unusable (\AccLlamaNOne\%) to competitive (\LenLlamaNOne\%) on single calls, with no model change.
+
+\paragraph{Measurement pitfalls.}
+Two problems in our pilot would have silently biased the results, and both apply to any study run on a local serving stack.
+First, \emph{the server can hide model behaviour}. Ollama's tool parser discards calls whose JSON is invalid, and calls to names that are not in the tool list, and returns an empty message instead. Without the raw generated tokens, which we record through the \texttt{logprobs} interface, these calls look like abstentions. Format errors (\FailFormatQwenThreeNSixtyFour\% for Qwen2.5-3B at $N{=}64$) and hallucinated tools would then be under-counted, and ``no call'' over-counted.
+Second, \emph{strict scoring can hide trends}. Under strict BFCL scoring, Llama-3.2-3B looks insensitive to catalog size; lenient scoring reveals a \LenDropLlama-point decline. We recommend reporting both.
+Running the study on consumer hardware also produced an operational lesson. The serving process occasionally wedged, so that every request hung, and memory pressure killed background jobs twice. A watchdog, resumable logging and a dated lab notebook made these incidents cheap to recover from and easy to report.
+
+\section{Limitations}
+\label{sec:limitations}
+
+\begin{itemize}
+  \item \textbf{Small samples.} This is a deliberately small study: 100 queries per condition, 2 catalog seeds, 25 queries per native bucket and 30 agentic episodes. Differences below about 10 points (RQ1--RQ4) or 25 points (RQ5) are within noise, and we have avoided interpreting them.
+  \item \textbf{Four models, one serving stack.} We test Ollama~0.32.6 with default chat templates. Other templates, parsers or runtimes (vLLM, llama.cpp server) may handle malformed calls differently.
+  \item \textbf{Quantization is confounded with the model.} Qwen3.5-2B runs at 8 bits and the other models at 4 bits. We do not vary quantization; prior work studies it directly \citep{roshaan2026compression, singh2026samequant}.
+  \item \textbf{Random distractors only.} Our catalogs use random BFCL tools, which already contain near-duplicates, but we do not control distractor similarity. Similar distractors would probably make the decline steeper \citep{rabinovich2025robustness}.
+  \item \textbf{Retrieval is easy on BFCL.} BFCL queries are lexically close to their tool descriptions, which favours the retriever.
+  \item \textbf{Llama-3.2-3B is missing from RQ5.} Its 16k-token episodes exhausted the 16\,GB of system RAM on our laptop.
+  \item \textbf{Taxonomy validation.} Categories are assigned by deterministic rules from the raw tokens. We inspected samples by hand (\cref{sec:rq2}), but did not measure inter-annotator agreement.
+  \item \textbf{Determinism.} Temperature-0 decoding with key-value cache reuse is not bitwise reproducible (\cref{app:repro}).
+\end{itemize}

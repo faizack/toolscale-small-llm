@@ -1,0 +1,1801 @@
+variant,query_id,category,subset,n_gold,ndcg@10,recall@1,recall@5,recall@10,recall@50
+bge-m3,apibank_query_64,web,apibank,3,0.1480409554829326,0.0,0.0,0.3333333333333333,0.6666666666666666
+bge-m3,apigen_query_4,web,apigen,2,0.0,0.0,0.0,0.0,0.0
+bge-m3,apigen_query_32,web,apigen,1,0.3562071871080222,0.0,0.0,1.0,1.0
+bge-m3,apigen_query_33,web,apigen,2,0.38685280723454163,0.0,0.5,0.5,0.5
+bge-m3,apigen_query_44,web,apigen,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,apigen_query_81,web,apigen,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,apigen_query_82,web,apigen,2,0.6131471927654584,0.5,0.5,0.5,0.5
+bge-m3,apigen_query_125,web,apigen,1,0.6309297535714575,0.0,1.0,1.0,1.0
+bge-m3,apigen_query_139,web,apigen,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,apigen_query_213,web,apigen,2,0.38685280723454163,0.0,0.5,0.5,1.0
+bge-m3,apigen_query_268,web,apigen,1,0.38685280723454163,0.0,1.0,1.0,1.0
+bge-m3,apigen_query_289,web,apigen,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,apigen_query_302,web,apigen,1,0.5,0.0,1.0,1.0,1.0
+bge-m3,apigen_query_360,web,apigen,2,0.0,0.0,0.0,0.0,0.0
+bge-m3,apigen_query_429,web,apigen,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,apigen_query_441,web,apigen,2,0.6131471927654584,0.5,0.5,0.5,0.5
+bge-m3,apigen_query_456,web,apigen,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,apigen_query_500,web,apigen,1,0.6309297535714575,0.0,1.0,1.0,1.0
+bge-m3,apigen_query_537,web,apigen,1,0.6309297535714575,0.0,1.0,1.0,1.0
+bge-m3,apigen_query_603,web,apigen,2,0.6131471927654584,0.5,0.5,0.5,1.0
+bge-m3,apigen_query_631,web,apigen,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,apigen_query_663,web,apigen,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,apigen_query_664,web,apigen,1,0.6309297535714575,0.0,1.0,1.0,1.0
+bge-m3,apigen_query_685,web,apigen,4,0.8048099750039491,0.25,0.75,0.75,0.75
+bge-m3,apigen_query_716,web,apigen,2,0.5437713091520254,0.0,1.0,1.0,1.0
+bge-m3,apigen_query_733,web,apigen,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,apigen_query_737,web,apigen,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,apigen_query_758,web,apigen,1,0.43067655807339306,0.0,1.0,1.0,1.0
+bge-m3,apigen_query_764,web,apigen,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,apigen_query_791,web,apigen,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,apigen_query_822,web,apigen,2,0.9197207891481876,0.5,1.0,1.0,1.0
+bge-m3,apigen_query_831,web,apigen,2,0.0,0.0,0.0,0.0,0.5
+bge-m3,apigen_query_839,web,apigen,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,apigen_query_844,web,apigen,1,0.6309297535714575,0.0,1.0,1.0,1.0
+bge-m3,apigen_query_909,web,apigen,1,0.3010299956639812,0.0,0.0,1.0,1.0
+bge-m3,apigen_query_916,web,apigen,2,0.0,0.0,0.0,0.0,1.0
+bge-m3,apigen_query_971,web,apigen,1,0.43067655807339306,0.0,1.0,1.0,1.0
+bge-m3,appbench_query_0,customized,appbench,2,1.0,0.5,1.0,1.0,1.0
+bge-m3,appbench_query_8,customized,appbench,4,0.3903800499921017,0.25,0.25,0.25,0.75
+bge-m3,appbench_query_10,customized,appbench,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,appbench_query_29,customized,appbench,1,0.6309297535714575,0.0,1.0,1.0,1.0
+bge-m3,webtools_music_query_25,web,autotools-music,4,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Math_algebra_query_0,code,craft-math-algebra,1,0.43067655807339306,0.0,1.0,1.0,1.0
+bge-m3,craft_Math_algebra_query_11,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,craft_Math_algebra_query_18,code,craft-math-algebra,1,0.6309297535714575,0.0,1.0,1.0,1.0
+bge-m3,craft_Math_algebra_query_25,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,craft_Math_algebra_query_26,code,craft-math-algebra,1,0.5,0.0,1.0,1.0,1.0
+bge-m3,craft_Math_algebra_query_30,code,craft-math-algebra,1,0.6309297535714575,0.0,1.0,1.0,1.0
+bge-m3,craft_Math_algebra_query_38,code,craft-math-algebra,1,0.5,0.0,1.0,1.0,1.0
+bge-m3,craft_Math_algebra_query_78,code,craft-math-algebra,1,0.3333333333333333,0.0,0.0,1.0,1.0
+bge-m3,craft_Math_algebra_query_80,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,craft_Math_algebra_query_81,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,craft_Math_algebra_query_91,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,craft_Math_algebra_query_98,code,craft-math-algebra,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,craft_Math_algebra_query_99,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,craft_Math_algebra_query_104,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,craft_Math_algebra_query_105,code,craft-math-algebra,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Math_algebra_query_110,code,craft-math-algebra,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Math_algebra_query_121,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,craft_Math_algebra_query_125,code,craft-math-algebra,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,craft_Math_algebra_query_132,code,craft-math-algebra,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Math_algebra_query_134,code,craft-math-algebra,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Math_algebra_query_135,code,craft-math-algebra,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Math_algebra_query_136,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,craft_Math_algebra_query_149,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,craft_Math_algebra_query_161,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,craft_Math_algebra_query_167,code,craft-math-algebra,1,0.31546487678572877,0.0,0.0,1.0,1.0
+bge-m3,craft_Math_algebra_query_177,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,craft_Math_algebra_query_194,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,craft_Math_algebra_query_199,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,craft_Math_algebra_query_214,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,craft_Math_algebra_query_219,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,craft_Math_algebra_query_230,code,craft-math-algebra,1,0.5,0.0,1.0,1.0,1.0
+bge-m3,craft_Math_algebra_query_232,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,craft_Math_algebra_query_241,code,craft-math-algebra,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,craft_Math_algebra_query_242,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,craft_Math_algebra_query_245,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,craft_Math_algebra_query_248,code,craft-math-algebra,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Math_algebra_query_250,code,craft-math-algebra,1,0.5,0.0,1.0,1.0,1.0
+bge-m3,craft_Math_algebra_query_261,code,craft-math-algebra,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Math_algebra_query_262,code,craft-math-algebra,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Math_algebra_query_263,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,craft_Math_algebra_query_276,code,craft-math-algebra,1,0.6309297535714575,0.0,1.0,1.0,1.0
+bge-m3,craft_Math_algebra_query_277,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,craft_Tabmwp_query_6,code,craft-tabmwp,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Tabmwp_query_12,code,craft-tabmwp,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Tabmwp_query_22,code,craft-tabmwp,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Tabmwp_query_42,code,craft-tabmwp,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Tabmwp_query_43,code,craft-tabmwp,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Tabmwp_query_46,code,craft-tabmwp,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Tabmwp_query_49,code,craft-tabmwp,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Tabmwp_query_53,code,craft-tabmwp,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Tabmwp_query_86,code,craft-tabmwp,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Tabmwp_query_94,code,craft-tabmwp,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Tabmwp_query_97,code,craft-tabmwp,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Tabmwp_query_103,code,craft-tabmwp,1,0.3562071871080222,0.0,0.0,1.0,1.0
+bge-m3,craft_Tabmwp_query_106,code,craft-tabmwp,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,craft_Tabmwp_query_114,code,craft-tabmwp,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,craft_Tabmwp_query_129,code,craft-tabmwp,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Tabmwp_query_132,code,craft-tabmwp,1,0.6309297535714575,0.0,1.0,1.0,1.0
+bge-m3,craft_Tabmwp_query_144,code,craft-tabmwp,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Tabmwp_query_157,code,craft-tabmwp,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Tabmwp_query_158,code,craft-tabmwp,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Tabmwp_query_161,code,craft-tabmwp,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Tabmwp_query_163,code,craft-tabmwp,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Tabmwp_query_173,code,craft-tabmwp,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Vqa_query_5,code,craft-vqa,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Vqa_query_15,code,craft-vqa,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,craft_Vqa_query_49,code,craft-vqa,1,0.5,0.0,1.0,1.0,1.0
+bge-m3,craft_Vqa_query_50,code,craft-vqa,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Vqa_query_55,code,craft-vqa,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,craft_Vqa_query_65,code,craft-vqa,1,0.6309297535714575,0.0,1.0,1.0,1.0
+bge-m3,craft_Vqa_query_67,code,craft-vqa,1,0.3333333333333333,0.0,0.0,1.0,1.0
+bge-m3,craft_Vqa_query_70,code,craft-vqa,1,0.43067655807339306,0.0,1.0,1.0,1.0
+bge-m3,craft_Vqa_query_77,code,craft-vqa,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Vqa_query_85,code,craft-vqa,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Vqa_query_95,code,craft-vqa,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Vqa_query_101,code,craft-vqa,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Vqa_query_106,code,craft-vqa,1,0.3010299956639812,0.0,0.0,1.0,1.0
+bge-m3,craft_Vqa_query_124,code,craft-vqa,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Vqa_query_127,code,craft-vqa,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,craft_Vqa_query_128,code,craft-vqa,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Vqa_query_137,code,craft-vqa,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Vqa_query_138,code,craft-vqa,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Vqa_query_166,code,craft-vqa,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Vqa_query_177,code,craft-vqa,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Vqa_query_180,code,craft-vqa,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,craft_Vqa_query_187,code,craft-vqa,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,gorilla_huggingface_query_8,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_huggingface_query_30,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,gorilla_huggingface_query_37,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_huggingface_query_45,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_huggingface_query_50,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_huggingface_query_53,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,gorilla_huggingface_query_59,code,gorilla-huggingface,1,0.5,0.0,1.0,1.0,1.0
+bge-m3,gorilla_huggingface_query_68,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_huggingface_query_76,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_huggingface_query_77,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_huggingface_query_94,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_huggingface_query_98,code,gorilla-huggingface,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,gorilla_huggingface_query_133,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_huggingface_query_137,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_huggingface_query_138,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_huggingface_query_145,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,gorilla_huggingface_query_153,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_huggingface_query_154,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_huggingface_query_159,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_huggingface_query_185,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,gorilla_huggingface_query_192,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_huggingface_query_198,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_huggingface_query_209,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,gorilla_huggingface_query_224,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_huggingface_query_244,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_huggingface_query_246,code,gorilla-huggingface,1,0.6309297535714575,0.0,1.0,1.0,1.0
+bge-m3,gorilla_huggingface_query_262,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_huggingface_query_275,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_huggingface_query_278,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_huggingface_query_280,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,gorilla_huggingface_query_286,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_huggingface_query_296,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,gorilla_huggingface_query_300,code,gorilla-huggingface,1,0.2890648263178879,0.0,0.0,1.0,1.0
+bge-m3,gorilla_huggingface_query_302,code,gorilla-huggingface,1,0.6309297535714575,0.0,1.0,1.0,1.0
+bge-m3,gorilla_huggingface_query_307,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_huggingface_query_319,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_huggingface_query_323,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,gorilla_huggingface_query_332,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_huggingface_query_355,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_huggingface_query_357,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_huggingface_query_364,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_huggingface_query_373,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,gorilla_huggingface_query_378,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_huggingface_query_384,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_huggingface_query_404,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_huggingface_query_406,code,gorilla-huggingface,1,0.6309297535714575,0.0,1.0,1.0,1.0
+bge-m3,gorilla_huggingface_query_410,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,gorilla_huggingface_query_412,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_huggingface_query_428,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_huggingface_query_447,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_huggingface_query_454,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,gorilla_huggingface_query_462,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,gorilla_huggingface_query_467,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_huggingface_query_469,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,gorilla_huggingface_query_473,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_huggingface_query_482,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_pytorch_query_33,code,gorilla-pytorch,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_pytorch_query_35,code,gorilla-pytorch,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_pytorch_query_36,code,gorilla-pytorch,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_pytorch_query_41,code,gorilla-pytorch,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_tensor_query_12,code,gorilla-tensor,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_tensor_query_14,code,gorilla-tensor,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_tensor_query_30,code,gorilla-tensor,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_tensor_query_31,code,gorilla-tensor,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_tensor_query_34,code,gorilla-tensor,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_tensor_query_41,code,gorilla-tensor,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,gorilla_tensor_query_42,code,gorilla-tensor,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gorilla_tensor_query_48,code,gorilla-tensor,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gpt4tools_query_2,customized,gpt4tools,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,gpt4tools_query_4,customized,gpt4tools,1,0.38685280723454163,0.0,1.0,1.0,1.0
+bge-m3,gpt4tools_query_14,customized,gpt4tools,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,gpt4tools_query_23,customized,gpt4tools,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,gpt4tools_query_24,customized,gpt4tools,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,gpt4tools_query_27,customized,gpt4tools,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,gpt4tools_query_28,customized,gpt4tools,1,0.3010299956639812,0.0,0.0,1.0,1.0
+bge-m3,gpt4tools_query_29,customized,gpt4tools,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,gta_query_0,customized,gta,2,0.0,0.0,0.0,0.0,0.0
+bge-m3,gta_query_7,customized,gta,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,metatool_which_query_1,customized,metatool,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,metatool_which_query_11,customized,metatool,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,metatool_which_query_23,customized,metatool,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,metatool_which_query_30,customized,metatool,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,metatool_which_query_31,customized,metatool,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,metatool_which_query_33,customized,metatool,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,metatool_which_query_39,customized,metatool,1,0.5,0.0,1.0,1.0,1.0
+bge-m3,metatool_which_query_49,customized,metatool,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,metatool_which_query_54,customized,metatool,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,metatool_which_query_57,customized,metatool,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,metatool_which_query_61,customized,metatool,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,metatool_which_query_62,customized,metatool,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,metatool_which_query_63,customized,metatool,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,metatool_which_query_64,customized,metatool,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,metatool_which_query_72,customized,metatool,2,0.0,0.0,0.0,0.0,0.0
+bge-m3,metatool_which_query_77,customized,metatool,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,metatool_which_query_79,customized,metatool,1,0.2890648263178879,0.0,0.0,1.0,1.0
+bge-m3,metatool_which_query_85,customized,metatool,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,metatool_which_query_88,customized,metatool,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,metatool_which_query_92,customized,metatool,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,metatool_which_query_97,customized,metatool,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,metatool_which_query_99,customized,metatool,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,metatool_which_query_101,customized,metatool,1,0.2890648263178879,0.0,0.0,1.0,1.0
+bge-m3,metatool_which_query_104,customized,metatool,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,metatool_which_query_110,customized,metatool,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,metatool_which_query_126,customized,metatool,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,metatool_which_query_134,customized,metatool,1,0.6309297535714575,0.0,1.0,1.0,1.0
+bge-m3,metatool_which_query_135,customized,metatool,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,metatool_which_query_140,customized,metatool,1,0.6309297535714575,0.0,1.0,1.0,1.0
+bge-m3,metatool_which_query_151,customized,metatool,1,0.38685280723454163,0.0,1.0,1.0,1.0
+bge-m3,metatool_which_query_154,customized,metatool,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,metatool_which_query_155,customized,metatool,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,metatool_which_query_169,customized,metatool,1,0.3562071871080222,0.0,0.0,1.0,1.0
+bge-m3,metatool_which_query_173,customized,metatool,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,metatool_which_query_177,customized,metatool,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,metatool_which_query_178,customized,metatool,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,metatool_which_query_197,customized,metatool,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,mnms_query_11,web,mnms,3,0.20210734650054757,0.0,0.3333333333333333,0.3333333333333333,0.3333333333333333
+bge-m3,webtools_spotify_query_9,web,restgpt-spotify,2,0.9197207891481876,0.5,1.0,1.0,1.0
+bge-m3,webtools_spotify_query_20,web,restgpt-spotify,3,0.14126697285982898,0.0,0.0,0.3333333333333333,0.3333333333333333
+bge-m3,webtools_tmdb_query_15,web,restgpt-tmdb,2,0.0,0.0,0.0,0.0,0.0
+bge-m3,webtools_tmdb_query_35,web,restgpt-tmdb,2,0.0,0.0,0.0,0.0,0.5
+bge-m3,webtools_tmdb_query_37,web,restgpt-tmdb,2,0.0,0.0,0.0,0.0,0.5
+bge-m3,reversechain_query_40,web,reversechain,2,0.0,0.0,0.0,0.0,0.0
+bge-m3,reversechain_query_119,web,reversechain,3,0.0,0.0,0.0,0.0,0.0
+bge-m3,reversechain_query_190,web,reversechain,3,0.0,0.0,0.0,0.0,0.3333333333333333
+bge-m3,rotbench_query_43,web,rotbench,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,rotbench_query_58,web,rotbench,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,rotbench_query_59,web,rotbench,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,rotbench_query_83,web,rotbench,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,rotbench_query_108,web,rotbench,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,rotbench_query_118,web,rotbench,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,rotbench_query_142,web,rotbench,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,rotbench_query_182,web,rotbench,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,rotbench_query_206,web,rotbench,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,rotbench_query_215,web,rotbench,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,rotbench_query_260,web,rotbench,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,rotbench_query_268,web,rotbench,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,rotbench_query_339,web,rotbench,1,0.43067655807339306,0.0,1.0,1.0,1.0
+bge-m3,rotbench_query_360,web,rotbench,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,rotbench_query_400,web,rotbench,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,rotbench_query_456,web,rotbench,1,0.38685280723454163,0.0,1.0,1.0,1.0
+bge-m3,rotbench_query_475,web,rotbench,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,rotbench_query_490,web,rotbench,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,rotbench_query_496,web,rotbench,1,0.38685280723454163,0.0,1.0,1.0,1.0
+bge-m3,rotbench_query_506,web,rotbench,1,0.3333333333333333,0.0,0.0,1.0,1.0
+bge-m3,rotbench_query_512,web,rotbench,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,rotbench_query_513,web,rotbench,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,t_eval_dialog_query_4,web,t-eval-dialog,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,t_eval_dialog_query_21,web,t-eval-dialog,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,t_eval_step_query_6,web,t-eval-step,3,0.20210734650054757,0.0,0.3333333333333333,0.3333333333333333,0.3333333333333333
+bge-m3,taskbench_daily_query_36,web,taskbench-daily,3,0.0,0.0,0.0,0.0,0.0
+bge-m3,taskbench_huggingface_query_3,customized,taskbench-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,taskbench_huggingface_query_10,customized,taskbench-huggingface,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,taskbench_huggingface_query_13,customized,taskbench-huggingface,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,taskbench_huggingface_query_19,customized,taskbench-huggingface,3,0.0,0.0,0.0,0.0,0.3333333333333333
+bge-m3,taskbench_multimedia_query_2,customized,taskbench-multimedia,8,0.0,0.0,0.0,0.0,0.0
+bge-m3,taskbench_multimedia_query_11,customized,taskbench-multimedia,2,1.0,0.5,1.0,1.0,1.0
+bge-m3,taskbench_multimedia_query_21,customized,taskbench-multimedia,1,0.38685280723454163,0.0,1.0,1.0,1.0
+bge-m3,taskbench_multimedia_query_25,customized,taskbench-multimedia,3,0.7653606369886217,0.3333333333333333,0.6666666666666666,0.6666666666666666,0.6666666666666666
+bge-m3,taskbench_multimedia_query_31,customized,taskbench-multimedia,4,0.7541985434892589,0.25,0.5,0.75,1.0
+bge-m3,taskbench_multimedia_query_33,customized,taskbench-multimedia,3,0.46927872602275644,0.3333333333333333,0.3333333333333333,0.3333333333333333,1.0
+bge-m3,taskbench_multimedia_query_38,customized,taskbench-multimedia,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,tool_be_honest_query_1,customized,tool-be-honest,2,0.0,0.0,0.0,0.0,0.5
+bge-m3,tool_be_honest_query_2,customized,tool-be-honest,2,0.6131471927654584,0.5,0.5,0.5,0.5
+bge-m3,tool_be_honest_query_5,customized,tool-be-honest,3,0.23463936301137822,0.0,0.3333333333333333,0.3333333333333333,0.3333333333333333
+bge-m3,tool_be_honest_query_7,customized,tool-be-honest,5,0.3391602052736161,0.2,0.2,0.2,0.4
+bge-m3,tool_be_honest_query_23,customized,tool-be-honest,5,0.2530614822099702,0.0,0.2,0.4,0.4
+bge-m3,tool_be_honest_query_29,customized,tool-be-honest,5,0.5531464700081437,0.2,0.4,0.4,0.6
+bge-m3,tool_be_honest_query_32,customized,tool-be-honest,5,0.0,0.0,0.0,0.0,0.4
+bge-m3,tool_be_honest_query_33,customized,tool-be-honest,2,0.0,0.0,0.0,0.0,0.0
+bge-m3,tool_be_honest_query_35,customized,tool-be-honest,2,0.0,0.0,0.0,0.0,0.0
+bge-m3,tool_be_honest_query_41,customized,tool-be-honest,2,0.0,0.0,0.0,0.0,0.5
+bge-m3,tool_be_honest_query_44,customized,tool-be-honest,6,0.0,0.0,0.0,0.0,0.3333333333333333
+bge-m3,tool_be_honest_query_52,customized,tool-be-honest,6,0.0,0.0,0.0,0.0,0.16666666666666666
+bge-m3,tool_be_honest_query_58,customized,tool-be-honest,5,0.10699313236726378,0.0,0.0,0.2,0.6
+bge-m3,tool_be_honest_query_63,customized,tool-be-honest,4,0.298254219601818,0.0,0.25,0.5,0.5
+bge-m3,tool_be_honest_query_66,customized,tool-be-honest,7,0.11838279295536291,0.0,0.14285714285714285,0.14285714285714285,0.14285714285714285
+bge-m3,tool_be_honest_query_67,customized,tool-be-honest,4,0.0,0.0,0.0,0.0,0.25
+bge-m3,tool_be_honest_query_71,customized,tool-be-honest,3,0.5307212739772434,0.0,0.6666666666666666,0.6666666666666666,0.6666666666666666
+bge-m3,tool_be_honest_query_75,customized,tool-be-honest,3,0.7653606369886217,0.3333333333333333,0.6666666666666666,0.6666666666666666,0.6666666666666666
+bge-m3,tool_be_honest_query_77,customized,tool-be-honest,5,0.0,0.0,0.0,0.0,0.0
+bge-m3,tool_be_honest_query_90,customized,tool-be-honest,6,0.0,0.0,0.0,0.0,0.0
+bge-m3,tool_be_honest_query_92,customized,tool-be-honest,2,0.3065735963827292,0.0,0.5,0.5,0.5
+bge-m3,tool_be_honest_query_95,customized,tool-be-honest,6,0.10086747116627115,0.0,0.0,0.16666666666666666,0.6666666666666666
+bge-m3,tool_be_honest_query_104,customized,tool-be-honest,5,0.0,0.0,0.0,0.0,0.0
+bge-m3,tool_be_honest_query_107,customized,tool-be-honest,4,0.0,0.0,0.0,0.0,0.5
+bge-m3,tool_be_honest_query_110,customized,tool-be-honest,3,0.617319681505689,0.3333333333333333,0.3333333333333333,0.6666666666666666,0.6666666666666666
+bge-m3,tool_be_honest_query_120,customized,tool-be-honest,6,0.3980628465882808,0.16666666666666666,0.16666666666666666,0.3333333333333333,0.6666666666666666
+bge-m3,tool_be_honest_query_121,customized,tool-be-honest,5,0.0,0.0,0.0,0.0,0.2
+bge-m3,tool_be_honest_query_123,customized,tool-be-honest,5,0.0,0.0,0.0,0.0,0.2
+bge-m3,tool_be_honest_query_134,customized,tool-be-honest,6,0.0,0.0,0.0,0.0,0.0
+bge-m3,tool_be_honest_query_138,customized,tool-be-honest,3,0.2960819109658652,0.0,0.3333333333333333,0.3333333333333333,0.3333333333333333
+bge-m3,tool_be_honest_query_144,customized,tool-be-honest,2,0.6131471927654584,0.5,0.5,0.5,0.5
+bge-m3,tool_be_honest_query_155,customized,tool-be-honest,5,0.38356636737133565,0.0,0.4,0.4,0.6
+bge-m3,tool_be_honest_query_156,customized,tool-be-honest,6,0.0,0.0,0.0,0.0,0.3333333333333333
+bge-m3,tool_be_honest_query_157,customized,tool-be-honest,5,0.0,0.0,0.0,0.0,0.2
+bge-m3,tool_be_honest_query_159,customized,tool-be-honest,6,0.0,0.0,0.0,0.0,0.16666666666666666
+bge-m3,tool_be_honest_query_161,customized,tool-be-honest,3,0.7653606369886217,0.3333333333333333,0.6666666666666666,0.6666666666666666,0.6666666666666666
+bge-m3,tool_be_honest_query_166,customized,tool-be-honest,4,0.0,0.0,0.0,0.0,0.0
+bge-m3,tool_be_honest_query_167,customized,tool-be-honest,4,0.0,0.0,0.0,0.0,0.0
+bge-m3,tool_be_honest_query_171,customized,tool-be-honest,2,0.0,0.0,0.0,0.0,0.0
+bge-m3,tool_be_honest_query_174,customized,tool-be-honest,2,0.0,0.0,0.0,0.0,0.0
+bge-m3,tool_be_honest_query_177,customized,tool-be-honest,5,0.0,0.0,0.0,0.0,0.0
+bge-m3,tool_be_honest_query_183,customized,tool-be-honest,5,0.21398626473452756,0.0,0.2,0.2,0.4
+bge-m3,tool_be_honest_query_184,customized,tool-be-honest,2,0.0,0.0,0.0,0.0,0.0
+bge-m3,tool_be_honest_query_188,customized,tool-be-honest,5,0.0,0.0,0.0,0.0,0.2
+bge-m3,tool_be_honest_query_191,customized,tool-be-honest,6,0.0,0.0,0.0,0.0,0.16666666666666666
+bge-m3,tool_be_honest_query_193,customized,tool-be-honest,5,0.10209739512291163,0.0,0.0,0.2,0.2
+bge-m3,tool_be_honest_query_206,customized,tool-be-honest,2,0.6131471927654584,0.5,0.5,0.5,0.5
+bge-m3,tool_be_honest_query_208,customized,tool-be-honest,5,0.0,0.0,0.0,0.0,0.0
+bge-m3,tool_be_honest_query_212,customized,tool-be-honest,7,0.0,0.0,0.0,0.0,0.0
+bge-m3,tool_be_honest_query_216,customized,tool-be-honest,2,0.6131471927654584,0.5,0.5,0.5,0.5
+bge-m3,tool_be_honest_query_218,customized,tool-be-honest,5,0.0,0.0,0.0,0.0,0.0
+bge-m3,tool_be_honest_query_220,customized,tool-be-honest,2,0.2640681225725909,0.0,0.5,0.5,0.5
+bge-m3,tool_be_honest_query_223,customized,tool-be-honest,4,0.13905617951077562,0.0,0.0,0.25,0.5
+bge-m3,tool_be_honest_query_225,customized,tool-be-honest,5,0.4412576003965278,0.2,0.2,0.4,0.8
+bge-m3,tool_be_honest_query_227,customized,tool-be-honest,4,0.5078961547485289,0.25,0.25,0.5,0.5
+bge-m3,tool_be_honest_query_228,customized,tool-be-honest,3,0.16716045496620227,0.0,0.0,0.3333333333333333,0.3333333333333333
+bge-m3,tool_be_honest_query_231,customized,tool-be-honest,6,0.0,0.0,0.0,0.0,0.16666666666666666
+bge-m3,tool_be_honest_query_238,customized,tool-be-honest,6,0.2423936099728648,0.0,0.16666666666666666,0.3333333333333333,0.6666666666666666
+bge-m3,tool_be_honest_query_241,customized,tool-be-honest,2,0.0,0.0,0.0,0.0,0.5
+bge-m3,tool_be_honest_query_250,customized,tool-be-honest,2,0.38685280723454163,0.0,0.5,0.5,0.5
+bge-m3,tool_be_honest_query_255,customized,tool-be-honest,5,0.21398626473452756,0.0,0.2,0.2,0.4
+bge-m3,tool_be_honest_query_259,customized,tool-be-honest,2,0.0,0.0,0.0,0.0,0.0
+bge-m3,tool_be_honest_query_265,customized,tool-be-honest,6,0.0,0.0,0.0,0.0,0.0
+bge-m3,tool_be_honest_query_268,customized,tool-be-honest,3,0.0,0.0,0.0,0.0,0.0
+bge-m3,tool_be_honest_query_269,customized,tool-be-honest,8,0.0,0.0,0.0,0.0,0.0
+bge-m3,tool_be_honest_query_271,customized,tool-be-honest,6,0.0,0.0,0.0,0.0,0.16666666666666666
+bge-m3,tool_be_honest_query_274,customized,tool-be-honest,4,0.6984152163370878,0.25,0.5,0.75,0.75
+bge-m3,tool_be_honest_query_279,customized,tool-be-honest,2,0.0,0.0,0.0,0.0,0.0
+bge-m3,tool_be_honest_query_282,customized,tool-be-honest,5,0.4136877383108716,0.0,0.4,0.6,0.8
+bge-m3,tool_be_honest_query_284,customized,tool-be-honest,2,0.0,0.0,0.0,0.0,0.5
+bge-m3,tool_be_honest_query_286,customized,tool-be-honest,5,0.0,0.0,0.0,0.0,0.2
+bge-m3,tool_be_honest_query_288,customized,tool-be-honest,6,0.0,0.0,0.0,0.0,0.16666666666666666
+bge-m3,tool_be_honest_query_289,customized,tool-be-honest,4,0.16812753627111746,0.0,0.25,0.25,0.5
+bge-m3,tool_be_honest_query_293,customized,tool-be-honest,2,0.6131471927654584,0.5,0.5,0.5,0.5
+bge-m3,tool_be_honest_query_301,customized,tool-be-honest,2,0.0,0.0,0.0,0.0,0.5
+bge-m3,tool_be_honest_query_306,customized,tool-be-honest,4,0.6366824387328317,0.25,0.5,0.5,0.5
+bge-m3,tool_be_honest_query_311,customized,tool-be-honest,6,0.0,0.0,0.0,0.0,0.16666666666666666
+bge-m3,tool_be_honest_query_319,customized,tool-be-honest,5,0.0,0.0,0.0,0.0,0.0
+bge-m3,tool_be_honest_query_323,customized,tool-be-honest,2,0.0,0.0,0.0,0.0,0.0
+bge-m3,tool_be_honest_query_331,customized,tool-be-honest,3,0.7039180890341347,0.3333333333333333,0.6666666666666666,0.6666666666666666,0.6666666666666666
+bge-m3,tool_be_honest_query_336,customized,tool-be-honest,7,0.10633668103022985,0.0,0.14285714285714285,0.14285714285714285,0.14285714285714285
+bge-m3,tool_be_honest_query_339,customized,tool-be-honest,4,0.5855700749881525,0.25,0.5,0.5,0.5
+bge-m3,tool_be_honest_query_342,customized,tool-be-honest,2,0.38685280723454163,0.0,0.5,0.5,0.5
+bge-m3,tool_be_honest_query_343,customized,tool-be-honest,6,0.13032376591037062,0.0,0.16666666666666666,0.16666666666666666,0.16666666666666666
+bge-m3,tool_be_honest_query_344,customized,tool-be-honest,6,0.0,0.0,0.0,0.0,0.16666666666666666
+bge-m3,tool_be_honest_query_349,customized,tool-be-honest,4,0.312706129752478,0.0,0.25,0.5,0.5
+bge-m3,toolACE_query_15,web,toolace,5,0.0,0.0,0.0,0.0,0.2
+bge-m3,toolACE_query_17,web,toolace,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,toolACE_query_57,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,toolACE_query_71,web,toolace,2,1.0,0.5,1.0,1.0,1.0
+bge-m3,toolACE_query_88,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,toolACE_query_91,web,toolace,2,1.0,0.5,1.0,1.0,1.0
+bge-m3,toolACE_query_159,web,toolace,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolACE_query_162,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,toolACE_query_173,web,toolace,1,0.6309297535714575,0.0,1.0,1.0,1.0
+bge-m3,toolACE_query_180,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,toolACE_query_216,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,toolACE_query_241,web,toolace,1,0.31546487678572877,0.0,0.0,1.0,1.0
+bge-m3,toolACE_query_244,web,toolace,1,0.6309297535714575,0.0,1.0,1.0,1.0
+bge-m3,toolACE_query_275,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,toolACE_query_303,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,toolACE_query_309,web,toolace,1,0.43067655807339306,0.0,1.0,1.0,1.0
+bge-m3,toolACE_query_368,web,toolace,1,0.6309297535714575,0.0,1.0,1.0,1.0
+bge-m3,toolACE_query_525,web,toolace,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,toolACE_query_558,web,toolace,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,toolACE_query_601,web,toolace,3,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolACE_query_605,web,toolace,1,0.6309297535714575,0.0,1.0,1.0,1.0
+bge-m3,toolACE_query_650,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,toolACE_query_667,web,toolace,5,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolACE_query_689,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,toolACE_query_714,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,toolACE_query_732,web,toolace,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,toolACE_query_814,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,toolACE_query_863,web,toolace,1,0.3010299956639812,0.0,0.0,1.0,1.0
+bge-m3,toolACE_query_871,web,toolace,1,0.38685280723454163,0.0,1.0,1.0,1.0
+bge-m3,toolACE_query_873,web,toolace,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolACE_query_876,web,toolace,2,0.8503449055347546,0.5,1.0,1.0,1.0
+bge-m3,toolACE_query_878,web,toolace,2,0.3065735963827292,0.0,0.5,0.5,0.5
+bge-m3,toolACE_query_883,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,toolACE_query_949,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,toolACE_query_974,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,toolACE_query_992,web,toolace,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolACE_query_999,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,toolalpaca_query_2,customized,toolalpaca,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,toolalpaca_query_11,customized,toolalpaca,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolalpaca_query_12,customized,toolalpaca,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolalpaca_query_21,customized,toolalpaca,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,toolalpaca_query_24,customized,toolalpaca,1,0.6309297535714575,0.0,1.0,1.0,1.0
+bge-m3,toolalpaca_query_25,customized,toolalpaca,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,toolalpaca_query_36,customized,toolalpaca,1,0.5,0.0,1.0,1.0,1.0
+bge-m3,toolalpaca_query_46,customized,toolalpaca,1,0.3562071871080222,0.0,0.0,1.0,1.0
+bge-m3,toolalpaca_query_70,customized,toolalpaca,1,0.43067655807339306,0.0,1.0,1.0,1.0
+bge-m3,toolalpaca_query_75,customized,toolalpaca,1,0.6309297535714575,0.0,1.0,1.0,1.0
+bge-m3,toolalpaca_query_85,customized,toolalpaca,1,0.6309297535714575,0.0,1.0,1.0,1.0
+bge-m3,toolalpaca_query_88,customized,toolalpaca,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,toolalpaca_query_89,customized,toolalpaca,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_sam_query_4,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_sam_query_12,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_sam_query_20,customized,toolbench-sam,1,0.3010299956639812,0.0,0.0,1.0,1.0
+bge-m3,toolbench_sam_query_23,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_sam_query_26,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_sam_query_30,customized,toolbench-sam,1,0.3333333333333333,0.0,0.0,1.0,1.0
+bge-m3,toolbench_sam_query_37,customized,toolbench-sam,1,0.3333333333333333,0.0,0.0,1.0,1.0
+bge-m3,toolbench_sam_query_39,customized,toolbench-sam,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,toolbench_sam_query_41,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_sam_query_49,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_sam_query_50,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_sam_query_58,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_sam_query_65,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_sam_query_70,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_sam_query_73,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_sam_query_75,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_sam_query_76,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_sam_query_79,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_sam_query_81,customized,toolbench-sam,3,0.3379680345449381,0.0,0.3333333333333333,0.6666666666666666,0.6666666666666666
+bge-m3,toolbench_sam_query_87,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_sam_query_88,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,toolbench_sam_query_89,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_sam_query_90,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_sam_query_91,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_sam_query_106,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_sam_query_111,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_sam_query_113,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,toolbench_sam_query_121,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,toolbench_sam_query_133,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_sam_query_138,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_sam_query_139,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_sam_query_140,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_sam_query_147,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_sam_query_150,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_sam_query_169,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_sam_query_173,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_sam_query_180,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_sam_query_183,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_sam_query_193,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_query_388,web,toolbench,1,0.43067655807339306,0.0,1.0,1.0,1.0
+bge-m3,toolbench_query_865,web,toolbench,3,0.3379680345449381,0.0,0.3333333333333333,0.6666666666666666,1.0
+bge-m3,toolbench_query_500,web,toolbench,2,0.6131471927654584,0.5,0.5,0.5,0.5
+bge-m3,toolbench_query_280,web,toolbench,2,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_query_98,web,toolbench,2,0.6240505200038379,0.0,1.0,1.0,1.0
+bge-m3,toolbench_query_429,web,toolbench,3,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_query_757,web,toolbench,3,0.34870224750355494,0.0,0.3333333333333333,0.6666666666666666,1.0
+bge-m3,toolbench_query_281,web,toolbench,2,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_query_413,web,toolbench,2,0.3065735963827292,0.0,0.5,0.5,1.0
+bge-m3,toolbench_query_258,web,toolbench,2,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_query_608,web,toolbench,2,0.6131471927654584,0.5,0.5,0.5,0.5
+bge-m3,toolbench_query_720,web,toolbench,3,0.6871475159848289,0.0,0.6666666666666666,1.0,1.0
+bge-m3,toolbench_query_5,web,toolbench,4,0.25657228426720274,0.0,0.0,0.5,0.75
+bge-m3,toolbench_query_838,web,toolbench,3,0.2960819109658652,0.0,0.3333333333333333,0.3333333333333333,0.3333333333333333
+bge-m3,toolbench_query_273,web,toolbench,4,0.4637257479802832,0.0,0.5,0.75,1.0
+bge-m3,toolbench_query_789,web,toolbench,2,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_query_971,web,toolbench,2,0.0,0.0,0.0,0.0,0.5
+bge-m3,toolbench_query_121,web,toolbench,2,0.38685280723454163,0.0,0.5,0.5,0.5
+bge-m3,toolbench_query_419,web,toolbench,2,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_query_747,web,toolbench,2,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_query_213,web,toolbench,3,0.0,0.0,0.0,0.0,0.3333333333333333
+bge-m3,toolbench_query_395,web,toolbench,1,0.5,0.0,1.0,1.0,1.0
+bge-m3,toolbench_query_157,web,toolbench,4,0.0,0.0,0.0,0.0,0.5
+bge-m3,toolbench_query_291,web,toolbench,2,1.0,0.5,1.0,1.0,1.0
+bge-m3,toolbench_query_415,web,toolbench,2,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_query_857,web,toolbench,2,0.38162168437253385,0.0,0.0,1.0,1.0
+bge-m3,toolbench_query_787,web,toolbench,5,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_query_45,web,toolbench,2,0.6131471927654584,0.5,0.5,0.5,1.0
+bge-m3,toolbench_query_732,web,toolbench,3,0.15642624200758548,0.0,0.0,0.3333333333333333,1.0
+bge-m3,toolbench_query_509,web,toolbench,3,0.4632423659320675,0.0,0.3333333333333333,0.6666666666666666,0.6666666666666666
+bge-m3,toolbench_query_837,web,toolbench,2,0.0,0.0,0.0,0.0,0.5
+bge-m3,toolbench_query_72,web,toolbench,2,0.38162168437253385,0.0,0.0,1.0,1.0
+bge-m3,toolbench_query_704,web,toolbench,2,0.6240505200038379,0.0,1.0,1.0,1.0
+bge-m3,toolbench_query_712,web,toolbench,3,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_query_745,web,toolbench,3,0.20210734650054757,0.0,0.3333333333333333,0.3333333333333333,0.3333333333333333
+bge-m3,toolbench_query_774,web,toolbench,2,0.0,0.0,0.0,0.0,0.5
+bge-m3,toolbench_query_345,web,toolbench,3,0.6713860725233041,0.3333333333333333,0.6666666666666666,0.6666666666666666,1.0
+bge-m3,toolbench_query_580,web,toolbench,3,0.7928654229965442,0.3333333333333333,0.3333333333333333,1.0,1.0
+bge-m3,toolbench_query_703,web,toolbench,2,0.6131471927654584,0.5,0.5,0.5,0.5
+bge-m3,toolbench_query_105,web,toolbench,2,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_query_915,web,toolbench,3,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_query_23,web,toolbench,2,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_query_1018,web,toolbench,3,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolbench_query_581,web,toolbench,3,0.8194270280062366,0.3333333333333333,0.6666666666666666,1.0,1.0
+bge-m3,toolbench_query_470,web,toolbench,2,0.20438239758848611,0.0,0.0,0.5,0.5
+bge-m3,toolbench_query_974,web,toolbench,2,0.6052602440527057,0.0,0.5,1.0,1.0
+bge-m3,toolbench_query_1014,web,toolbench,3,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolemu_query_19,web,toolemu,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,tooleyes_query_3,web,tooleyes,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,tooleyes_query_13,web,tooleyes,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,tooleyes_query_22,web,tooleyes,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,tooleyes_query_72,web,tooleyes,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,tooleyes_query_75,web,tooleyes,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolink_query_7,code,toolink,3,0.46927872602275644,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+bge-m3,toolink_query_12,code,toolink,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,toolink_query_36,code,toolink,2,0.18457569677956817,0.0,0.0,0.5,1.0
+bge-m3,toolink_query_64,code,toolink,2,0.5437713091520254,0.0,1.0,1.0,1.0
+bge-m3,toolink_query_75,code,toolink,2,0.8175295903539445,0.5,0.5,1.0,1.0
+bge-m3,toolink_query_77,code,toolink,3,0.46927872602275644,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+bge-m3,toolink_query_78,code,toolink,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolink_query_81,code,toolink,1,0.43067655807339306,0.0,1.0,1.0,1.0
+bge-m3,toolink_query_85,code,toolink,3,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolink_query_90,code,toolink,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,toolink_query_103,code,toolink,2,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolink_query_124,code,toolink,3,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolink_query_136,code,toolink,2,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolink_query_154,code,toolink,2,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolink_query_159,code,toolink,3,1.0,0.3333333333333333,1.0,1.0,1.0
+bge-m3,toolink_query_172,code,toolink,1,0.3562071871080222,0.0,0.0,1.0,1.0
+bge-m3,toolink_query_175,code,toolink,3,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolink_query_195,code,toolink,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolink_query_196,code,toolink,3,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolink_query_224,code,toolink,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolink_query_225,code,toolink,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,toolink_query_226,code,toolink,2,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolink_query_227,code,toolink,3,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolink_query_228,code,toolink,2,1.0,0.5,1.0,1.0,1.0
+bge-m3,toolink_query_252,code,toolink,3,0.46927872602275644,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+bge-m3,toolink_query_286,code,toolink,1,0.3562071871080222,0.0,0.0,1.0,1.0
+bge-m3,toolink_query_298,code,toolink,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,toolink_query_305,code,toolink,1,0.38685280723454163,0.0,1.0,1.0,1.0
+bge-m3,toolink_query_314,code,toolink,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolink_query_347,code,toolink,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolink_query_352,code,toolink,2,0.2640681225725909,0.0,0.5,0.5,0.5
+bge-m3,toolink_query_354,code,toolink,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolink_query_355,code,toolink,3,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolink_query_372,code,toolink,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,toolink_query_376,code,toolink,3,0.46927872602275644,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+bge-m3,toolink_query_393,code,toolink,2,0.0,0.0,0.0,0.0,0.5
+bge-m3,toolink_query_398,code,toolink,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolink_query_400,code,toolink,3,0.46927872602275644,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+bge-m3,toolink_query_402,code,toolink,3,0.46927872602275644,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+bge-m3,toolink_query_435,code,toolink,3,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolink_query_437,code,toolink,3,1.0,0.3333333333333333,1.0,1.0,1.0
+bge-m3,toolink_query_438,code,toolink,3,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolink_query_440,code,toolink,4,0.9709286432396583,0.25,0.75,1.0,1.0
+bge-m3,toolink_query_451,code,toolink,3,0.46927872602275644,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+bge-m3,toolink_query_469,code,toolink,3,0.8529278650606567,0.3333333333333333,1.0,1.0,1.0
+bge-m3,toolink_query_478,code,toolink,3,0.46927872602275644,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+bge-m3,toolLens_query_37,web,toollens,3,0.16716045496620227,0.0,0.0,0.3333333333333333,0.3333333333333333
+bge-m3,toolLens_query_41,web,toollens,3,0.23463936301137822,0.0,0.3333333333333333,0.3333333333333333,0.3333333333333333
+bge-m3,toolLens_query_79,web,toollens,3,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolLens_query_91,web,toollens,3,0.0,0.0,0.0,0.0,0.3333333333333333
+bge-m3,toolLens_query_140,web,toollens,3,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolLens_query_143,web,toollens,2,0.0,0.0,0.0,0.0,0.5
+bge-m3,toolLens_query_215,web,toollens,3,0.46927872602275644,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+bge-m3,toolLens_query_219,web,toollens,3,0.46927872602275644,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+bge-m3,toolLens_query_246,web,toollens,2,0.0,0.0,0.0,0.0,0.5
+bge-m3,toolLens_query_266,web,toollens,2,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolLens_query_268,web,toollens,3,0.0,0.0,0.0,0.0,0.0
+bge-m3,toolLens_query_293,web,toollens,2,0.20438239758848611,0.0,0.0,0.5,0.5
+bge-m3,ultraTool_query_29,web,ultratool,1,0.38685280723454163,0.0,1.0,1.0,1.0
+bge-m3,ultraTool_query_36,web,ultratool,3,0.6364391809889587,0.3333333333333333,0.3333333333333333,0.6666666666666666,1.0
+bge-m3,ultraTool_query_92,web,ultratool,2,0.8315546295836225,0.5,0.5,1.0,1.0
+bge-m3,ultraTool_query_99,web,ultratool,2,0.0,0.0,0.0,0.0,0.5
+bge-m3,ultraTool_query_111,web,ultratool,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,ultraTool_query_135,web,ultratool,2,0.6131471927654584,0.5,0.5,0.5,0.5
+bge-m3,ultraTool_query_165,web,ultratool,3,0.2960819109658652,0.0,0.3333333333333333,0.3333333333333333,0.6666666666666666
+bge-m3,ultraTool_query_187,web,ultratool,3,0.18154179253735267,0.0,0.3333333333333333,0.3333333333333333,0.3333333333333333
+bge-m3,ultraTool_query_208,web,ultratool,2,0.6934264036172708,0.0,1.0,1.0,1.0
+bge-m3,ultraTool_query_251,web,ultratool,2,0.3065735963827292,0.0,0.5,0.5,0.5
+bge-m3,ultraTool_query_267,web,ultratool,1,0.31546487678572877,0.0,0.0,1.0,1.0
+bge-m3,ultraTool_query_281,web,ultratool,1,0.0,0.0,0.0,0.0,1.0
+bge-m3,ultraTool_query_295,web,ultratool,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,ultraTool_query_335,web,ultratool,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,ultraTool_query_345,web,ultratool,2,0.8772153153380493,0.5,1.0,1.0,1.0
+bge-m3,ultraTool_query_347,web,ultratool,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,ultraTool_query_372,web,ultratool,1,0.0,0.0,0.0,0.0,0.0
+bge-m3,ultraTool_query_375,web,ultratool,2,0.8175295903539445,0.5,0.5,1.0,1.0
+bge-m3,ultraTool_query_378,web,ultratool,1,0.3333333333333333,0.0,0.0,1.0,1.0
+bge-m3,ultraTool_query_395,web,ultratool,1,1.0,1.0,1.0,1.0,1.0
+bge-m3,ultraTool_query_397,web,ultratool,2,0.0,0.0,0.0,0.0,0.0
+bge-m3,ultraTool_query_424,web,ultratool,4,0.8318724637288826,0.25,0.75,0.75,0.75
+bge-m3,ultraTool_query_441,web,ultratool,1,0.6309297535714575,0.0,1.0,1.0,1.0
+bge-m3,ultraTool_query_447,web,ultratool,3,0.3379680345449381,0.0,0.3333333333333333,0.6666666666666666,0.6666666666666666
+bge-m3,ultraTool_query_451,web,ultratool,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),apibank_query_64,web,apibank,3,0.0,0.0,0.0,0.0,0.3333333333333333
+qwen3-emb (generic instr.),apigen_query_4,web,apigen,2,0.7903864795495061,0.5,0.5,1.0,1.0
+qwen3-emb (generic instr.),apigen_query_32,web,apigen,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),apigen_query_33,web,apigen,2,0.23719771276929622,0.0,0.5,0.5,0.5
+qwen3-emb (generic instr.),apigen_query_44,web,apigen,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),apigen_query_81,web,apigen,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),apigen_query_82,web,apigen,2,0.6131471927654584,0.5,0.5,0.5,1.0
+qwen3-emb (generic instr.),apigen_query_125,web,apigen,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),apigen_query_139,web,apigen,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),apigen_query_213,web,apigen,2,0.9197207891481876,0.5,1.0,1.0,1.0
+qwen3-emb (generic instr.),apigen_query_268,web,apigen,1,0.31546487678572877,0.0,0.0,1.0,1.0
+qwen3-emb (generic instr.),apigen_query_289,web,apigen,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),apigen_query_302,web,apigen,1,0.43067655807339306,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),apigen_query_360,web,apigen,2,0.0,0.0,0.0,0.0,0.5
+qwen3-emb (generic instr.),apigen_query_429,web,apigen,1,0.3562071871080222,0.0,0.0,1.0,1.0
+qwen3-emb (generic instr.),apigen_query_441,web,apigen,2,0.6131471927654584,0.5,0.5,0.5,1.0
+qwen3-emb (generic instr.),apigen_query_456,web,apigen,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),apigen_query_500,web,apigen,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),apigen_query_537,web,apigen,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),apigen_query_603,web,apigen,2,0.38685280723454163,0.0,0.5,0.5,1.0
+qwen3-emb (generic instr.),apigen_query_631,web,apigen,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),apigen_query_663,web,apigen,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),apigen_query_664,web,apigen,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),apigen_query_685,web,apigen,4,0.3903800499921017,0.25,0.25,0.25,1.0
+qwen3-emb (generic instr.),apigen_query_716,web,apigen,2,0.6131471927654584,0.5,0.5,0.5,1.0
+qwen3-emb (generic instr.),apigen_query_733,web,apigen,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),apigen_query_737,web,apigen,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),apigen_query_758,web,apigen,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),apigen_query_764,web,apigen,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),apigen_query_791,web,apigen,1,0.31546487678572877,0.0,0.0,1.0,1.0
+qwen3-emb (generic instr.),apigen_query_822,web,apigen,2,0.5912352048230277,0.0,0.5,1.0,1.0
+qwen3-emb (generic instr.),apigen_query_831,web,apigen,2,0.7977228895450266,0.5,0.5,1.0,1.0
+qwen3-emb (generic instr.),apigen_query_839,web,apigen,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),apigen_query_844,web,apigen,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),apigen_query_909,web,apigen,1,0.2890648263178879,0.0,0.0,1.0,1.0
+qwen3-emb (generic instr.),apigen_query_916,web,apigen,2,0.0,0.0,0.0,0.0,0.5
+qwen3-emb (generic instr.),apigen_query_971,web,apigen,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),appbench_query_0,customized,appbench,2,1.0,0.5,1.0,1.0,1.0
+qwen3-emb (generic instr.),appbench_query_8,customized,appbench,4,0.0,0.0,0.0,0.0,0.5
+qwen3-emb (generic instr.),appbench_query_10,customized,appbench,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),appbench_query_29,customized,appbench,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),webtools_music_query_25,web,autotools-music,4,0.2638647595767405,0.0,0.25,0.5,0.5
+qwen3-emb (generic instr.),craft_Math_algebra_query_0,code,craft-math-algebra,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_11,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_18,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_25,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_26,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_30,code,craft-math-algebra,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_38,code,craft-math-algebra,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_78,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_80,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_81,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_91,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_98,code,craft-math-algebra,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_99,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_104,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_105,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_110,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_121,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_125,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_132,code,craft-math-algebra,1,0.38685280723454163,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_134,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_135,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_136,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_149,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_161,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_167,code,craft-math-algebra,1,0.43067655807339306,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_177,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_194,code,craft-math-algebra,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_199,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_214,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_219,code,craft-math-algebra,1,0.43067655807339306,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_230,code,craft-math-algebra,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_232,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_241,code,craft-math-algebra,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_242,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_245,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_248,code,craft-math-algebra,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_250,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_261,code,craft-math-algebra,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_262,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_263,code,craft-math-algebra,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_276,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Math_algebra_query_277,code,craft-math-algebra,1,0.38685280723454163,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Tabmwp_query_6,code,craft-tabmwp,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),craft_Tabmwp_query_12,code,craft-tabmwp,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),craft_Tabmwp_query_22,code,craft-tabmwp,1,0.3562071871080222,0.0,0.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Tabmwp_query_42,code,craft-tabmwp,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),craft_Tabmwp_query_43,code,craft-tabmwp,1,0.43067655807339306,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Tabmwp_query_46,code,craft-tabmwp,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Tabmwp_query_49,code,craft-tabmwp,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Tabmwp_query_53,code,craft-tabmwp,1,0.3333333333333333,0.0,0.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Tabmwp_query_86,code,craft-tabmwp,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),craft_Tabmwp_query_94,code,craft-tabmwp,1,0.3333333333333333,0.0,0.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Tabmwp_query_97,code,craft-tabmwp,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),craft_Tabmwp_query_103,code,craft-tabmwp,1,0.43067655807339306,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Tabmwp_query_106,code,craft-tabmwp,1,0.3562071871080222,0.0,0.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Tabmwp_query_114,code,craft-tabmwp,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Tabmwp_query_129,code,craft-tabmwp,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),craft_Tabmwp_query_132,code,craft-tabmwp,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Tabmwp_query_144,code,craft-tabmwp,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),craft_Tabmwp_query_157,code,craft-tabmwp,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),craft_Tabmwp_query_158,code,craft-tabmwp,1,0.43067655807339306,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Tabmwp_query_161,code,craft-tabmwp,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),craft_Tabmwp_query_163,code,craft-tabmwp,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),craft_Tabmwp_query_173,code,craft-tabmwp,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),craft_Vqa_query_5,code,craft-vqa,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),craft_Vqa_query_15,code,craft-vqa,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Vqa_query_49,code,craft-vqa,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),craft_Vqa_query_50,code,craft-vqa,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),craft_Vqa_query_55,code,craft-vqa,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),craft_Vqa_query_65,code,craft-vqa,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Vqa_query_67,code,craft-vqa,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Vqa_query_70,code,craft-vqa,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Vqa_query_77,code,craft-vqa,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),craft_Vqa_query_85,code,craft-vqa,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),craft_Vqa_query_95,code,craft-vqa,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),craft_Vqa_query_101,code,craft-vqa,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),craft_Vqa_query_106,code,craft-vqa,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),craft_Vqa_query_124,code,craft-vqa,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Vqa_query_127,code,craft-vqa,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Vqa_query_128,code,craft-vqa,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),craft_Vqa_query_137,code,craft-vqa,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),craft_Vqa_query_138,code,craft-vqa,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),craft_Vqa_query_166,code,craft-vqa,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),craft_Vqa_query_177,code,craft-vqa,1,0.3562071871080222,0.0,0.0,1.0,1.0
+qwen3-emb (generic instr.),craft_Vqa_query_180,code,craft-vqa,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),craft_Vqa_query_187,code,craft-vqa,1,0.43067655807339306,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_8,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_30,code,gorilla-huggingface,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_37,code,gorilla-huggingface,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_45,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_50,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_53,code,gorilla-huggingface,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_59,code,gorilla-huggingface,1,0.38685280723454163,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_68,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_76,code,gorilla-huggingface,1,0.2890648263178879,0.0,0.0,1.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_77,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_94,code,gorilla-huggingface,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_98,code,gorilla-huggingface,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_133,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_137,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_138,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_145,code,gorilla-huggingface,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_153,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_154,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_159,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_185,code,gorilla-huggingface,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_192,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_198,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_209,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_224,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_244,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_246,code,gorilla-huggingface,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_262,code,gorilla-huggingface,1,0.38685280723454163,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_275,code,gorilla-huggingface,1,0.31546487678572877,0.0,0.0,1.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_278,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_280,code,gorilla-huggingface,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_286,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_296,code,gorilla-huggingface,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_300,code,gorilla-huggingface,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_302,code,gorilla-huggingface,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_307,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_319,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_323,code,gorilla-huggingface,1,0.3010299956639812,0.0,0.0,1.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_332,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_355,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_357,code,gorilla-huggingface,1,0.31546487678572877,0.0,0.0,1.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_364,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_373,code,gorilla-huggingface,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_378,code,gorilla-huggingface,1,0.3333333333333333,0.0,0.0,1.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_384,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_404,code,gorilla-huggingface,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_406,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_410,code,gorilla-huggingface,1,0.2890648263178879,0.0,0.0,1.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_412,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_428,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_447,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_454,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_462,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_467,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_469,code,gorilla-huggingface,1,0.43067655807339306,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_473,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),gorilla_huggingface_query_482,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),gorilla_pytorch_query_33,code,gorilla-pytorch,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),gorilla_pytorch_query_35,code,gorilla-pytorch,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),gorilla_pytorch_query_36,code,gorilla-pytorch,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),gorilla_pytorch_query_41,code,gorilla-pytorch,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),gorilla_tensor_query_12,code,gorilla-tensor,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),gorilla_tensor_query_14,code,gorilla-tensor,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),gorilla_tensor_query_30,code,gorilla-tensor,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),gorilla_tensor_query_31,code,gorilla-tensor,1,0.38685280723454163,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),gorilla_tensor_query_34,code,gorilla-tensor,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),gorilla_tensor_query_41,code,gorilla-tensor,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),gorilla_tensor_query_42,code,gorilla-tensor,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),gorilla_tensor_query_48,code,gorilla-tensor,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),gpt4tools_query_2,customized,gpt4tools,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),gpt4tools_query_4,customized,gpt4tools,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),gpt4tools_query_14,customized,gpt4tools,1,0.3333333333333333,0.0,0.0,1.0,1.0
+qwen3-emb (generic instr.),gpt4tools_query_23,customized,gpt4tools,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),gpt4tools_query_24,customized,gpt4tools,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),gpt4tools_query_27,customized,gpt4tools,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),gpt4tools_query_28,customized,gpt4tools,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),gpt4tools_query_29,customized,gpt4tools,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),gta_query_0,customized,gta,2,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),gta_query_7,customized,gta,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),metatool_which_query_1,customized,metatool,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),metatool_which_query_11,customized,metatool,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),metatool_which_query_23,customized,metatool,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),metatool_which_query_30,customized,metatool,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),metatool_which_query_31,customized,metatool,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),metatool_which_query_33,customized,metatool,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),metatool_which_query_39,customized,metatool,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),metatool_which_query_49,customized,metatool,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),metatool_which_query_54,customized,metatool,1,0.3010299956639812,0.0,0.0,1.0,1.0
+qwen3-emb (generic instr.),metatool_which_query_57,customized,metatool,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),metatool_which_query_61,customized,metatool,1,0.3010299956639812,0.0,0.0,1.0,1.0
+qwen3-emb (generic instr.),metatool_which_query_62,customized,metatool,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),metatool_which_query_63,customized,metatool,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),metatool_which_query_64,customized,metatool,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),metatool_which_query_72,customized,metatool,2,0.2640681225725909,0.0,0.5,0.5,0.5
+qwen3-emb (generic instr.),metatool_which_query_77,customized,metatool,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),metatool_which_query_79,customized,metatool,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),metatool_which_query_85,customized,metatool,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),metatool_which_query_88,customized,metatool,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),metatool_which_query_92,customized,metatool,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),metatool_which_query_97,customized,metatool,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),metatool_which_query_99,customized,metatool,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),metatool_which_query_101,customized,metatool,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),metatool_which_query_104,customized,metatool,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),metatool_which_query_110,customized,metatool,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),metatool_which_query_126,customized,metatool,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),metatool_which_query_134,customized,metatool,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),metatool_which_query_135,customized,metatool,1,0.3333333333333333,0.0,0.0,1.0,1.0
+qwen3-emb (generic instr.),metatool_which_query_140,customized,metatool,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),metatool_which_query_151,customized,metatool,1,0.43067655807339306,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),metatool_which_query_154,customized,metatool,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),metatool_which_query_155,customized,metatool,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),metatool_which_query_169,customized,metatool,1,0.3562071871080222,0.0,0.0,1.0,1.0
+qwen3-emb (generic instr.),metatool_which_query_173,customized,metatool,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),metatool_which_query_177,customized,metatool,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),metatool_which_query_178,customized,metatool,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),metatool_which_query_197,customized,metatool,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),mnms_query_11,web,mnms,3,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),webtools_spotify_query_9,web,restgpt-spotify,2,0.8503449055347546,0.5,1.0,1.0,1.0
+qwen3-emb (generic instr.),webtools_spotify_query_20,web,restgpt-spotify,3,0.16716045496620227,0.0,0.0,0.3333333333333333,0.3333333333333333
+qwen3-emb (generic instr.),webtools_tmdb_query_15,web,restgpt-tmdb,2,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),webtools_tmdb_query_35,web,restgpt-tmdb,2,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),webtools_tmdb_query_37,web,restgpt-tmdb,2,0.2640681225725909,0.0,0.5,0.5,0.5
+qwen3-emb (generic instr.),reversechain_query_40,web,reversechain,2,0.6131471927654584,0.5,0.5,0.5,1.0
+qwen3-emb (generic instr.),reversechain_query_119,web,reversechain,3,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),reversechain_query_190,web,reversechain,3,0.0,0.0,0.0,0.0,0.3333333333333333
+qwen3-emb (generic instr.),rotbench_query_43,web,rotbench,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),rotbench_query_58,web,rotbench,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),rotbench_query_59,web,rotbench,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),rotbench_query_83,web,rotbench,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),rotbench_query_108,web,rotbench,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),rotbench_query_118,web,rotbench,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),rotbench_query_142,web,rotbench,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),rotbench_query_182,web,rotbench,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),rotbench_query_206,web,rotbench,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),rotbench_query_215,web,rotbench,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),rotbench_query_260,web,rotbench,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),rotbench_query_268,web,rotbench,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),rotbench_query_339,web,rotbench,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),rotbench_query_360,web,rotbench,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),rotbench_query_400,web,rotbench,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),rotbench_query_456,web,rotbench,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),rotbench_query_475,web,rotbench,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),rotbench_query_490,web,rotbench,1,0.2890648263178879,0.0,0.0,1.0,1.0
+qwen3-emb (generic instr.),rotbench_query_496,web,rotbench,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),rotbench_query_506,web,rotbench,1,0.38685280723454163,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),rotbench_query_512,web,rotbench,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),rotbench_query_513,web,rotbench,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),t_eval_dialog_query_4,web,t-eval-dialog,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),t_eval_dialog_query_21,web,t-eval-dialog,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),t_eval_step_query_6,web,t-eval-step,3,0.0,0.0,0.0,0.0,0.6666666666666666
+qwen3-emb (generic instr.),taskbench_daily_query_36,web,taskbench-daily,3,0.2960819109658652,0.0,0.3333333333333333,0.3333333333333333,0.3333333333333333
+qwen3-emb (generic instr.),taskbench_huggingface_query_3,customized,taskbench-huggingface,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),taskbench_huggingface_query_10,customized,taskbench-huggingface,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),taskbench_huggingface_query_13,customized,taskbench-huggingface,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),taskbench_huggingface_query_19,customized,taskbench-huggingface,3,0.1480409554829326,0.0,0.0,0.3333333333333333,0.3333333333333333
+qwen3-emb (generic instr.),taskbench_multimedia_query_2,customized,taskbench-multimedia,8,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),taskbench_multimedia_query_11,customized,taskbench-multimedia,2,1.0,0.5,1.0,1.0,1.0
+qwen3-emb (generic instr.),taskbench_multimedia_query_21,customized,taskbench-multimedia,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),taskbench_multimedia_query_25,customized,taskbench-multimedia,3,0.0,0.0,0.0,0.0,0.6666666666666666
+qwen3-emb (generic instr.),taskbench_multimedia_query_31,customized,taskbench-multimedia,4,0.5294362295028773,0.25,0.25,0.5,0.5
+qwen3-emb (generic instr.),taskbench_multimedia_query_33,customized,taskbench-multimedia,3,0.46927872602275644,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+qwen3-emb (generic instr.),taskbench_multimedia_query_38,customized,taskbench-multimedia,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),tool_be_honest_query_1,customized,tool-be-honest,2,0.6131471927654584,0.5,0.5,0.5,0.5
+qwen3-emb (generic instr.),tool_be_honest_query_2,customized,tool-be-honest,2,0.2640681225725909,0.0,0.5,0.5,0.5
+qwen3-emb (generic instr.),tool_be_honest_query_5,customized,tool-be-honest,3,0.2960819109658652,0.0,0.3333333333333333,0.3333333333333333,0.6666666666666666
+qwen3-emb (generic instr.),tool_be_honest_query_7,customized,tool-be-honest,5,0.3391602052736161,0.2,0.2,0.2,0.2
+qwen3-emb (generic instr.),tool_be_honest_query_23,customized,tool-be-honest,5,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),tool_be_honest_query_29,customized,tool-be-honest,5,0.6992148198508501,0.2,0.6,0.6,0.6
+qwen3-emb (generic instr.),tool_be_honest_query_32,customized,tool-be-honest,5,0.0,0.0,0.0,0.0,0.2
+qwen3-emb (generic instr.),tool_be_honest_query_33,customized,tool-be-honest,2,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),tool_be_honest_query_35,customized,tool-be-honest,2,0.6131471927654584,0.5,0.5,0.5,0.5
+qwen3-emb (generic instr.),tool_be_honest_query_41,customized,tool-be-honest,2,0.38685280723454163,0.0,0.5,0.5,0.5
+qwen3-emb (generic instr.),tool_be_honest_query_44,customized,tool-be-honest,6,0.18655283631292538,0.0,0.0,0.3333333333333333,0.5
+qwen3-emb (generic instr.),tool_be_honest_query_52,customized,tool-be-honest,6,0.11706259313796354,0.0,0.16666666666666666,0.16666666666666666,0.3333333333333333
+qwen3-emb (generic instr.),tool_be_honest_query_58,customized,tool-be-honest,5,0.8207658584763088,0.2,0.6,0.8,0.8
+qwen3-emb (generic instr.),tool_be_honest_query_63,customized,tool-be-honest,4,0.5585075862632192,0.25,0.5,0.5,0.75
+qwen3-emb (generic instr.),tool_be_honest_query_66,customized,tool-be-honest,7,0.0,0.0,0.0,0.0,0.14285714285714285
+qwen3-emb (generic instr.),tool_be_honest_query_67,customized,tool-be-honest,4,0.3903800499921017,0.25,0.25,0.25,0.25
+qwen3-emb (generic instr.),tool_be_honest_query_71,customized,tool-be-honest,3,0.5307212739772434,0.0,0.6666666666666666,0.6666666666666666,0.6666666666666666
+qwen3-emb (generic instr.),tool_be_honest_query_75,customized,tool-be-honest,3,0.7653606369886217,0.3333333333333333,0.6666666666666666,0.6666666666666666,0.6666666666666666
+qwen3-emb (generic instr.),tool_be_honest_query_77,customized,tool-be-honest,5,0.0,0.0,0.0,0.0,0.2
+qwen3-emb (generic instr.),tool_be_honest_query_90,customized,tool-be-honest,6,0.0,0.0,0.0,0.0,0.16666666666666666
+qwen3-emb (generic instr.),tool_be_honest_query_92,customized,tool-be-honest,2,0.0,0.0,0.0,0.0,0.5
+qwen3-emb (generic instr.),tool_be_honest_query_95,customized,tool-be-honest,6,0.11706259313796354,0.0,0.16666666666666666,0.16666666666666666,0.6666666666666666
+qwen3-emb (generic instr.),tool_be_honest_query_104,customized,tool-be-honest,5,0.0,0.0,0.0,0.0,0.2
+qwen3-emb (generic instr.),tool_be_honest_query_107,customized,tool-be-honest,4,0.3071837157818931,0.0,0.25,0.5,0.75
+qwen3-emb (generic instr.),tool_be_honest_query_110,customized,tool-be-honest,3,0.46927872602275644,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.6666666666666666
+qwen3-emb (generic instr.),tool_be_honest_query_120,customized,tool-be-honest,6,0.30260241349881345,0.16666666666666666,0.16666666666666666,0.16666666666666666,0.16666666666666666
+qwen3-emb (generic instr.),tool_be_honest_query_121,customized,tool-be-honest,5,0.0,0.0,0.0,0.0,0.2
+qwen3-emb (generic instr.),tool_be_honest_query_123,customized,tool-be-honest,5,0.20503241819862084,0.0,0.0,0.4,0.4
+qwen3-emb (generic instr.),tool_be_honest_query_134,customized,tool-be-honest,6,0.30260241349881345,0.16666666666666666,0.16666666666666666,0.16666666666666666,0.16666666666666666
+qwen3-emb (generic instr.),tool_be_honest_query_138,customized,tool-be-honest,3,0.0,0.0,0.0,0.0,0.3333333333333333
+qwen3-emb (generic instr.),tool_be_honest_query_144,customized,tool-be-honest,2,0.6131471927654584,0.5,0.5,0.5,0.5
+qwen3-emb (generic instr.),tool_be_honest_query_155,customized,tool-be-honest,5,0.3391602052736161,0.2,0.2,0.2,0.4
+qwen3-emb (generic instr.),tool_be_honest_query_156,customized,tool-be-honest,6,0.5943907508440193,0.16666666666666666,0.3333333333333333,0.5,0.5
+qwen3-emb (generic instr.),tool_be_honest_query_157,customized,tool-be-honest,5,0.6661998717660157,0.2,0.4,0.6,0.6
+qwen3-emb (generic instr.),tool_be_honest_query_159,customized,tool-be-honest,6,0.3980628465882808,0.16666666666666666,0.16666666666666666,0.3333333333333333,0.5
+qwen3-emb (generic instr.),tool_be_honest_query_161,customized,tool-be-honest,3,0.7653606369886217,0.3333333333333333,0.6666666666666666,0.6666666666666666,0.6666666666666666
+qwen3-emb (generic instr.),tool_be_honest_query_166,customized,tool-be-honest,4,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),tool_be_honest_query_167,customized,tool-be-honest,4,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),tool_be_honest_query_171,customized,tool-be-honest,2,0.38685280723454163,0.0,0.5,0.5,0.5
+qwen3-emb (generic instr.),tool_be_honest_query_174,customized,tool-be-honest,2,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),tool_be_honest_query_177,customized,tool-be-honest,5,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),tool_be_honest_query_183,customized,tool-be-honest,5,0.5982528244568397,0.0,0.6,0.8,0.8
+qwen3-emb (generic instr.),tool_be_honest_query_184,customized,tool-be-honest,2,0.0,0.0,0.0,0.0,0.5
+qwen3-emb (generic instr.),tool_be_honest_query_188,customized,tool-be-honest,5,0.14606834984270645,0.0,0.2,0.2,0.6
+qwen3-emb (generic instr.),tool_be_honest_query_191,customized,tool-be-honest,6,0.30260241349881345,0.16666666666666666,0.16666666666666666,0.16666666666666666,0.5
+qwen3-emb (generic instr.),tool_be_honest_query_193,customized,tool-be-honest,5,0.0,0.0,0.0,0.0,0.2
+qwen3-emb (generic instr.),tool_be_honest_query_206,customized,tool-be-honest,2,0.6131471927654584,0.5,0.5,0.5,0.5
+qwen3-emb (generic instr.),tool_be_honest_query_208,customized,tool-be-honest,5,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),tool_be_honest_query_212,customized,tool-be-honest,7,0.17342765698823945,0.0,0.14285714285714285,0.14285714285714285,0.42857142857142855
+qwen3-emb (generic instr.),tool_be_honest_query_216,customized,tool-be-honest,2,0.6131471927654584,0.5,0.5,0.5,0.5
+qwen3-emb (generic instr.),tool_be_honest_query_218,customized,tool-be-honest,5,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),tool_be_honest_query_220,customized,tool-be-honest,2,0.6131471927654584,0.5,0.5,0.5,0.5
+qwen3-emb (generic instr.),tool_be_honest_query_223,customized,tool-be-honest,4,0.3903800499921017,0.25,0.25,0.25,0.75
+qwen3-emb (generic instr.),tool_be_honest_query_225,customized,tool-be-honest,5,0.0,0.0,0.0,0.0,0.2
+qwen3-emb (generic instr.),tool_be_honest_query_227,customized,tool-be-honest,4,0.5078961547485289,0.25,0.25,0.5,0.5
+qwen3-emb (generic instr.),tool_be_honest_query_228,customized,tool-be-honest,3,0.0,0.0,0.0,0.0,0.3333333333333333
+qwen3-emb (generic instr.),tool_be_honest_query_231,customized,tool-be-honest,6,0.0,0.0,0.0,0.0,0.3333333333333333
+qwen3-emb (generic instr.),tool_be_honest_query_238,customized,tool-be-honest,6,0.7409096387260823,0.16666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666
+qwen3-emb (generic instr.),tool_be_honest_query_241,customized,tool-be-honest,2,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),tool_be_honest_query_250,customized,tool-be-honest,2,0.6131471927654584,0.5,0.5,0.5,0.5
+qwen3-emb (generic instr.),tool_be_honest_query_255,customized,tool-be-honest,5,0.10699313236726378,0.0,0.0,0.2,0.6
+qwen3-emb (generic instr.),tool_be_honest_query_259,customized,tool-be-honest,2,0.3065735963827292,0.0,0.5,0.5,0.5
+qwen3-emb (generic instr.),tool_be_honest_query_265,customized,tool-be-honest,6,0.0,0.0,0.0,0.0,0.3333333333333333
+qwen3-emb (generic instr.),tool_be_honest_query_268,customized,tool-be-honest,3,0.1480409554829326,0.0,0.0,0.3333333333333333,0.3333333333333333
+qwen3-emb (generic instr.),tool_be_honest_query_269,customized,tool-be-honest,8,0.15958907712489634,0.0,0.125,0.125,0.375
+qwen3-emb (generic instr.),tool_be_honest_query_271,customized,tool-be-honest,6,0.0,0.0,0.0,0.0,0.16666666666666666
+qwen3-emb (generic instr.),tool_be_honest_query_274,customized,tool-be-honest,4,0.8318724637288826,0.25,0.75,0.75,0.75
+qwen3-emb (generic instr.),tool_be_honest_query_279,customized,tool-be-honest,2,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),tool_be_honest_query_282,customized,tool-be-honest,5,0.6992148198508501,0.2,0.6,0.6,0.8
+qwen3-emb (generic instr.),tool_be_honest_query_284,customized,tool-be-honest,2,0.6131471927654584,0.5,0.5,0.5,0.5
+qwen3-emb (generic instr.),tool_be_honest_query_286,customized,tool-be-honest,5,0.0,0.0,0.0,0.0,0.2
+qwen3-emb (generic instr.),tool_be_honest_query_288,customized,tool-be-honest,6,0.19092086617893467,0.0,0.16666666666666666,0.16666666666666666,0.3333333333333333
+qwen3-emb (generic instr.),tool_be_honest_query_289,customized,tool-be-honest,4,0.29127873064148246,0.0,0.25,0.5,0.75
+qwen3-emb (generic instr.),tool_be_honest_query_293,customized,tool-be-honest,2,0.0,0.0,0.0,0.0,0.5
+qwen3-emb (generic instr.),tool_be_honest_query_301,customized,tool-be-honest,2,0.3065735963827292,0.0,0.5,0.5,0.5
+qwen3-emb (generic instr.),tool_be_honest_query_306,customized,tool-be-honest,4,0.5585075862632192,0.25,0.5,0.5,0.75
+qwen3-emb (generic instr.),tool_be_honest_query_311,customized,tool-be-honest,6,0.0,0.0,0.0,0.0,0.5
+qwen3-emb (generic instr.),tool_be_honest_query_319,customized,tool-be-honest,5,0.3391602052736161,0.2,0.2,0.2,0.4
+qwen3-emb (generic instr.),tool_be_honest_query_323,customized,tool-be-honest,2,0.17723928678404774,0.0,0.0,0.5,0.5
+qwen3-emb (generic instr.),tool_be_honest_query_331,customized,tool-be-honest,3,0.7653606369886217,0.3333333333333333,0.6666666666666666,0.6666666666666666,0.6666666666666666
+qwen3-emb (generic instr.),tool_be_honest_query_336,customized,tool-be-honest,7,0.4483039899025303,0.14285714285714285,0.2857142857142857,0.2857142857142857,0.5714285714285714
+qwen3-emb (generic instr.),tool_be_honest_query_339,customized,tool-be-honest,4,0.3973220069685352,0.0,0.5,0.5,0.5
+qwen3-emb (generic instr.),tool_be_honest_query_342,customized,tool-be-honest,2,0.18457569677956817,0.0,0.0,0.5,0.5
+qwen3-emb (generic instr.),tool_be_honest_query_343,customized,tool-be-honest,6,0.0,0.0,0.0,0.0,0.6666666666666666
+qwen3-emb (generic instr.),tool_be_honest_query_344,customized,tool-be-honest,6,0.09109240322345806,0.0,0.0,0.16666666666666666,0.5
+qwen3-emb (generic instr.),tool_be_honest_query_349,customized,tool-be-honest,4,0.3071837157818931,0.0,0.25,0.5,0.75
+qwen3-emb (generic instr.),toolACE_query_15,web,toolace,5,0.1208113026994942,0.0,0.0,0.2,0.2
+qwen3-emb (generic instr.),toolACE_query_17,web,toolace,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolACE_query_57,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolACE_query_71,web,toolace,2,0.4911492931622974,0.0,0.5,1.0,1.0
+qwen3-emb (generic instr.),toolACE_query_88,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolACE_query_91,web,toolace,2,0.8772153153380493,0.5,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolACE_query_159,web,toolace,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),toolACE_query_162,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolACE_query_173,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolACE_query_180,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolACE_query_216,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolACE_query_241,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolACE_query_244,web,toolace,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolACE_query_275,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolACE_query_303,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolACE_query_309,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolACE_query_368,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolACE_query_525,web,toolace,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),toolACE_query_558,web,toolace,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolACE_query_601,web,toolace,3,0.2960819109658652,0.0,0.3333333333333333,0.3333333333333333,0.6666666666666666
+qwen3-emb (generic instr.),toolACE_query_605,web,toolace,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolACE_query_650,web,toolace,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolACE_query_667,web,toolace,5,0.0,0.0,0.0,0.0,0.2
+qwen3-emb (generic instr.),toolACE_query_689,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolACE_query_714,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolACE_query_732,web,toolace,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),toolACE_query_814,web,toolace,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolACE_query_863,web,toolace,1,0.3562071871080222,0.0,0.0,1.0,1.0
+qwen3-emb (generic instr.),toolACE_query_871,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolACE_query_873,web,toolace,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolACE_query_876,web,toolace,2,0.6131471927654584,0.5,0.5,0.5,1.0
+qwen3-emb (generic instr.),toolACE_query_878,web,toolace,2,0.2640681225725909,0.0,0.5,0.5,0.5
+qwen3-emb (generic instr.),toolACE_query_883,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolACE_query_949,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolACE_query_974,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolACE_query_992,web,toolace,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolACE_query_999,web,toolace,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolalpaca_query_2,customized,toolalpaca,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolalpaca_query_11,customized,toolalpaca,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolalpaca_query_12,customized,toolalpaca,1,0.3333333333333333,0.0,0.0,1.0,1.0
+qwen3-emb (generic instr.),toolalpaca_query_21,customized,toolalpaca,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolalpaca_query_24,customized,toolalpaca,1,0.38685280723454163,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolalpaca_query_25,customized,toolalpaca,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolalpaca_query_36,customized,toolalpaca,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolalpaca_query_46,customized,toolalpaca,1,0.3562071871080222,0.0,0.0,1.0,1.0
+qwen3-emb (generic instr.),toolalpaca_query_70,customized,toolalpaca,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),toolalpaca_query_75,customized,toolalpaca,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolalpaca_query_85,customized,toolalpaca,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolalpaca_query_88,customized,toolalpaca,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),toolalpaca_query_89,customized,toolalpaca,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolbench_sam_query_4,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolbench_sam_query_12,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),toolbench_sam_query_20,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolbench_sam_query_23,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),toolbench_sam_query_26,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolbench_sam_query_30,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolbench_sam_query_37,customized,toolbench-sam,1,0.31546487678572877,0.0,0.0,1.0,1.0
+qwen3-emb (generic instr.),toolbench_sam_query_39,customized,toolbench-sam,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolbench_sam_query_41,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolbench_sam_query_49,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolbench_sam_query_50,customized,toolbench-sam,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolbench_sam_query_58,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolbench_sam_query_65,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolbench_sam_query_70,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolbench_sam_query_73,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolbench_sam_query_75,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolbench_sam_query_76,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolbench_sam_query_79,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolbench_sam_query_81,customized,toolbench-sam,3,0.15642624200758548,0.0,0.0,0.3333333333333333,0.3333333333333333
+qwen3-emb (generic instr.),toolbench_sam_query_87,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolbench_sam_query_88,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolbench_sam_query_89,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolbench_sam_query_90,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),toolbench_sam_query_91,customized,toolbench-sam,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolbench_sam_query_106,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolbench_sam_query_111,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),toolbench_sam_query_113,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolbench_sam_query_121,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolbench_sam_query_133,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolbench_sam_query_138,customized,toolbench-sam,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolbench_sam_query_139,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),toolbench_sam_query_140,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolbench_sam_query_147,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolbench_sam_query_150,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),toolbench_sam_query_169,customized,toolbench-sam,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolbench_sam_query_173,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolbench_sam_query_180,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolbench_sam_query_183,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),toolbench_sam_query_193,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolbench_query_388,web,toolbench,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolbench_query_865,web,toolbench,3,0.6039071644781281,0.0,0.6666666666666666,1.0,1.0
+qwen3-emb (generic instr.),toolbench_query_500,web,toolbench,2,0.6131471927654584,0.5,0.5,0.5,0.5
+qwen3-emb (generic instr.),toolbench_query_280,web,toolbench,2,0.8065735963827293,0.5,0.5,1.0,1.0
+qwen3-emb (generic instr.),toolbench_query_98,web,toolbench,2,0.6934264036172708,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolbench_query_429,web,toolbench,3,0.0,0.0,0.0,0.0,0.3333333333333333
+qwen3-emb (generic instr.),toolbench_query_757,web,toolbench,3,0.41618115554873086,0.0,0.6666666666666666,0.6666666666666666,1.0
+qwen3-emb (generic instr.),toolbench_query_281,web,toolbench,2,0.0,0.0,0.0,0.0,0.5
+qwen3-emb (generic instr.),toolbench_query_413,web,toolbench,2,0.6131471927654584,0.5,0.5,0.5,1.0
+qwen3-emb (generic instr.),toolbench_query_258,web,toolbench,2,0.0,0.0,0.0,0.0,0.5
+qwen3-emb (generic instr.),toolbench_query_608,web,toolbench,2,0.38685280723454163,0.0,0.5,0.5,1.0
+qwen3-emb (generic instr.),toolbench_query_720,web,toolbench,3,0.6039071644781281,0.0,0.6666666666666666,1.0,1.0
+qwen3-emb (generic instr.),toolbench_query_5,web,toolbench,4,0.9558295932317544,0.25,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolbench_query_838,web,toolbench,3,0.6508205185601091,0.3333333333333333,0.6666666666666666,0.6666666666666666,1.0
+qwen3-emb (generic instr.),toolbench_query_273,web,toolbench,4,0.553486104522623,0.0,0.5,0.75,1.0
+qwen3-emb (generic instr.),toolbench_query_789,web,toolbench,2,0.6131471927654584,0.5,0.5,0.5,1.0
+qwen3-emb (generic instr.),toolbench_query_971,web,toolbench,2,0.20438239758848611,0.0,0.0,0.5,1.0
+qwen3-emb (generic instr.),toolbench_query_121,web,toolbench,2,0.38685280723454163,0.0,0.5,0.5,0.5
+qwen3-emb (generic instr.),toolbench_query_419,web,toolbench,2,0.3065735963827292,0.0,0.5,0.5,1.0
+qwen3-emb (generic instr.),toolbench_query_747,web,toolbench,2,0.23719771276929622,0.0,0.5,0.5,0.5
+qwen3-emb (generic instr.),toolbench_query_213,web,toolbench,3,0.41618115554873086,0.0,0.6666666666666666,0.6666666666666666,0.6666666666666666
+qwen3-emb (generic instr.),toolbench_query_395,web,toolbench,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolbench_query_157,web,toolbench,4,0.7598336331031966,0.25,0.5,0.75,1.0
+qwen3-emb (generic instr.),toolbench_query_291,web,toolbench,2,0.9197207891481876,0.5,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolbench_query_415,web,toolbench,2,0.0,0.0,0.0,0.0,0.5
+qwen3-emb (generic instr.),toolbench_query_857,web,toolbench,2,0.6131471927654584,0.5,0.5,0.5,1.0
+qwen3-emb (generic instr.),toolbench_query_787,web,toolbench,5,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolbench_query_45,web,toolbench,2,0.9197207891481876,0.5,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolbench_query_732,web,toolbench,3,0.0,0.0,0.0,0.0,0.3333333333333333
+qwen3-emb (generic instr.),toolbench_query_509,web,toolbench,3,0.46927872602275644,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+qwen3-emb (generic instr.),toolbench_query_837,web,toolbench,2,0.9197207891481876,0.5,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolbench_query_72,web,toolbench,2,0.8315546295836225,0.5,0.5,1.0,1.0
+qwen3-emb (generic instr.),toolbench_query_704,web,toolbench,2,0.6131471927654584,0.5,0.5,0.5,1.0
+qwen3-emb (generic instr.),toolbench_query_712,web,toolbench,3,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolbench_query_745,web,toolbench,3,0.23463936301137822,0.0,0.3333333333333333,0.3333333333333333,0.3333333333333333
+qwen3-emb (generic instr.),toolbench_query_774,web,toolbench,2,0.3065735963827292,0.0,0.5,0.5,0.5
+qwen3-emb (generic instr.),toolbench_query_345,web,toolbench,3,0.7844801364718913,0.3333333333333333,0.3333333333333333,1.0,1.0
+qwen3-emb (generic instr.),toolbench_query_580,web,toolbench,3,1.0,0.3333333333333333,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolbench_query_703,web,toolbench,2,0.38685280723454163,0.0,0.5,0.5,1.0
+qwen3-emb (generic instr.),toolbench_query_105,web,toolbench,2,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolbench_query_915,web,toolbench,3,0.45646838330896394,0.0,0.0,1.0,1.0
+qwen3-emb (generic instr.),toolbench_query_23,web,toolbench,2,0.8772153153380493,0.5,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolbench_query_1018,web,toolbench,3,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),toolbench_query_581,web,toolbench,3,0.7653606369886217,0.3333333333333333,0.6666666666666666,0.6666666666666666,1.0
+qwen3-emb (generic instr.),toolbench_query_470,web,toolbench,2,0.9197207891481876,0.5,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolbench_query_974,web,toolbench,2,0.6131471927654584,0.5,0.5,0.5,1.0
+qwen3-emb (generic instr.),toolbench_query_1014,web,toolbench,3,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (generic instr.),toolemu_query_19,web,toolemu,1,0.3010299956639812,0.0,0.0,1.0,1.0
+qwen3-emb (generic instr.),tooleyes_query_3,web,tooleyes,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),tooleyes_query_13,web,tooleyes,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),tooleyes_query_22,web,tooleyes,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),tooleyes_query_72,web,tooleyes,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),tooleyes_query_75,web,tooleyes,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolink_query_7,code,toolink,3,0.46927872602275644,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+qwen3-emb (generic instr.),toolink_query_12,code,toolink,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolink_query_36,code,toolink,2,0.7977228895450266,0.5,0.5,1.0,1.0
+qwen3-emb (generic instr.),toolink_query_64,code,toolink,2,0.3889580943680543,0.0,0.0,1.0,1.0
+qwen3-emb (generic instr.),toolink_query_75,code,toolink,2,0.8315546295836225,0.5,0.5,1.0,1.0
+qwen3-emb (generic instr.),toolink_query_77,code,toolink,3,0.46927872602275644,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+qwen3-emb (generic instr.),toolink_query_78,code,toolink,1,0.3010299956639812,0.0,0.0,1.0,1.0
+qwen3-emb (generic instr.),toolink_query_81,code,toolink,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolink_query_85,code,toolink,3,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolink_query_90,code,toolink,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolink_query_103,code,toolink,2,0.6131471927654584,0.5,0.5,0.5,0.5
+qwen3-emb (generic instr.),toolink_query_124,code,toolink,3,0.0,0.0,0.0,0.0,0.3333333333333333
+qwen3-emb (generic instr.),toolink_query_136,code,toolink,2,0.18457569677956817,0.0,0.0,0.5,0.5
+qwen3-emb (generic instr.),toolink_query_154,code,toolink,2,0.0,0.0,0.0,0.0,0.5
+qwen3-emb (generic instr.),toolink_query_159,code,toolink,3,0.7988614740430418,0.3333333333333333,0.6666666666666666,1.0,1.0
+qwen3-emb (generic instr.),toolink_query_172,code,toolink,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolink_query_175,code,toolink,3,0.0,0.0,0.0,0.0,0.3333333333333333
+qwen3-emb (generic instr.),toolink_query_195,code,toolink,1,0.3010299956639812,0.0,0.0,1.0,1.0
+qwen3-emb (generic instr.),toolink_query_196,code,toolink,3,0.20210734650054757,0.0,0.3333333333333333,0.3333333333333333,0.6666666666666666
+qwen3-emb (generic instr.),toolink_query_224,code,toolink,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolink_query_225,code,toolink,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolink_query_226,code,toolink,2,0.0,0.0,0.0,0.0,0.5
+qwen3-emb (generic instr.),toolink_query_227,code,toolink,3,0.15642624200758548,0.0,0.0,0.3333333333333333,0.3333333333333333
+qwen3-emb (generic instr.),toolink_query_228,code,toolink,2,1.0,0.5,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolink_query_252,code,toolink,3,0.46927872602275644,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+qwen3-emb (generic instr.),toolink_query_286,code,toolink,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolink_query_298,code,toolink,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolink_query_305,code,toolink,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolink_query_314,code,toolink,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolink_query_347,code,toolink,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolink_query_352,code,toolink,2,0.38685280723454163,0.0,0.5,0.5,0.5
+qwen3-emb (generic instr.),toolink_query_354,code,toolink,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolink_query_355,code,toolink,3,0.0,0.0,0.0,0.0,0.3333333333333333
+qwen3-emb (generic instr.),toolink_query_372,code,toolink,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolink_query_376,code,toolink,3,0.46927872602275644,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+qwen3-emb (generic instr.),toolink_query_393,code,toolink,2,0.6131471927654584,0.5,0.5,0.5,0.5
+qwen3-emb (generic instr.),toolink_query_398,code,toolink,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolink_query_400,code,toolink,3,0.46927872602275644,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+qwen3-emb (generic instr.),toolink_query_402,code,toolink,3,0.46927872602275644,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+qwen3-emb (generic instr.),toolink_query_435,code,toolink,3,0.0,0.0,0.0,0.0,0.6666666666666666
+qwen3-emb (generic instr.),toolink_query_437,code,toolink,3,0.9325210919548239,0.3333333333333333,0.6666666666666666,1.0,1.0
+qwen3-emb (generic instr.),toolink_query_438,code,toolink,3,0.23463936301137822,0.0,0.3333333333333333,0.3333333333333333,0.6666666666666666
+qwen3-emb (generic instr.),toolink_query_440,code,toolink,4,0.9558295932317544,0.25,1.0,1.0,1.0
+qwen3-emb (generic instr.),toolink_query_451,code,toolink,3,0.46927872602275644,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+qwen3-emb (generic instr.),toolink_query_469,code,toolink,3,0.8451850618939637,0.3333333333333333,0.6666666666666666,1.0,1.0
+qwen3-emb (generic instr.),toolink_query_478,code,toolink,3,0.46927872602275644,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+qwen3-emb (generic instr.),toolLens_query_37,web,toollens,3,0.23463936301137822,0.0,0.3333333333333333,0.3333333333333333,0.3333333333333333
+qwen3-emb (generic instr.),toolLens_query_41,web,toollens,3,0.0,0.0,0.0,0.0,0.3333333333333333
+qwen3-emb (generic instr.),toolLens_query_79,web,toollens,3,0.0,0.0,0.0,0.0,0.3333333333333333
+qwen3-emb (generic instr.),toolLens_query_91,web,toollens,3,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolLens_query_140,web,toollens,3,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolLens_query_143,web,toollens,2,0.38685280723454163,0.0,0.5,0.5,0.5
+qwen3-emb (generic instr.),toolLens_query_215,web,toollens,3,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolLens_query_219,web,toollens,3,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolLens_query_246,web,toollens,2,0.0,0.0,0.0,0.0,0.5
+qwen3-emb (generic instr.),toolLens_query_266,web,toollens,2,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),toolLens_query_268,web,toollens,3,0.15642624200758548,0.0,0.0,0.3333333333333333,0.3333333333333333
+qwen3-emb (generic instr.),toolLens_query_293,web,toollens,2,0.0,0.0,0.0,0.0,0.5
+qwen3-emb (generic instr.),ultraTool_query_29,web,ultratool,1,0.3333333333333333,0.0,0.0,1.0,1.0
+qwen3-emb (generic instr.),ultraTool_query_36,web,ultratool,3,0.6508205185601091,0.3333333333333333,0.6666666666666666,0.6666666666666666,1.0
+qwen3-emb (generic instr.),ultraTool_query_92,web,ultratool,2,0.6509209298071326,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),ultraTool_query_99,web,ultratool,2,0.0,0.0,0.0,0.0,0.5
+qwen3-emb (generic instr.),ultraTool_query_111,web,ultratool,1,0.38685280723454163,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),ultraTool_query_135,web,ultratool,2,0.6131471927654584,0.5,0.5,0.5,0.5
+qwen3-emb (generic instr.),ultraTool_query_165,web,ultratool,3,0.14126697285982898,0.0,0.0,0.3333333333333333,1.0
+qwen3-emb (generic instr.),ultraTool_query_187,web,ultratool,3,0.46927872602275644,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.6666666666666666
+qwen3-emb (generic instr.),ultraTool_query_208,web,ultratool,2,1.0,0.5,1.0,1.0,1.0
+qwen3-emb (generic instr.),ultraTool_query_251,web,ultratool,2,0.21840743681816419,0.0,0.0,0.5,0.5
+qwen3-emb (generic instr.),ultraTool_query_267,web,ultratool,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),ultraTool_query_281,web,ultratool,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),ultraTool_query_295,web,ultratool,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),ultraTool_query_335,web,ultratool,1,0.38685280723454163,0.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),ultraTool_query_345,web,ultratool,2,0.8503449055347546,0.5,1.0,1.0,1.0
+qwen3-emb (generic instr.),ultraTool_query_347,web,ultratool,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),ultraTool_query_372,web,ultratool,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (generic instr.),ultraTool_query_375,web,ultratool,2,0.8503449055347546,0.5,1.0,1.0,1.0
+qwen3-emb (generic instr.),ultraTool_query_378,web,ultratool,1,0.31546487678572877,0.0,0.0,1.0,1.0
+qwen3-emb (generic instr.),ultraTool_query_395,web,ultratool,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),ultraTool_query_397,web,ultratool,2,0.23719771276929622,0.0,0.5,0.5,0.5
+qwen3-emb (generic instr.),ultraTool_query_424,web,ultratool,4,0.715696758318853,0.25,0.5,0.75,0.75
+qwen3-emb (generic instr.),ultraTool_query_441,web,ultratool,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (generic instr.),ultraTool_query_447,web,ultratool,3,0.7653606369886217,0.3333333333333333,0.6666666666666666,0.6666666666666666,0.6666666666666666
+qwen3-emb (generic instr.),ultraTool_query_451,web,ultratool,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),apibank_query_64,web,apibank,3,0.0,0.0,0.0,0.0,0.3333333333333333
+qwen3-emb (task instr.),apigen_query_4,web,apigen,2,0.9197207891481876,0.5,1.0,1.0,1.0
+qwen3-emb (task instr.),apigen_query_32,web,apigen,1,0.31546487678572877,0.0,0.0,1.0,1.0
+qwen3-emb (task instr.),apigen_query_33,web,apigen,2,0.0,0.0,0.0,0.0,0.5
+qwen3-emb (task instr.),apigen_query_44,web,apigen,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),apigen_query_81,web,apigen,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),apigen_query_82,web,apigen,2,0.6131471927654584,0.5,0.5,0.5,1.0
+qwen3-emb (task instr.),apigen_query_125,web,apigen,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),apigen_query_139,web,apigen,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),apigen_query_213,web,apigen,2,0.9197207891481876,0.5,1.0,1.0,1.0
+qwen3-emb (task instr.),apigen_query_268,web,apigen,1,0.43067655807339306,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),apigen_query_289,web,apigen,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),apigen_query_302,web,apigen,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),apigen_query_360,web,apigen,2,0.18457569677956817,0.0,0.0,0.5,0.5
+qwen3-emb (task instr.),apigen_query_429,web,apigen,1,0.3333333333333333,0.0,0.0,1.0,1.0
+qwen3-emb (task instr.),apigen_query_441,web,apigen,2,0.6131471927654584,0.5,0.5,0.5,1.0
+qwen3-emb (task instr.),apigen_query_456,web,apigen,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),apigen_query_500,web,apigen,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),apigen_query_537,web,apigen,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),apigen_query_603,web,apigen,2,0.5249810332008933,0.0,0.5,1.0,1.0
+qwen3-emb (task instr.),apigen_query_631,web,apigen,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),apigen_query_663,web,apigen,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),apigen_query_664,web,apigen,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),apigen_query_685,web,apigen,4,0.6436579276931672,0.25,0.25,0.75,1.0
+qwen3-emb (task instr.),apigen_query_716,web,apigen,2,0.8772153153380493,0.5,1.0,1.0,1.0
+qwen3-emb (task instr.),apigen_query_733,web,apigen,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),apigen_query_737,web,apigen,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),apigen_query_758,web,apigen,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),apigen_query_764,web,apigen,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),apigen_query_791,web,apigen,1,0.3562071871080222,0.0,0.0,1.0,1.0
+qwen3-emb (task instr.),apigen_query_822,web,apigen,2,0.9197207891481876,0.5,1.0,1.0,1.0
+qwen3-emb (task instr.),apigen_query_831,web,apigen,2,0.5012658353418871,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),apigen_query_839,web,apigen,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),apigen_query_844,web,apigen,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),apigen_query_909,web,apigen,1,0.43067655807339306,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),apigen_query_916,web,apigen,2,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),apigen_query_971,web,apigen,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),appbench_query_0,customized,appbench,2,1.0,0.5,1.0,1.0,1.0
+qwen3-emb (task instr.),appbench_query_8,customized,appbench,4,0.0,0.0,0.0,0.0,0.25
+qwen3-emb (task instr.),appbench_query_10,customized,appbench,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),appbench_query_29,customized,appbench,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),webtools_music_query_25,web,autotools-music,4,0.23599633571930026,0.0,0.0,0.5,0.5
+qwen3-emb (task instr.),craft_Math_algebra_query_0,code,craft-math-algebra,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_11,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_18,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_25,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_26,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_30,code,craft-math-algebra,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_38,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_78,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_80,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_81,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_91,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_98,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_99,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_104,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_105,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_110,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_121,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_125,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_132,code,craft-math-algebra,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_134,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_135,code,craft-math-algebra,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_136,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_149,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_161,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_167,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_177,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_194,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_199,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_214,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_219,code,craft-math-algebra,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_230,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_232,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_241,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_242,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_245,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_248,code,craft-math-algebra,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_250,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_261,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_262,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_263,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_276,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Math_algebra_query_277,code,craft-math-algebra,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Tabmwp_query_6,code,craft-tabmwp,1,0.38685280723454163,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Tabmwp_query_12,code,craft-tabmwp,1,0.3562071871080222,0.0,0.0,1.0,1.0
+qwen3-emb (task instr.),craft_Tabmwp_query_22,code,craft-tabmwp,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Tabmwp_query_42,code,craft-tabmwp,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),craft_Tabmwp_query_43,code,craft-tabmwp,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Tabmwp_query_46,code,craft-tabmwp,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Tabmwp_query_49,code,craft-tabmwp,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Tabmwp_query_53,code,craft-tabmwp,1,0.43067655807339306,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Tabmwp_query_86,code,craft-tabmwp,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),craft_Tabmwp_query_94,code,craft-tabmwp,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Tabmwp_query_97,code,craft-tabmwp,1,0.38685280723454163,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Tabmwp_query_103,code,craft-tabmwp,1,0.38685280723454163,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Tabmwp_query_106,code,craft-tabmwp,1,0.3562071871080222,0.0,0.0,1.0,1.0
+qwen3-emb (task instr.),craft_Tabmwp_query_114,code,craft-tabmwp,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Tabmwp_query_129,code,craft-tabmwp,1,0.2890648263178879,0.0,0.0,1.0,1.0
+qwen3-emb (task instr.),craft_Tabmwp_query_132,code,craft-tabmwp,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Tabmwp_query_144,code,craft-tabmwp,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Tabmwp_query_157,code,craft-tabmwp,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),craft_Tabmwp_query_158,code,craft-tabmwp,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Tabmwp_query_161,code,craft-tabmwp,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Tabmwp_query_163,code,craft-tabmwp,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),craft_Tabmwp_query_173,code,craft-tabmwp,1,0.3333333333333333,0.0,0.0,1.0,1.0
+qwen3-emb (task instr.),craft_Vqa_query_5,code,craft-vqa,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),craft_Vqa_query_15,code,craft-vqa,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Vqa_query_49,code,craft-vqa,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Vqa_query_50,code,craft-vqa,1,0.38685280723454163,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Vqa_query_55,code,craft-vqa,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Vqa_query_65,code,craft-vqa,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Vqa_query_67,code,craft-vqa,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Vqa_query_70,code,craft-vqa,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Vqa_query_77,code,craft-vqa,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),craft_Vqa_query_85,code,craft-vqa,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),craft_Vqa_query_95,code,craft-vqa,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),craft_Vqa_query_101,code,craft-vqa,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Vqa_query_106,code,craft-vqa,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Vqa_query_124,code,craft-vqa,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Vqa_query_127,code,craft-vqa,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Vqa_query_128,code,craft-vqa,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Vqa_query_137,code,craft-vqa,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Vqa_query_138,code,craft-vqa,1,0.3333333333333333,0.0,0.0,1.0,1.0
+qwen3-emb (task instr.),craft_Vqa_query_166,code,craft-vqa,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Vqa_query_177,code,craft-vqa,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Vqa_query_180,code,craft-vqa,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),craft_Vqa_query_187,code,craft-vqa,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_8,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_30,code,gorilla-huggingface,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_37,code,gorilla-huggingface,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_45,code,gorilla-huggingface,1,0.38685280723454163,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_50,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),gorilla_huggingface_query_53,code,gorilla-huggingface,1,0.38685280723454163,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_59,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_68,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_76,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_77,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),gorilla_huggingface_query_94,code,gorilla-huggingface,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_98,code,gorilla-huggingface,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_133,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_137,code,gorilla-huggingface,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_138,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),gorilla_huggingface_query_145,code,gorilla-huggingface,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_153,code,gorilla-huggingface,1,0.31546487678572877,0.0,0.0,1.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_154,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),gorilla_huggingface_query_159,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_185,code,gorilla-huggingface,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_192,code,gorilla-huggingface,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_198,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),gorilla_huggingface_query_209,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_224,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),gorilla_huggingface_query_244,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_246,code,gorilla-huggingface,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_262,code,gorilla-huggingface,1,0.43067655807339306,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_275,code,gorilla-huggingface,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_278,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_280,code,gorilla-huggingface,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_286,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),gorilla_huggingface_query_296,code,gorilla-huggingface,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_300,code,gorilla-huggingface,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_302,code,gorilla-huggingface,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_307,code,gorilla-huggingface,1,0.43067655807339306,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_319,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_323,code,gorilla-huggingface,1,0.3562071871080222,0.0,0.0,1.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_332,code,gorilla-huggingface,1,0.3562071871080222,0.0,0.0,1.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_355,code,gorilla-huggingface,1,0.3562071871080222,0.0,0.0,1.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_357,code,gorilla-huggingface,1,0.3333333333333333,0.0,0.0,1.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_364,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_373,code,gorilla-huggingface,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_378,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),gorilla_huggingface_query_384,code,gorilla-huggingface,1,0.43067655807339306,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_404,code,gorilla-huggingface,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_406,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_410,code,gorilla-huggingface,1,0.43067655807339306,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_412,code,gorilla-huggingface,1,0.43067655807339306,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_428,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_447,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_454,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_462,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_467,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_469,code,gorilla-huggingface,1,0.43067655807339306,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_473,code,gorilla-huggingface,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),gorilla_huggingface_query_482,code,gorilla-huggingface,1,0.3333333333333333,0.0,0.0,1.0,1.0
+qwen3-emb (task instr.),gorilla_pytorch_query_33,code,gorilla-pytorch,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),gorilla_pytorch_query_35,code,gorilla-pytorch,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),gorilla_pytorch_query_36,code,gorilla-pytorch,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),gorilla_pytorch_query_41,code,gorilla-pytorch,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),gorilla_tensor_query_12,code,gorilla-tensor,1,0.43067655807339306,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),gorilla_tensor_query_14,code,gorilla-tensor,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),gorilla_tensor_query_30,code,gorilla-tensor,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),gorilla_tensor_query_31,code,gorilla-tensor,1,0.38685280723454163,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),gorilla_tensor_query_34,code,gorilla-tensor,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),gorilla_tensor_query_41,code,gorilla-tensor,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),gorilla_tensor_query_42,code,gorilla-tensor,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),gorilla_tensor_query_48,code,gorilla-tensor,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),gpt4tools_query_2,customized,gpt4tools,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),gpt4tools_query_4,customized,gpt4tools,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),gpt4tools_query_14,customized,gpt4tools,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),gpt4tools_query_23,customized,gpt4tools,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),gpt4tools_query_24,customized,gpt4tools,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),gpt4tools_query_27,customized,gpt4tools,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),gpt4tools_query_28,customized,gpt4tools,1,0.43067655807339306,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),gpt4tools_query_29,customized,gpt4tools,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),gta_query_0,customized,gta,2,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),gta_query_7,customized,gta,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),metatool_which_query_1,customized,metatool,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),metatool_which_query_11,customized,metatool,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),metatool_which_query_23,customized,metatool,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),metatool_which_query_30,customized,metatool,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),metatool_which_query_31,customized,metatool,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),metatool_which_query_33,customized,metatool,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),metatool_which_query_39,customized,metatool,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),metatool_which_query_49,customized,metatool,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),metatool_which_query_54,customized,metatool,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),metatool_which_query_57,customized,metatool,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),metatool_which_query_61,customized,metatool,1,0.3333333333333333,0.0,0.0,1.0,1.0
+qwen3-emb (task instr.),metatool_which_query_62,customized,metatool,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),metatool_which_query_63,customized,metatool,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),metatool_which_query_64,customized,metatool,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),metatool_which_query_72,customized,metatool,2,0.0,0.0,0.0,0.0,0.5
+qwen3-emb (task instr.),metatool_which_query_77,customized,metatool,1,0.43067655807339306,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),metatool_which_query_79,customized,metatool,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),metatool_which_query_85,customized,metatool,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),metatool_which_query_88,customized,metatool,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),metatool_which_query_92,customized,metatool,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),metatool_which_query_97,customized,metatool,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),metatool_which_query_99,customized,metatool,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),metatool_which_query_101,customized,metatool,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),metatool_which_query_104,customized,metatool,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),metatool_which_query_110,customized,metatool,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),metatool_which_query_126,customized,metatool,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),metatool_which_query_134,customized,metatool,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),metatool_which_query_135,customized,metatool,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),metatool_which_query_140,customized,metatool,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),metatool_which_query_151,customized,metatool,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),metatool_which_query_154,customized,metatool,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),metatool_which_query_155,customized,metatool,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),metatool_which_query_169,customized,metatool,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),metatool_which_query_173,customized,metatool,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),metatool_which_query_177,customized,metatool,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),metatool_which_query_178,customized,metatool,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),metatool_which_query_197,customized,metatool,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),mnms_query_11,web,mnms,3,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),webtools_spotify_query_9,web,restgpt-spotify,2,1.0,0.5,1.0,1.0,1.0
+qwen3-emb (task instr.),webtools_spotify_query_20,web,restgpt-spotify,3,0.46927872602275644,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+qwen3-emb (task instr.),webtools_tmdb_query_15,web,restgpt-tmdb,2,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),webtools_tmdb_query_35,web,restgpt-tmdb,2,0.0,0.0,0.0,0.0,0.5
+qwen3-emb (task instr.),webtools_tmdb_query_37,web,restgpt-tmdb,2,0.6131471927654584,0.5,0.5,0.5,0.5
+qwen3-emb (task instr.),reversechain_query_40,web,reversechain,2,0.6131471927654584,0.5,0.5,0.5,1.0
+qwen3-emb (task instr.),reversechain_query_119,web,reversechain,3,0.0,0.0,0.0,0.0,0.3333333333333333
+qwen3-emb (task instr.),reversechain_query_190,web,reversechain,3,0.0,0.0,0.0,0.0,0.3333333333333333
+qwen3-emb (task instr.),rotbench_query_43,web,rotbench,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),rotbench_query_58,web,rotbench,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),rotbench_query_59,web,rotbench,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),rotbench_query_83,web,rotbench,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),rotbench_query_108,web,rotbench,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),rotbench_query_118,web,rotbench,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),rotbench_query_142,web,rotbench,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),rotbench_query_182,web,rotbench,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),rotbench_query_206,web,rotbench,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),rotbench_query_215,web,rotbench,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),rotbench_query_260,web,rotbench,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),rotbench_query_268,web,rotbench,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),rotbench_query_339,web,rotbench,1,0.3010299956639812,0.0,0.0,1.0,1.0
+qwen3-emb (task instr.),rotbench_query_360,web,rotbench,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),rotbench_query_400,web,rotbench,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),rotbench_query_456,web,rotbench,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),rotbench_query_475,web,rotbench,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),rotbench_query_490,web,rotbench,1,0.3010299956639812,0.0,0.0,1.0,1.0
+qwen3-emb (task instr.),rotbench_query_496,web,rotbench,1,0.3562071871080222,0.0,0.0,1.0,1.0
+qwen3-emb (task instr.),rotbench_query_506,web,rotbench,1,0.43067655807339306,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),rotbench_query_512,web,rotbench,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),rotbench_query_513,web,rotbench,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),t_eval_dialog_query_4,web,t-eval-dialog,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),t_eval_dialog_query_21,web,t-eval-dialog,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),t_eval_step_query_6,web,t-eval-step,3,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),taskbench_daily_query_36,web,taskbench-daily,3,0.2960819109658652,0.0,0.3333333333333333,0.3333333333333333,0.6666666666666666
+qwen3-emb (task instr.),taskbench_huggingface_query_3,customized,taskbench-huggingface,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),taskbench_huggingface_query_10,customized,taskbench-huggingface,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),taskbench_huggingface_query_13,customized,taskbench-huggingface,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),taskbench_huggingface_query_19,customized,taskbench-huggingface,3,0.23463936301137822,0.0,0.3333333333333333,0.3333333333333333,0.3333333333333333
+qwen3-emb (task instr.),taskbench_multimedia_query_2,customized,taskbench-multimedia,8,0.0,0.0,0.0,0.0,0.125
+qwen3-emb (task instr.),taskbench_multimedia_query_11,customized,taskbench-multimedia,2,1.0,0.5,1.0,1.0,1.0
+qwen3-emb (task instr.),taskbench_multimedia_query_21,customized,taskbench-multimedia,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),taskbench_multimedia_query_25,customized,taskbench-multimedia,3,0.7653606369886217,0.3333333333333333,0.6666666666666666,0.6666666666666666,0.6666666666666666
+qwen3-emb (task instr.),taskbench_multimedia_query_31,customized,taskbench-multimedia,4,0.5585075862632192,0.25,0.5,0.5,0.75
+qwen3-emb (task instr.),taskbench_multimedia_query_33,customized,taskbench-multimedia,3,0.46927872602275644,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+qwen3-emb (task instr.),taskbench_multimedia_query_38,customized,taskbench-multimedia,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),tool_be_honest_query_1,customized,tool-be-honest,2,0.6131471927654584,0.5,0.5,0.5,0.5
+qwen3-emb (task instr.),tool_be_honest_query_2,customized,tool-be-honest,2,0.38685280723454163,0.0,0.5,0.5,0.5
+qwen3-emb (task instr.),tool_be_honest_query_5,customized,tool-be-honest,3,0.23463936301137822,0.0,0.3333333333333333,0.3333333333333333,0.3333333333333333
+qwen3-emb (task instr.),tool_be_honest_query_7,customized,tool-be-honest,5,0.3391602052736161,0.2,0.2,0.2,0.4
+qwen3-emb (task instr.),tool_be_honest_query_23,customized,tool-be-honest,5,0.0,0.0,0.0,0.0,0.2
+qwen3-emb (task instr.),tool_be_honest_query_29,customized,tool-be-honest,5,0.7227265726449519,0.2,0.6,0.6,0.8
+qwen3-emb (task instr.),tool_be_honest_query_32,customized,tool-be-honest,5,0.0,0.0,0.0,0.0,0.4
+qwen3-emb (task instr.),tool_be_honest_query_33,customized,tool-be-honest,2,0.6131471927654584,0.5,0.5,0.5,0.5
+qwen3-emb (task instr.),tool_be_honest_query_35,customized,tool-be-honest,2,0.6131471927654584,0.5,0.5,0.5,0.5
+qwen3-emb (task instr.),tool_be_honest_query_41,customized,tool-be-honest,2,0.6131471927654584,0.5,0.5,0.5,0.5
+qwen3-emb (task instr.),tool_be_honest_query_44,customized,tool-be-honest,6,0.37708540574924465,0.0,0.3333333333333333,0.5,0.6666666666666666
+qwen3-emb (task instr.),tool_be_honest_query_52,customized,tool-be-honest,6,0.30260241349881345,0.16666666666666666,0.16666666666666666,0.16666666666666666,0.3333333333333333
+qwen3-emb (task instr.),tool_be_honest_query_58,customized,tool-be-honest,5,0.8687949224876582,0.2,0.8,0.8,0.8
+qwen3-emb (task instr.),tool_be_honest_query_63,customized,tool-be-honest,4,0.5585075862632192,0.25,0.5,0.5,0.75
+qwen3-emb (task instr.),tool_be_honest_query_66,customized,tool-be-honest,7,0.0,0.0,0.0,0.0,0.2857142857142857
+qwen3-emb (task instr.),tool_be_honest_query_67,customized,tool-be-honest,4,0.24630238874073,0.0,0.25,0.25,0.25
+qwen3-emb (task instr.),tool_be_honest_query_71,customized,tool-be-honest,3,0.7039180890341347,0.3333333333333333,0.6666666666666666,0.6666666666666666,0.6666666666666666
+qwen3-emb (task instr.),tool_be_honest_query_75,customized,tool-be-honest,3,0.7653606369886217,0.3333333333333333,0.6666666666666666,0.6666666666666666,0.6666666666666666
+qwen3-emb (task instr.),tool_be_honest_query_77,customized,tool-be-honest,5,0.09803928583135704,0.0,0.0,0.2,0.4
+qwen3-emb (task instr.),tool_be_honest_query_90,customized,tool-be-honest,6,0.13032376591037062,0.0,0.16666666666666666,0.16666666666666666,0.3333333333333333
+qwen3-emb (task instr.),tool_be_honest_query_92,customized,tool-be-honest,2,0.2640681225725909,0.0,0.5,0.5,0.5
+qwen3-emb (task instr.),tool_be_honest_query_95,customized,tool-be-honest,6,0.48553456068968903,0.16666666666666666,0.16666666666666666,0.5,0.8333333333333334
+qwen3-emb (task instr.),tool_be_honest_query_104,customized,tool-be-honest,5,0.0,0.0,0.0,0.0,0.2
+qwen3-emb (task instr.),tool_be_honest_query_107,customized,tool-be-honest,4,0.6886342695939197,0.25,0.5,0.75,0.75
+qwen3-emb (task instr.),tool_be_honest_query_110,customized,tool-be-honest,3,0.46927872602275644,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.6666666666666666
+qwen3-emb (task instr.),tool_be_honest_query_120,customized,tool-be-honest,6,0.30260241349881345,0.16666666666666666,0.16666666666666666,0.16666666666666666,0.5
+qwen3-emb (task instr.),tool_be_honest_query_121,customized,tool-be-honest,5,0.0,0.0,0.0,0.0,0.2
+qwen3-emb (task instr.),tool_be_honest_query_123,customized,tool-be-honest,5,0.5773584151532217,0.2,0.4,0.6,0.8
+qwen3-emb (task instr.),tool_be_honest_query_134,customized,tool-be-honest,6,0.0,0.0,0.0,0.0,0.16666666666666666
+qwen3-emb (task instr.),tool_be_honest_query_138,customized,tool-be-honest,3,0.46927872602275644,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+qwen3-emb (task instr.),tool_be_honest_query_144,customized,tool-be-honest,2,0.6131471927654584,0.5,0.5,0.5,0.5
+qwen3-emb (task instr.),tool_be_honest_query_155,customized,tool-be-honest,5,0.5087403079104241,0.2,0.4,0.4,0.4
+qwen3-emb (task instr.),tool_be_honest_query_156,customized,tool-be-honest,6,0.6105858728157117,0.16666666666666666,0.5,0.5,0.5
+qwen3-emb (task instr.),tool_be_honest_query_157,customized,tool-be-honest,5,0.7227265726449519,0.2,0.6,0.6,0.6
+qwen3-emb (task instr.),tool_be_honest_query_159,customized,tool-be-honest,6,0.5809949937791563,0.16666666666666666,0.3333333333333333,0.5,0.5
+qwen3-emb (task instr.),tool_be_honest_query_161,customized,tool-be-honest,3,0.7653606369886217,0.3333333333333333,0.6666666666666666,0.6666666666666666,0.6666666666666666
+qwen3-emb (task instr.),tool_be_honest_query_166,customized,tool-be-honest,4,0.0,0.0,0.0,0.0,0.25
+qwen3-emb (task instr.),tool_be_honest_query_167,customized,tool-be-honest,4,0.123151194370365,0.0,0.0,0.25,0.5
+qwen3-emb (task instr.),tool_be_honest_query_171,customized,tool-be-honest,2,0.6131471927654584,0.5,0.5,0.5,0.5
+qwen3-emb (task instr.),tool_be_honest_query_174,customized,tool-be-honest,2,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),tool_be_honest_query_177,customized,tool-be-honest,5,0.0,0.0,0.0,0.0,0.4
+qwen3-emb (task instr.),tool_be_honest_query_183,customized,tool-be-honest,5,0.7972541056822071,0.2,0.6,0.8,0.8
+qwen3-emb (task instr.),tool_be_honest_query_184,customized,tool-be-honest,2,0.17723928678404774,0.0,0.0,0.5,0.5
+qwen3-emb (task instr.),tool_be_honest_query_188,customized,tool-be-honest,5,0.16958010263680806,0.0,0.2,0.2,0.8
+qwen3-emb (task instr.),tool_be_honest_query_191,customized,tool-be-honest,6,0.41966500663677697,0.16666666666666666,0.3333333333333333,0.3333333333333333,0.6666666666666666
+qwen3-emb (task instr.),tool_be_honest_query_193,customized,tool-be-honest,5,0.09803928583135704,0.0,0.0,0.2,0.2
+qwen3-emb (task instr.),tool_be_honest_query_206,customized,tool-be-honest,2,0.6131471927654584,0.5,0.5,0.5,0.5
+qwen3-emb (task instr.),tool_be_honest_query_208,customized,tool-be-honest,5,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),tool_be_honest_query_212,customized,tool-be-honest,7,0.16220310073808747,0.0,0.0,0.2857142857142857,0.5714285714285714
+qwen3-emb (task instr.),tool_be_honest_query_216,customized,tool-be-honest,2,0.6131471927654584,0.5,0.5,0.5,0.5
+qwen3-emb (task instr.),tool_be_honest_query_218,customized,tool-be-honest,5,0.1208113026994942,0.0,0.0,0.2,0.2
+qwen3-emb (task instr.),tool_be_honest_query_220,customized,tool-be-honest,2,0.6131471927654584,0.5,0.5,0.5,0.5
+qwen3-emb (task instr.),tool_be_honest_query_223,customized,tool-be-honest,4,0.5294362295028773,0.25,0.25,0.5,0.75
+qwen3-emb (task instr.),tool_be_honest_query_225,customized,tool-be-honest,5,0.32703966649239957,0.0,0.2,0.4,0.8
+qwen3-emb (task instr.),tool_be_honest_query_227,customized,tool-be-honest,4,0.3903800499921017,0.25,0.25,0.25,0.5
+qwen3-emb (task instr.),tool_be_honest_query_228,customized,tool-be-honest,3,0.2960819109658652,0.0,0.3333333333333333,0.3333333333333333,0.3333333333333333
+qwen3-emb (task instr.),tool_be_honest_query_231,customized,tool-be-honest,6,0.10778915452451093,0.0,0.0,0.16666666666666666,0.3333333333333333
+qwen3-emb (task instr.),tool_be_honest_query_238,customized,tool-be-honest,6,0.6920165406831017,0.16666666666666666,0.5,0.6666666666666666,0.6666666666666666
+qwen3-emb (task instr.),tool_be_honest_query_241,customized,tool-be-honest,2,0.0,0.0,0.0,0.0,0.5
+qwen3-emb (task instr.),tool_be_honest_query_250,customized,tool-be-honest,2,0.6131471927654584,0.5,0.5,0.5,0.5
+qwen3-emb (task instr.),tool_be_honest_query_255,customized,tool-be-honest,5,0.21109268758922906,0.0,0.0,0.4,0.8
+qwen3-emb (task instr.),tool_be_honest_query_259,customized,tool-be-honest,2,0.38685280723454163,0.0,0.5,0.5,0.5
+qwen3-emb (task instr.),tool_be_honest_query_265,customized,tool-be-honest,6,0.29178833734520576,0.0,0.16666666666666666,0.3333333333333333,0.6666666666666666
+qwen3-emb (task instr.),tool_be_honest_query_268,customized,tool-be-honest,3,0.46927872602275644,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+qwen3-emb (task instr.),tool_be_honest_query_269,customized,tool-be-honest,8,0.48835054676924156,0.125,0.375,0.375,0.75
+qwen3-emb (task instr.),tool_be_honest_query_271,customized,tool-be-honest,6,0.0,0.0,0.0,0.0,0.3333333333333333
+qwen3-emb (task instr.),tool_be_honest_query_274,customized,tool-be-honest,4,0.8318724637288826,0.25,0.75,0.75,0.75
+qwen3-emb (task instr.),tool_be_honest_query_279,customized,tool-be-honest,2,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),tool_be_honest_query_282,customized,tool-be-honest,5,0.8297197050122157,0.2,0.6,0.8,0.8
+qwen3-emb (task instr.),tool_be_honest_query_284,customized,tool-be-honest,2,0.6131471927654584,0.5,0.5,0.5,0.5
+qwen3-emb (task instr.),tool_be_honest_query_286,customized,tool-be-honest,5,0.0,0.0,0.0,0.0,0.2
+qwen3-emb (task instr.),tool_be_honest_query_288,customized,tool-be-honest,6,0.2987100207034456,0.0,0.16666666666666666,0.3333333333333333,0.5
+qwen3-emb (task instr.),tool_be_honest_query_289,customized,tool-be-honest,4,0.5855700749881525,0.25,0.5,0.5,0.75
+qwen3-emb (task instr.),tool_be_honest_query_293,customized,tool-be-honest,2,0.0,0.0,0.0,0.0,0.5
+qwen3-emb (task instr.),tool_be_honest_query_301,customized,tool-be-honest,2,0.6131471927654584,0.5,0.5,0.5,0.5
+qwen3-emb (task instr.),tool_be_honest_query_306,customized,tool-be-honest,4,0.6366824387328317,0.25,0.5,0.5,0.75
+qwen3-emb (task instr.),tool_be_honest_query_311,customized,tool-be-honest,6,0.2816249726597774,0.0,0.3333333333333333,0.3333333333333333,0.6666666666666666
+qwen3-emb (task instr.),tool_be_honest_query_319,customized,tool-be-honest,5,0.3391602052736161,0.2,0.2,0.2,0.4
+qwen3-emb (task instr.),tool_be_honest_query_323,customized,tool-be-honest,2,0.0,0.0,0.0,0.0,0.5
+qwen3-emb (task instr.),tool_be_honest_query_331,customized,tool-be-honest,3,0.7653606369886217,0.3333333333333333,0.6666666666666666,0.6666666666666666,0.6666666666666666
+qwen3-emb (task instr.),tool_be_honest_query_336,customized,tool-be-honest,7,0.6730234638881231,0.14285714285714285,0.5714285714285714,0.5714285714285714,0.7142857142857143
+qwen3-emb (task instr.),tool_be_honest_query_339,customized,tool-be-honest,4,0.4144299250118475,0.0,0.5,0.5,0.5
+qwen3-emb (task instr.),tool_be_honest_query_342,customized,tool-be-honest,2,0.3065735963827292,0.0,0.5,0.5,0.5
+qwen3-emb (task instr.),tool_be_honest_query_343,customized,tool-be-honest,6,0.29178833734520576,0.0,0.16666666666666666,0.3333333333333333,0.6666666666666666
+qwen3-emb (task instr.),tool_be_honest_query_344,customized,tool-be-honest,6,0.5636382420621701,0.0,0.5,0.6666666666666666,0.6666666666666666
+qwen3-emb (task instr.),tool_be_honest_query_349,customized,tool-be-honest,4,0.3903800499921017,0.25,0.25,0.25,0.75
+qwen3-emb (task instr.),toolACE_query_15,web,toolace,5,0.3391602052736161,0.2,0.2,0.2,0.2
+qwen3-emb (task instr.),toolACE_query_17,web,toolace,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolACE_query_57,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolACE_query_71,web,toolace,2,1.0,0.5,1.0,1.0,1.0
+qwen3-emb (task instr.),toolACE_query_88,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolACE_query_91,web,toolace,2,0.7977228895450266,0.5,0.5,1.0,1.0
+qwen3-emb (task instr.),toolACE_query_159,web,toolace,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),toolACE_query_162,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolACE_query_173,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolACE_query_180,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolACE_query_216,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolACE_query_241,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolACE_query_244,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolACE_query_275,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolACE_query_303,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolACE_query_309,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolACE_query_368,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolACE_query_525,web,toolace,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),toolACE_query_558,web,toolace,1,0.43067655807339306,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolACE_query_601,web,toolace,3,0.2960819109658652,0.0,0.3333333333333333,0.3333333333333333,0.6666666666666666
+qwen3-emb (task instr.),toolACE_query_605,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolACE_query_650,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolACE_query_667,web,toolace,5,0.10209739512291163,0.0,0.0,0.2,0.2
+qwen3-emb (task instr.),toolACE_query_689,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolACE_query_714,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolACE_query_732,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolACE_query_814,web,toolace,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolACE_query_863,web,toolace,1,0.43067655807339306,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolACE_query_871,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolACE_query_873,web,toolace,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),toolACE_query_876,web,toolace,2,0.8503449055347546,0.5,1.0,1.0,1.0
+qwen3-emb (task instr.),toolACE_query_878,web,toolace,2,0.38685280723454163,0.0,0.5,0.5,0.5
+qwen3-emb (task instr.),toolACE_query_883,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolACE_query_949,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolACE_query_974,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolACE_query_992,web,toolace,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolACE_query_999,web,toolace,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolalpaca_query_2,customized,toolalpaca,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolalpaca_query_11,customized,toolalpaca,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),toolalpaca_query_12,customized,toolalpaca,1,0.43067655807339306,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolalpaca_query_21,customized,toolalpaca,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolalpaca_query_24,customized,toolalpaca,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolalpaca_query_25,customized,toolalpaca,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolalpaca_query_36,customized,toolalpaca,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolalpaca_query_46,customized,toolalpaca,1,0.43067655807339306,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolalpaca_query_70,customized,toolalpaca,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolalpaca_query_75,customized,toolalpaca,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolalpaca_query_85,customized,toolalpaca,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolalpaca_query_88,customized,toolalpaca,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),toolalpaca_query_89,customized,toolalpaca,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),toolbench_sam_query_4,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),toolbench_sam_query_12,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),toolbench_sam_query_20,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),toolbench_sam_query_23,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),toolbench_sam_query_26,customized,toolbench-sam,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolbench_sam_query_30,customized,toolbench-sam,1,0.2890648263178879,0.0,0.0,1.0,1.0
+qwen3-emb (task instr.),toolbench_sam_query_37,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),toolbench_sam_query_39,customized,toolbench-sam,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolbench_sam_query_41,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),toolbench_sam_query_49,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),toolbench_sam_query_50,customized,toolbench-sam,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolbench_sam_query_58,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),toolbench_sam_query_65,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),toolbench_sam_query_70,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),toolbench_sam_query_73,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),toolbench_sam_query_75,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),toolbench_sam_query_76,customized,toolbench-sam,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolbench_sam_query_79,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),toolbench_sam_query_81,customized,toolbench-sam,3,0.0,0.0,0.0,0.0,0.6666666666666666
+qwen3-emb (task instr.),toolbench_sam_query_87,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),toolbench_sam_query_88,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),toolbench_sam_query_89,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),toolbench_sam_query_90,customized,toolbench-sam,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolbench_sam_query_91,customized,toolbench-sam,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolbench_sam_query_106,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),toolbench_sam_query_111,customized,toolbench-sam,1,0.38685280723454163,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolbench_sam_query_113,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),toolbench_sam_query_121,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),toolbench_sam_query_133,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),toolbench_sam_query_138,customized,toolbench-sam,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolbench_sam_query_139,customized,toolbench-sam,1,0.43067655807339306,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolbench_sam_query_140,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),toolbench_sam_query_147,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),toolbench_sam_query_150,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),toolbench_sam_query_169,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),toolbench_sam_query_173,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),toolbench_sam_query_180,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),toolbench_sam_query_183,customized,toolbench-sam,1,0.3010299956639812,0.0,0.0,1.0,1.0
+qwen3-emb (task instr.),toolbench_sam_query_193,customized,toolbench-sam,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),toolbench_query_388,web,toolbench,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolbench_query_865,web,toolbench,3,0.6039071644781281,0.0,0.6666666666666666,1.0,1.0
+qwen3-emb (task instr.),toolbench_query_500,web,toolbench,2,0.6131471927654584,0.5,0.5,0.5,0.5
+qwen3-emb (task instr.),toolbench_query_280,web,toolbench,2,1.0,0.5,1.0,1.0,1.0
+qwen3-emb (task instr.),toolbench_query_98,web,toolbench,2,0.8772153153380493,0.5,1.0,1.0,1.0
+qwen3-emb (task instr.),toolbench_query_429,web,toolbench,3,0.29769321486741446,0.0,0.0,0.6666666666666666,1.0
+qwen3-emb (task instr.),toolbench_query_757,web,toolbench,3,0.41618115554873086,0.0,0.6666666666666666,0.6666666666666666,1.0
+qwen3-emb (task instr.),toolbench_query_281,web,toolbench,2,0.8772153153380493,0.5,1.0,1.0,1.0
+qwen3-emb (task instr.),toolbench_query_413,web,toolbench,2,0.6131471927654584,0.5,0.5,0.5,1.0
+qwen3-emb (task instr.),toolbench_query_258,web,toolbench,2,0.0,0.0,0.0,0.0,0.5
+qwen3-emb (task instr.),toolbench_query_608,web,toolbench,2,0.38685280723454163,0.0,0.5,0.5,1.0
+qwen3-emb (task instr.),toolbench_query_720,web,toolbench,3,0.6653497124326151,0.0,0.6666666666666666,1.0,1.0
+qwen3-emb (task instr.),toolbench_query_5,web,toolbench,4,0.9176551163528843,0.25,0.75,1.0,1.0
+qwen3-emb (task instr.),toolbench_query_838,web,toolbench,3,0.7039180890341347,0.3333333333333333,0.6666666666666666,0.6666666666666666,1.0
+qwen3-emb (task instr.),toolbench_query_273,web,toolbench,4,0.610960349354296,0.0,0.5,1.0,1.0
+qwen3-emb (task instr.),toolbench_query_789,web,toolbench,2,0.18457569677956817,0.0,0.0,0.5,0.5
+qwen3-emb (task instr.),toolbench_query_971,web,toolbench,2,0.21840743681816419,0.0,0.0,0.5,1.0
+qwen3-emb (task instr.),toolbench_query_121,web,toolbench,2,0.38685280723454163,0.0,0.5,0.5,0.5
+qwen3-emb (task instr.),toolbench_query_419,web,toolbench,2,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),toolbench_query_747,web,toolbench,2,0.23719771276929622,0.0,0.5,0.5,0.5
+qwen3-emb (task instr.),toolbench_query_213,web,toolbench,3,0.0,0.0,0.0,0.0,0.6666666666666666
+qwen3-emb (task instr.),toolbench_query_395,web,toolbench,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolbench_query_157,web,toolbench,4,0.7095272044910244,0.25,0.75,0.75,1.0
+qwen3-emb (task instr.),toolbench_query_291,web,toolbench,2,1.0,0.5,1.0,1.0,1.0
+qwen3-emb (task instr.),toolbench_query_415,web,toolbench,2,0.0,0.0,0.0,0.0,0.5
+qwen3-emb (task instr.),toolbench_query_857,web,toolbench,2,0.9197207891481876,0.5,1.0,1.0,1.0
+qwen3-emb (task instr.),toolbench_query_787,web,toolbench,5,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),toolbench_query_45,web,toolbench,2,0.0,0.0,0.0,0.0,0.5
+qwen3-emb (task instr.),toolbench_query_732,web,toolbench,3,0.0,0.0,0.0,0.0,0.6666666666666666
+qwen3-emb (task instr.),toolbench_query_509,web,toolbench,3,0.46927872602275644,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+qwen3-emb (task instr.),toolbench_query_837,web,toolbench,2,0.6934264036172708,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolbench_query_72,web,toolbench,2,0.9197207891481876,0.5,1.0,1.0,1.0
+qwen3-emb (task instr.),toolbench_query_704,web,toolbench,2,0.4415801103577823,0.0,0.5,1.0,1.0
+qwen3-emb (task instr.),toolbench_query_712,web,toolbench,3,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),toolbench_query_745,web,toolbench,3,0.23463936301137822,0.0,0.3333333333333333,0.3333333333333333,0.3333333333333333
+qwen3-emb (task instr.),toolbench_query_774,web,toolbench,2,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),toolbench_query_345,web,toolbench,3,0.86034433104172,0.3333333333333333,0.6666666666666666,1.0,1.0
+qwen3-emb (task instr.),toolbench_query_580,web,toolbench,3,0.8854598815714874,0.3333333333333333,1.0,1.0,1.0
+qwen3-emb (task instr.),toolbench_query_703,web,toolbench,2,0.6131471927654584,0.5,0.5,0.5,0.5
+qwen3-emb (task instr.),toolbench_query_105,web,toolbench,2,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),toolbench_query_915,web,toolbench,3,0.34870224750355494,0.0,0.3333333333333333,0.6666666666666666,1.0
+qwen3-emb (task instr.),toolbench_query_23,web,toolbench,2,0.6934264036172708,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolbench_query_1018,web,toolbench,3,0.16716045496620227,0.0,0.0,0.3333333333333333,1.0
+qwen3-emb (task instr.),toolbench_query_581,web,toolbench,3,0.6049306994552042,0.3333333333333333,0.3333333333333333,0.6666666666666666,1.0
+qwen3-emb (task instr.),toolbench_query_470,web,toolbench,2,0.9197207891481876,0.5,1.0,1.0,1.0
+qwen3-emb (task instr.),toolbench_query_974,web,toolbench,2,1.0,0.5,1.0,1.0,1.0
+qwen3-emb (task instr.),toolbench_query_1014,web,toolbench,3,0.14126697285982898,0.0,0.0,0.3333333333333333,1.0
+qwen3-emb (task instr.),toolemu_query_19,web,toolemu,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),tooleyes_query_3,web,tooleyes,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),tooleyes_query_13,web,tooleyes,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),tooleyes_query_22,web,tooleyes,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),tooleyes_query_72,web,tooleyes,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),tooleyes_query_75,web,tooleyes,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),toolink_query_7,code,toolink,3,0.46927872602275644,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+qwen3-emb (task instr.),toolink_query_12,code,toolink,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolink_query_36,code,toolink,2,0.9197207891481876,0.5,1.0,1.0,1.0
+qwen3-emb (task instr.),toolink_query_64,code,toolink,2,0.38162168437253385,0.0,0.0,1.0,1.0
+qwen3-emb (task instr.),toolink_query_75,code,toolink,2,0.9197207891481876,0.5,1.0,1.0,1.0
+qwen3-emb (task instr.),toolink_query_77,code,toolink,3,0.46927872602275644,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+qwen3-emb (task instr.),toolink_query_78,code,toolink,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolink_query_81,code,toolink,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolink_query_85,code,toolink,3,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),toolink_query_90,code,toolink,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolink_query_103,code,toolink,2,0.3065735963827292,0.0,0.5,0.5,0.5
+qwen3-emb (task instr.),toolink_query_124,code,toolink,3,0.7653606369886217,0.3333333333333333,0.6666666666666666,0.6666666666666666,0.6666666666666666
+qwen3-emb (task instr.),toolink_query_136,code,toolink,2,0.19342640361727081,0.0,0.0,0.5,0.5
+qwen3-emb (task instr.),toolink_query_154,code,toolink,2,0.0,0.0,0.0,0.0,0.5
+qwen3-emb (task instr.),toolink_query_159,code,toolink,3,1.0,0.3333333333333333,1.0,1.0,1.0
+qwen3-emb (task instr.),toolink_query_172,code,toolink,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolink_query_175,code,toolink,3,0.0,0.0,0.0,0.0,0.3333333333333333
+qwen3-emb (task instr.),toolink_query_195,code,toolink,1,0.3333333333333333,0.0,0.0,1.0,1.0
+qwen3-emb (task instr.),toolink_query_196,code,toolink,3,0.5307212739772434,0.0,0.6666666666666666,0.6666666666666666,0.6666666666666666
+qwen3-emb (task instr.),toolink_query_224,code,toolink,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolink_query_225,code,toolink,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolink_query_226,code,toolink,2,0.0,0.0,0.0,0.0,0.5
+qwen3-emb (task instr.),toolink_query_227,code,toolink,3,0.0,0.0,0.0,0.0,0.3333333333333333
+qwen3-emb (task instr.),toolink_query_228,code,toolink,2,1.0,0.5,1.0,1.0,1.0
+qwen3-emb (task instr.),toolink_query_252,code,toolink,3,0.46927872602275644,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+qwen3-emb (task instr.),toolink_query_286,code,toolink,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolink_query_298,code,toolink,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolink_query_305,code,toolink,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolink_query_314,code,toolink,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolink_query_347,code,toolink,1,0.5,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolink_query_352,code,toolink,2,0.38685280723454163,0.0,0.5,0.5,0.5
+qwen3-emb (task instr.),toolink_query_354,code,toolink,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),toolink_query_355,code,toolink,3,0.0,0.0,0.0,0.0,0.3333333333333333
+qwen3-emb (task instr.),toolink_query_372,code,toolink,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolink_query_376,code,toolink,3,0.46927872602275644,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+qwen3-emb (task instr.),toolink_query_393,code,toolink,2,0.6131471927654584,0.5,0.5,0.5,0.5
+qwen3-emb (task instr.),toolink_query_398,code,toolink,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),toolink_query_400,code,toolink,3,0.46927872602275644,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+qwen3-emb (task instr.),toolink_query_402,code,toolink,3,0.46927872602275644,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+qwen3-emb (task instr.),toolink_query_435,code,toolink,3,0.4525081529734507,0.0,0.3333333333333333,0.6666666666666666,1.0
+qwen3-emb (task instr.),toolink_query_437,code,toolink,3,1.0,0.3333333333333333,1.0,1.0,1.0
+qwen3-emb (task instr.),toolink_query_438,code,toolink,3,0.7653606369886217,0.3333333333333333,0.6666666666666666,0.6666666666666666,0.6666666666666666
+qwen3-emb (task instr.),toolink_query_440,code,toolink,4,1.0,0.25,1.0,1.0,1.0
+qwen3-emb (task instr.),toolink_query_451,code,toolink,3,0.46927872602275644,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+qwen3-emb (task instr.),toolink_query_469,code,toolink,3,0.9060254355346823,0.3333333333333333,1.0,1.0,1.0
+qwen3-emb (task instr.),toolink_query_478,code,toolink,3,0.46927872602275644,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+qwen3-emb (task instr.),toolLens_query_37,web,toollens,3,0.23463936301137822,0.0,0.3333333333333333,0.3333333333333333,0.3333333333333333
+qwen3-emb (task instr.),toolLens_query_41,web,toollens,3,0.13565197343244778,0.0,0.0,0.3333333333333333,0.3333333333333333
+qwen3-emb (task instr.),toolLens_query_79,web,toollens,3,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),toolLens_query_91,web,toollens,3,0.0,0.0,0.0,0.0,0.6666666666666666
+qwen3-emb (task instr.),toolLens_query_140,web,toollens,3,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),toolLens_query_143,web,toollens,2,0.19342640361727081,0.0,0.0,0.5,0.5
+qwen3-emb (task instr.),toolLens_query_215,web,toollens,3,0.0,0.0,0.0,0.0,0.3333333333333333
+qwen3-emb (task instr.),toolLens_query_219,web,toollens,3,0.0,0.0,0.0,0.0,0.3333333333333333
+qwen3-emb (task instr.),toolLens_query_246,web,toollens,2,0.0,0.0,0.0,0.0,0.5
+qwen3-emb (task instr.),toolLens_query_266,web,toollens,2,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),toolLens_query_268,web,toollens,3,0.0,0.0,0.0,0.0,0.3333333333333333
+qwen3-emb (task instr.),toolLens_query_293,web,toollens,2,0.38685280723454163,0.0,0.5,0.5,1.0
+qwen3-emb (task instr.),ultraTool_query_29,web,ultratool,1,0.6309297535714575,0.0,1.0,1.0,1.0
+qwen3-emb (task instr.),ultraTool_query_36,web,ultratool,3,0.6257049680303419,0.3333333333333333,0.3333333333333333,0.6666666666666666,1.0
+qwen3-emb (task instr.),ultraTool_query_92,web,ultratool,2,0.5802792108518124,0.0,0.5,1.0,1.0
+qwen3-emb (task instr.),ultraTool_query_99,web,ultratool,2,0.0,0.0,0.0,0.0,0.5
+qwen3-emb (task instr.),ultraTool_query_111,web,ultratool,1,0.3010299956639812,0.0,0.0,1.0,1.0
+qwen3-emb (task instr.),ultraTool_query_135,web,ultratool,2,0.6131471927654584,0.5,0.5,0.5,0.5
+qwen3-emb (task instr.),ultraTool_query_165,web,ultratool,3,0.39106560501896365,0.0,0.3333333333333333,0.6666666666666666,1.0
+qwen3-emb (task instr.),ultraTool_query_187,web,ultratool,3,0.18154179253735267,0.0,0.3333333333333333,0.3333333333333333,0.6666666666666666
+qwen3-emb (task instr.),ultraTool_query_208,web,ultratool,2,1.0,0.5,1.0,1.0,1.0
+qwen3-emb (task instr.),ultraTool_query_251,web,ultratool,2,0.0,0.0,0.0,0.0,0.5
+qwen3-emb (task instr.),ultraTool_query_267,web,ultratool,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),ultraTool_query_281,web,ultratool,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),ultraTool_query_295,web,ultratool,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),ultraTool_query_335,web,ultratool,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),ultraTool_query_345,web,ultratool,2,0.8503449055347546,0.5,1.0,1.0,1.0
+qwen3-emb (task instr.),ultraTool_query_347,web,ultratool,1,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),ultraTool_query_372,web,ultratool,1,0.0,0.0,0.0,0.0,0.0
+qwen3-emb (task instr.),ultraTool_query_375,web,ultratool,2,0.0,0.0,0.0,0.0,1.0
+qwen3-emb (task instr.),ultraTool_query_378,web,ultratool,1,0.3010299956639812,0.0,0.0,1.0,1.0
+qwen3-emb (task instr.),ultraTool_query_395,web,ultratool,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),ultraTool_query_397,web,ultratool,2,0.2640681225725909,0.0,0.5,0.5,0.5
+qwen3-emb (task instr.),ultraTool_query_424,web,ultratool,4,0.6804558477306826,0.25,0.5,0.75,0.75
+qwen3-emb (task instr.),ultraTool_query_441,web,ultratool,1,1.0,1.0,1.0,1.0,1.0
+qwen3-emb (task instr.),ultraTool_query_447,web,ultratool,3,0.7653606369886217,0.3333333333333333,0.6666666666666666,0.6666666666666666,0.6666666666666666
+qwen3-emb (task instr.),ultraTool_query_451,web,ultratool,1,1.0,1.0,1.0,1.0,1.0

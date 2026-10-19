@@ -1,0 +1,14 @@
+# RQ1 + RQ2: accuracy and failure types vs. tool-catalog size N.
+# Small "learning" version (2026-10-19): 100 fixed queries x 2 catalog seeds.
+name: rq1_scaling
+split: simple_python          # BFCL v4, 400 queries, pinned commit f7cf735
+subsample: 100                 # same 100 queries in every condition (catalogs use all 400 tools)
+subsample_seed: 0
+sizes: [1, 4, 16, 64]          # N=1 is the original BFCL setting (gold tool only)
+seeds: [0, 1]                  # catalog partitions; N=1 has no randomness -> seed 0 only
+num_ctx: {1: 4096, 4: 4096, 16: 8192, 64: 16384}   # pilot: N=64 prompts are 7.9k-10.1k tokens
+models:
+  - {tag: "qwen2.5:1.5b-instruct"}
+  - {tag: "qwen2.5:3b-instruct"}
+  - {tag: "llama3.2:latest"}           # Llama-3.2-3B-Instruct
+  - {tag: "qwen3.5:2b", think: false}  # thinking disabled for comparability

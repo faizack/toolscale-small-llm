@@ -1,0 +1,5 @@
+2026-10-19 17:21:07,842 INFO multi_turn_base: 200 entries, 30 sampled
+2026-10-19 17:22:30,102 INFO model=qwen3.5:2b multi_turn_base_22 valid=False steps=26 calls=24/6 gt err=multi_turn:execution_response_mismatch (82s)
+2026-10-19 17:23:23,921 INFO model=qwen3.5:2b multi_turn_base_48 valid=False steps=21 calls=21/5 gt err=multi_turn:execution_response_mismatch (54s)
+2026-10-19 17:23:23,921 INFO model=qwen3.5:2b multiturn new=2 acc_new=0.000 time=136s
+2026-10-19 17:23:23,921 INFO finished rq5_multiturn

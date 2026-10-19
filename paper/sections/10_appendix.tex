@@ -1,0 +1,66 @@
+\section{Reproducibility details}
+\label{app:repro}
+
+\paragraph{Artifacts.}
+The repository contains every configuration (\texttt{configs/*.yaml}), the raw output of every model call, including the raw generated tokens, timings and score (\texttt{results/raw/}), the scripts that produce every table, figure and number in the text (\texttt{scripts/analyze*.py}, \texttt{scripts/make\_macros.py}), and a dated lab notebook that records each design decision and incident.
+None of the numbers in this paper were typed by hand. They are \LaTeX{} macros generated from \texttt{results/processed/summary*.json}.
+
+\paragraph{Data provenance.}
+BFCL~v4 data comes from \texttt{ShishirPatil/gorilla} at commit \texttt{f7cf735} (2025-12-17, matching \texttt{bfcl-eval==2025.12.17}; Apache-2.0).
+ToolRet comes from \texttt{mangopy/ToolRet-Queries}@\texttt{b8c76ad} and \texttt{mangopy/ToolRet-Tools}@\texttt{e06c38c}.
+SHA-256 checksums of all files are in \texttt{data/raw/SHA256SUMS.txt}.
+
+\paragraph{Software and hardware.}
+We used Windows~11, an NVIDIA RTX~3050 Laptop GPU (4\,GB), 16\,GB RAM, Python~3.12.2 and Ollama~0.32.6.
+Python package versions are pinned in \texttt{requirements.lock.txt}. \texttt{bfcl-eval} is installed with \texttt{--no-deps}, because only its pure-Python environments and checkers are needed.
+Context windows were 4{,}096 / 4{,}096 / 8{,}192 / 16{,}384 tokens for $N=1/4/16/64$. Every record stores whether the prompt came within 512 tokens of the limit, and this never happened.
+
+\paragraph{Determinism.}
+Decoding at temperature~0 with a fixed seed is \emph{not} bitwise reproducible when the key-value cache is reused: in the pilot, the same request produced different outputs with and without cache reuse. Variation across catalog seeds is reported for this reason.
+
+\paragraph{Compute.}
+At the scale reported here, all experiments take about 4 GPU-hours on the laptop.
+
+\section{Failure taxonomy: definitions}
+\label{app:taxonomy}
+
+Categories are assigned deterministically by \texttt{src/toolscale/scoring.py}, in this priority order.
+\begin{description}
+  \item[malformed call] No parsed tool call, but the raw output contains an attempted call (a \texttt{<tool\_call>} tag, a JSON object with a \texttt{"name"} key, or \texttt{name(} for a catalog tool) that is \emph{not valid JSON}, e.g.\ an unquoted function name. Arguments that are not valid JSON also fall here.
+  \item[text call] A valid JSON call written as prose or markdown instead of as a tool call.
+  \item[no call] Plain-text answer, clarification question or refusal.
+  \item[multiple calls] More than one call (each task needs exactly one).
+  \item[hallucinated tool] The called name is not in the visible catalog. This includes valid JSON calls to unknown names that the server silently discarded; we recover these from the raw tokens.
+  \item[wrong tool] A visible tool other than the gold one.
+  \item[missing / extra argument] Gold tool; a required parameter is missing, or a parameter is not in the schema or not expected.
+  \item[wrong type] Gold tool; a value has the wrong type (e.g.\ the string \texttt{"10"} for an integer).
+  \item[wrong value] Gold tool; a value is not among BFCL's accepted answers.
+  \item[missing optional] Gold tool; an optional parameter that BFCL expects is omitted.
+\end{description}
+
+\section{Additional results}
+\label{app:extra}
+
+\begin{table}[h]
+  \centering
+  \caption{Cost per call: median prompt tokens / median latency in seconds, by catalog size (RTX~3050 Laptop, 4\,GB). Latency benefits from key-value cache reuse across queries that share a catalog; Llama-3.2-3B's cache does not fit in 4\,GB at $N{=}64$.}
+  \label{tab:cost}
+  \small
+  \input{tables/tab_cost.tex}
+\end{table}
+
+\section{Example agentic episode}
+\label{app:example}
+
+Qwen2.5-1.5B on \texttt{multi\_turn\_base\_64} (VehicleControlAPI, 22 tools), first two user turns. Raw records are in \texttt{results/raw/rq5\_multiturn/}.
+
+\begin{description}
+  \item[User (turn 1)] ``Before attempting to start the engine, kindly verify that every car door is meticulously secured \ldots{} proceed with activating the START mode.''
+  \item[Model] \texttt{lockDoors(unlock=False)}
+  \item[Environment] \texttt{Error during execution: VehicleControlAPI.lockDoors() missing 1 required positional argument: 'door'}
+  \item[Model] ``It seems there was an error while trying to lock the doors. Please ensure that you have provided all necessary arguments correctly and try again.'' \emph{(turn ends; the engine is never started)}
+  \item[Ground truth] \texttt{lockDoors(unlock=False, door=[\ldots all four\ldots])}, \texttt{pressBrakePedal(1.0)}, \texttt{startEngine('START')}
+  \item[User (turn 2)] ``Please assess my tire pressures \ldots{} If any tire registers under 40 PSI \ldots{} guide me to the closest tire service facility.''
+  \item[Model] \texttt{check\_tire\_pressure()} $\to$ front-left 35.0, front-right 34.0, rear-left 33.0, rear-right 32.0 psi
+  \item[Model] ``All of your tires are currently within the safe pressure range of 40 PSI or higher. No action is required at this time.'' \emph{(misreads the tool result; \texttt{find\_nearest\_tire\_shop()} is never called)}
+\end{description}

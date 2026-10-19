@@ -1,0 +1,6 @@
+2026-10-19 15:46:27,274 INFO multi_turn_base: 200 entries, 30 sampled
+2026-10-19 15:46:39,349 INFO model=qwen2.5:1.5b-instruct multi_turn_base_101 valid=False steps=5 calls=2/3 gt err=multi_turn:empty_turn_model_response (12s)
+2026-10-19 15:46:50,694 INFO model=qwen2.5:1.5b-instruct multi_turn_base_102 valid=False steps=10 calls=5/5 gt err=multi_turn:instance_state_mismatch (11s)
+2026-10-19 15:46:59,524 INFO model=qwen2.5:1.5b-instruct multi_turn_base_108 valid=False steps=5 calls=0/6 gt err=multi_turn:empty_turn_model_response (9s)
+2026-10-19 15:47:07,402 INFO model=qwen2.5:1.5b-instruct multi_turn_base_116 valid=False steps=7 calls=1/6 gt err=multi_turn:empty_turn_model_response (8s)
+2026-10-19 15:47:13,187 INFO model=qwen2.5:1.5b-instruct multi_turn_base_119 valid=False steps=6 calls=2/4 gt err=multi_turn:empty_turn_model_response (6s)

@@ -1,0 +1,87 @@
+{
+  "timestamp": "2026-10-19T12:42:03",
+  "git_commit": "72e145804fcec44ee30dd16f08298d07dfd7db45",
+  "python": "3.12.2 (tags/v3.12.2:6abddd9, Feb  6 2024, 21:26:36) [MSC v.1937 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU, 4096 MiB, 610.60",
+  "ollama_version": "0.32.6",
+  "ollama_models": [
+    {
+      "name": "llama3.2:latest",
+      "digest": "a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72",
+      "size": 2019393189,
+      "quant": "Q4_K_M",
+      "params": "3.2B"
+    },
+    {
+      "name": "qwen3-embedding:0.6b",
+      "digest": "ac6da0dfba84a81fdbfbaf330198c33cd77c4cdfc53e8bc50eb581914a15621d",
+      "size": 639150858,
+      "quant": "Q8_0",
+      "params": "595.78M"
+    },
+    {
+      "name": "qwen3.5:2b",
+      "digest": "324d162be6ca5629ae4517c8710434d0bd2d665bc94dbad46e9af8fbf8a2f0df",
+      "size": 2741192820,
+      "quant": "Q8_0",
+      "params": "2.3B"
+    },
+    {
+      "name": "bge-m3:latest",
+      "digest": "7907646426070047a77226ac3e684fbbe8410524f7b4a74d02837e43f2146bab",
+      "size": 1157672605,
+      "quant": "F16",
+      "params": "566.70M"
+    },
+    {
+      "name": "qwen2.5:3b-instruct",
+      "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+      "size": 1929912432,
+      "quant": "Q4_K_M",
+      "params": "3.1B"
+    },
+    {
+      "name": "qwen2.5:1.5b-instruct",
+      "digest": "65ec06548149b04c096a120e4a6da9d4017ea809c91734ea5631e89f96ddc57b",
+      "size": 986061892,
+      "quant": "Q4_K_M",
+      "params": "1.5B"
+    }
+  ],
+  "bfcl_data_commit": "ShishirPatil/gorilla@f7cf7359b7ac615a0b294831c5ba2bc95ee4a000",
+  "pip_freeze": [
+    "annotated-types==0.8.0",
+    "anyio==4.15.1",
+    "bfcl-eval==2025.12.17",
+    "certifi==2026.10.18",
+    "colorama==0.4.6",
+    "contourpy==1.4.0",
+    "cycler==0.12.1",
+    "fonttools==4.67.0",
+    "h11==0.16.0",
+    "httpcore==1.0.9",
+    "httpx==0.28.1",
+    "idna==3.20",
+    "kiwisolver==1.5.1",
+    "matplotlib==3.11.2",
+    "numpy==2.5.4",
+    "ollama==0.6.3",
+    "packaging==26.3",
+    "pandas==3.0.6",
+    "pillow==13.0.0",
+    "pyarrow==26.0.0",
+    "pydantic==2.14.1",
+    "pydantic-core==2.50.1",
+    "pymupdf==1.28.2",
+    "pyparsing==3.3.3",
+    "python-dateutil==2.9.0.post0",
+    "pyyaml==6.0.3",
+    "scipy==1.18.1",
+    "six==1.17.0",
+    "tqdm==4.70.1",
+    "typing-extensions==4.16.0",
+    "typing-inspection==0.4.4",
+    "tzdata==2026.5"
+  ]
+}

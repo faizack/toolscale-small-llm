@@ -1,0 +1,34 @@
+wrote C:\Users\faiza\Videos\parul\agent_survey\logs\env_20261019-154716.json
+                              mean     std
+embedder             N  k                 
+bge-m3:latest        16 1   0.9650  0.0043
+                        3   0.9975  0.0000
+                        5   1.0000  0.0000
+                        10  1.0000  0.0000
+                     64 1   0.9067  0.0038
+                        3   0.9875  0.0066
+                        5   0.9967  0.0014
+                        10  0.9975  0.0000
+qwen3-embedding:0.6b 16 1   0.9892  0.0080
+                        3   1.0000  0.0000
+                        5   1.0000  0.0000
+                        10  1.0000  0.0000
+                     64 1   0.9600  0.0025
+                        3   0.9992  0.0014
+                        5   1.0000  0.0000
+                        10  1.0000  0.0000
+2026-10-19 15:47:18,195 INFO config=configs/rq1_scaling.yaml hash=ae61da5aa2 commit=0055fce-dirty
+2026-10-19 15:47:18,201 INFO evaluating 100 of 400 queries (subsample=100)
+2026-10-19 15:47:18,221 INFO model=qwen2.5:1.5b-instruct already done=1957
+2026-10-19 15:47:18,238 INFO model=qwen2.5:3b-instruct already done=700
+2026-10-19 15:47:18,256 INFO model=llama3.2:latest already done=700
+2026-10-19 15:47:18,275 INFO model=qwen3.5:2b already done=700
+2026-10-19 15:47:18,285 INFO finished rq1_scaling
+2026-10-19 15:47:19,019 INFO config=configs/rq3_retrieval.yaml hash=415bfceaba commit=0055fce-dirty
+2026-10-19 15:47:19,024 INFO evaluating 100 of 400 queries (subsample=100)
+2026-10-19 15:47:19,032 INFO model=qwen2.5:1.5b-instruct already done=300
+2026-10-19 15:47:19,039 INFO model=qwen2.5:3b-instruct already done=300
+2026-10-19 15:47:19,046 INFO model=llama3.2:latest already done=300
+2026-10-19 15:47:19,053 INFO model=qwen3.5:2b already done=300
+2026-10-19 15:47:19,055 INFO finished rq3_retrieval
+CORE EXPERIMENTS FINISHED

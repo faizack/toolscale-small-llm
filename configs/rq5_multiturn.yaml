@@ -1,0 +1,10 @@
+# RQ5: agentic multi-turn episodes on BFCL's executable environments (official checker).
+name: rq5_multiturn
+seed: 0
+n_episodes: 30          # of 200 in multi_turn_base (small "learning" scale)
+num_ctx: 16384          # 9-42 tools + growing dialogue history
+models:
+  - {tag: "qwen2.5:1.5b-instruct"}
+  - {tag: "qwen2.5:3b-instruct"}
+  # - {tag: "llama3.2:latest"}   # excluded 2026-10-19: 16k-context episodes exhaust 16 GB system RAM (lab notebook Entry 15)
+  - {tag: "qwen3.5:2b", think: false}

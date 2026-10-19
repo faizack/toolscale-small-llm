@@ -1,0 +1,58 @@
+\section{Experimental Setup}
+\label{sec:setup}
+
+\begin{figure}[t]
+  \centering
+  \input{figures/fig_overview.tex}
+  \caption{Overview of the controlled experiments (RQ1--RQ3). Queries and gold tools from BFCL are grouped into tool catalogs of size $N$, where the distractors are the gold tools of other queries. A small LLM receives either the full catalog (A) or only the top-$k$ tools ranked by an embedding model (B). We keep the raw generated tokens, score each call with the BFCL checker, and assign every failure to one category of our taxonomy. RQ4--RQ5 instead use BFCL's native tool lists.}
+  \label{fig:overview}
+\end{figure}
+
+\paragraph{Research questions.}
+\textbf{RQ1:} How does tool-calling accuracy of sub-4B models change as the catalog grows from 1 to 64 tools?
+\textbf{RQ2:} Which failure types make up the loss?
+\textbf{RQ3:} Does embedding-based top-$k$ retrieval recover the loss, and is the remaining gap caused by retrieval or by the model?
+\textbf{RQ4:} Do the trends hold on \emph{native} tool lists of real user queries?
+\textbf{RQ5:} How do the same models perform as multi-turn agents in executable environments?
+
+\paragraph{Models and serving.}
+We evaluate four off-the-shelf instruct models through Ollama~0.32.6 \citep{ollama2026} with native function calling, as a practitioner would run them on a laptop: Qwen2.5-1.5B and Qwen2.5-3B \citep{qwen2024qwen25} (Q4\_K\_M), Llama-3.2-3B \citep{grattafiori2024llama3, meta2024llama32card} (Q4\_K\_M), and Qwen3.5-2B \citep{qwen2026qwen35card} (Q8\_0, thinking disabled).
+Decoding uses temperature~0, a fixed seed, at most 512 new tokens, and no system prompt, as in BFCL's function-calling mode.
+All runs use one RTX~3050 laptop GPU with 4\,GB of memory.
+The exact model digests and package versions are logged (\cref{app:repro}).
+
+\paragraph{Data and controlled catalogs (RQ1--RQ3).}
+We use BFCL~v4 \texttt{simple\_python} \citep{patil2025bfcl}: 400 queries, each with exactly one gold function and a set of accepted argument values.
+To vary catalog size without writing new data, we treat the 370 distinct gold functions as a tool pool. This is the protocol of \citet{kate2025longfunceval}, here applied in the small-$N$ regime.
+For $N\in\{4,16,64\}$ and catalog seed $s\in\{0,1\}$, we shuffle the queries, cut them into blocks of $N$, and use the gold functions of a block as its catalog. We pad a block with random pool functions if names repeat, and shuffle the order of each catalog.
+Every distractor is therefore a real tool from another task. Every query is evaluated once per $(N,s)$, and $N{=}1$ is the original BFCL setting.
+For a small-compute study, we evaluate a fixed random subset of 100 queries in every condition, while the catalogs still use all 400 tools.
+Because the queries in a block share an identical tool prefix, the serving stack reuses its key-value cache. This makes $N{=}64$ (8--10k prompt tokens) feasible on 4\,GB.
+We convert tool schemas exactly as BFCL does for function-calling models (type mapping, a Python-syntax hint, and ``.''$\to$``\_'' in names).
+
+\paragraph{Retrieval (RQ3).}
+We embed every tool (name, description and parameter descriptions) and every query with Qwen3-Embedding-0.6B \citep{zhang2025qwen3embedding} or BGE-M3 \citep{chen2024bgem3}. For each query we keep the top-$k$ tools of its $N{=}64$ catalog, ordered by cosine similarity, and give only those to the LLM.
+This setup is paired with the full-catalog run (same catalog, same query), which lets us apply exact McNemar tests.
+On ToolRet \citep{shi2025toolret} we also measure retrieval alone against its full native corpus of 44{,}453 tools (600 queries, 200 per category).
+
+\paragraph{Native data (RQ4, RQ5).}
+\textbf{RQ4} uses real user-contributed BFCL queries with the tool lists BFCL ships with them.
+From \texttt{live\_multiple} (2--37 tools; one correct call) we sample 25 queries per native-size bucket $\{2,3,4,5,6{+}\}$. From \texttt{live\_irrelevance} (no tool fits, so the correct behaviour is to make \emph{no} call) we sample 25 per bucket $\{1,2\text{--}3,4\text{--}5,6{+}\}$.
+\textbf{RQ5} runs 30 randomly sampled \texttt{multi\_turn\_base} episodes in BFCL's executable Python environments (file system, trading, travel, vehicle, messaging; 9--42 tools per episode).
+Our agent loop mirrors BFCL's reference loop: tool calls are executed and their results returned, a text reply ends the user turn, and each turn has a 20-step limit. Episodes are scored by BFCL's official state- and execution-based checker. Feeding the ground truth through our loop passes the checker (5/5 tested).
+
+\paragraph{Scoring and failure taxonomy.}
+\emph{Strict} accuracy is BFCL's AST checker (vendored, Python path unchanged).
+We also report \emph{lenient} accuracy, which first converts string-encoded scalars to the schema type (\texttt{"10"}$\to$10). This separates serialisation errors from semantic ones.
+Each failure is assigned to exactly one category, in priority order:
+\textit{malformed call} (an attempted call that does not parse),
+\textit{no call},
+\textit{multiple calls},
+\textit{hallucinated tool} (name not in the catalog),
+\textit{wrong tool},
+and, for the gold tool, \textit{missing / extra argument}, \textit{wrong type}, \textit{wrong value} or \textit{missing optional argument}.
+A finding from our pilot study shaped this design: Ollama \emph{silently discards} calls whose JSON is invalid (e.g.\ an unquoted function name) and returns an empty message. We therefore record the raw generated tokens of every request through the \texttt{logprobs} interface, so that such outputs are counted as malformed calls rather than as abstentions.
+
+\paragraph{Statistics.}
+We report the mean over catalog seeds ($\pm$ standard deviation where there are two seeds), 95\% Wilson intervals for proportions, and exact McNemar tests for paired comparisons.
+With 100 queries per condition, differences below roughly 10 points are within noise. We flag such cases instead of interpreting them.

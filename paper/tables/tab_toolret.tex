@@ -1,0 +1,10 @@
+\begin{tabular}{lcccc|cc}
+\toprule
+Retriever & \multicolumn{4}{c|}{nDCG@10} & \multicolumn{2}{c}{Recall (all)} \\
+ & web & code & custom. & all & @10 & @50 \\
+\midrule
+bge-m3 & 33.7 & 25.4 & 22.3 & 27.1 & 35.4 & 48.1 \\
+qwen3-emb (generic instr.) & 44.6 & 43.3 & 32.2 & 40.0 & 50.9 & 66.9 \\
+qwen3-emb (task instr.) & 48.1 & 58.0 & 40.0 & 48.7 & 58.7 & 73.8 \\
+\bottomrule
+\end{tabular}

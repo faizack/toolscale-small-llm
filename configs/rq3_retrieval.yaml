@@ -1,0 +1,17 @@
+# RQ3: retrieve top-k tools from the N=64 catalog with an embedding model, then call the LLM.
+# Paired with rq1_scaling (same catalogs, seed 0, same 100 queries) -> per-query McNemar tests.
+name: rq3_retrieval
+split: simple_python
+subsample: 100
+subsample_seed: 0
+sizes: [64]
+seeds: [0]
+retrieval:
+  embed_model: "qwen3-embedding:0.6b"   # chosen by RQ3a: recall@3 = 0.999 vs 0.988 (bge-m3)
+  k: [1, 3, 5]
+num_ctx: {1: 4096, 3: 4096, 5: 4096}
+models:
+  - {tag: "qwen2.5:1.5b-instruct"}
+  - {tag: "qwen2.5:3b-instruct"}
+  - {tag: "llama3.2:latest"}
+  - {tag: "qwen3.5:2b", think: false}

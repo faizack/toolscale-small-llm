@@ -1,0 +1,28 @@
+\section{Introduction}
+\label{sec:intro}
+
+Tool use turns a language model into an agent. Given a set of function schemas, the model chooses a function, fills in its arguments, and lets an executor run it \citep{schick2023toolformer, yao2023react, patil2024gorilla}.
+In practice the set of available tools keeps growing. Agent frameworks and protocols such as MCP let a single assistant see dozens of tools at once \citep{wang2025mcpbench, luo2025mcpuniverse}.
+At the same time, there is a strong case for running agents on \emph{small} models. They are cheap, private and fast, and they run on consumer hardware \citep{belcak2025slmfuture, erdogan2024tinyagent}.
+These two trends pull against each other. Every extra tool costs context, and small models are known to be brittle at following formats and filling arguments \citep{kavathekar2025small, mastoi2026beyond}.
+
+This paper asks a simple practical question: \emph{how many tools can an off-the-shelf small language model handle, and what breaks when it is given too many?}
+Prior work answers this for models of 8B parameters and above with hundreds of tools \citep{kate2025longfunceval}, or for a handful of distractors \citep{rabinovich2025robustness}. It does not cover the setting a practitioner with a laptop actually faces: a 1.5--3B quantized model served locally, choosing among 1 to 64 tools.
+
+We study that setting with deliberately modest means. We use four instruct models (Qwen2.5-1.5B/3B, Llama-3.2-3B and Qwen3.5-2B) served with Ollama on a single 4\,GB laptop GPU. All data comes from existing benchmarks: BFCL \citep{patil2025bfcl} for controlled catalogs, native user queries and executable multi-turn episodes, and ToolRet \citep{shi2025toolret} for retrieval at scale.
+Every model call is logged with its raw generated tokens, and every number in this paper is generated from those logs.
+
+\paragraph{Findings.}
+\begin{enumerate}
+  \item \textbf{The loss starts early.} Accuracy is flat up to about 4 tools, then falls. At 64 tools, Qwen2.5-3B loses \DropQwenThree{} points and Qwen2.5-1.5B \DropQwenOneFive{} points relative to the single-tool setting (\cref{sec:rq1}).
+  \item \textbf{More tools mostly break \emph{how} the model calls, not \emph{which} tool it picks.} At 64 tools, wrong-tool errors account for at most \FailToolQwenOneFiveNSixtyFour\% of queries, and most of them are near-duplicate tools. The larger shifts are toward \emph{not calling at all} (Qwen2.5-1.5B: \FailNoCallQwenOneFiveNOne\% $\to$ \FailNoCallQwenOneFiveNSixtyFour\%) and toward \emph{invalid call syntax} (Qwen2.5-3B: \FailFormatQwenThreeNOne\% $\to$ \FailFormatQwenThreeNSixtyFour\%) (\cref{sec:rq2}).
+  \item \textbf{The evaluation stack matters as much as the model.} Llama-3.2-3B writes numbers as strings, so strict BFCL scoring hides its \LenDropLlama-point decline. The serving stack silently drops malformed calls and calls to unknown tools; without the raw tokens they would look like abstentions (\cref{sec:rq2}, \cref{sec:discussion}).
+  \item \textbf{Retrieval nearly closes the gap.} Showing only the top-3 tools retrieved by a 0.6B embedding model improves every model by \RetGainQwenThreeFive--\RetGainQwenOneFive{} points, and for Qwen2.5-3B, top-1 retrieval matches its gold-tool accuracy (\cref{sec:rq3}).
+  \item \textbf{Native and agentic checks.} On real user queries with their own tool lists, wrong-tool errors stay rare (at most \NatWrongToolQwenThree\%). However, Llama-3.2-3B calls a tool in \NatAbstInvLlama\% of the cases where no tool applies. In BFCL's executable multi-turn environments, the best model completes only \MtSuccQwenThree\% of episodes (\cref{sec:native}).
+\end{enumerate}
+
+\paragraph{Contributions.}
+(i) A controlled, small-catalog measurement of four sub-4B quantized models on consumer hardware, with paired statistics.
+(ii) A failure taxonomy derived from the raw generated tokens, showing how the error mix shifts with catalog size and exposing two measurement pitfalls: string-typed arguments and silently dropped calls.
+(iii) A breakdown of retrieval-based mitigation into retriever recall and model accuracy.
+(iv) A fully reproducible package that runs on a 4\,GB laptop GPU in about four hours, including the configurations, raw outputs, analysis code and a dated lab notebook of all design decisions and incidents.

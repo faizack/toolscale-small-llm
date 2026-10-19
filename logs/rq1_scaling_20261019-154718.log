@@ -1,0 +1,7 @@
+2026-10-19 15:47:18,195 INFO config=configs/rq1_scaling.yaml hash=ae61da5aa2 commit=0055fce-dirty
+2026-10-19 15:47:18,201 INFO evaluating 100 of 400 queries (subsample=100)
+2026-10-19 15:47:18,221 INFO model=qwen2.5:1.5b-instruct already done=1957
+2026-10-19 15:47:18,238 INFO model=qwen2.5:3b-instruct already done=700
+2026-10-19 15:47:18,256 INFO model=llama3.2:latest already done=700
+2026-10-19 15:47:18,275 INFO model=qwen3.5:2b already done=700
+2026-10-19 15:47:18,285 INFO finished rq1_scaling

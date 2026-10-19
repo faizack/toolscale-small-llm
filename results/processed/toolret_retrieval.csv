@@ -1,0 +1,13 @@
+variant,category,ndcg@10,recall@1,recall@5,recall@10,recall@50
+bge-m3,code,0.2538,0.1646,0.2771,0.3233,0.4383
+bge-m3,customized,0.223,0.1138,0.2237,0.2837,0.424
+bge-m3,web,0.3368,0.17,0.3725,0.4554,0.5822
+qwen3-emb (generic instr.),code,0.4328,0.2771,0.4892,0.5733,0.74
+qwen3-emb (generic instr.),customized,0.3217,0.1848,0.3149,0.3814,0.5489
+qwen3-emb (generic instr.),web,0.4461,0.2558,0.4833,0.571,0.7174
+qwen3-emb (task instr.),code,0.5803,0.4229,0.6425,0.7117,0.8583
+qwen3-emb (task instr.),customized,0.4003,0.2274,0.4108,0.4508,0.6123
+qwen3-emb (task instr.),web,0.4811,0.2943,0.5081,0.5991,0.7424
+bge-m3,all,0.2712,0.1495,0.2911,0.3541,0.4815
+qwen3-emb (generic instr.),all,0.4002,0.2392,0.4291,0.5086,0.6688
+qwen3-emb (task instr.),all,0.4873,0.3149,0.5205,0.5872,0.7377

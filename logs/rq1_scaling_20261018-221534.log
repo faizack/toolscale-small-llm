@@ -1,0 +1,6 @@
+2026-10-18 22:15:34,465 INFO config=configs/rq1_scaling.yaml hash=45219ea589 commit=3955baf
+2026-10-18 22:15:34,471 INFO model=qwen2.5:1.5b-instruct already done=0
+2026-10-18 22:20:48,904 INFO model=qwen2.5:1.5b-instruct N=1 seed=0 k=None new=400 acc_new=0.715 time=314s
+2026-10-18 22:25:35,267 INFO model=qwen2.5:1.5b-instruct N=4 seed=0 k=None new=400 acc_new=0.723 time=286s
+2026-10-18 22:31:30,321 INFO model=qwen2.5:1.5b-instruct N=4 seed=1 k=None new=400 acc_new=0.745 time=355s
+2026-10-18 22:34:15,327 WARNING request error: N4|s2|kNone|simple_python_219 ReadError: [WinError 10054] An existing connection was forcibly closed by the remote host

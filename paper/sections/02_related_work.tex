@@ -1,0 +1,25 @@
+\section{Related Work}
+\label{sec:related}
+
+\paragraph{Tool learning and function-calling benchmarks.}
+Language models have learned to call tools in several ways: by inserting API calls in a self-supervised way \citep{schick2023toolformer}, by interleaving reasoning and acting \citep{yao2023react}, by training on large API collections \citep{patil2024gorilla, qin2024toolllm}, and by training on synthetic, verified function-calling data \citep{liu2024apigen, liu2025toolace}.
+API-Bank \citep{li2023apibank} and MetaTool \citep{huang2024metatool} evaluate \emph{whether} to use a tool separately from \emph{which} tool to use. BFCL \citep{patil2025bfcl} standardised scoring with abstract-syntax-tree (AST) matching. Its live, irrelevance and multi-turn categories, which we use, extend it to user-contributed queries, abstention and stateful agentic episodes.
+MCP benchmarks evaluate multi-step tool use against live servers \citep{wang2025mcpbench, luo2025mcpuniverse, mo2025livemcpbench, yin2025livemcp101}, and \citet{qu2025toolsurvey} survey the field.
+Most benchmarks fix the candidate tools of each task, which conflates \emph{calling} a tool with \emph{finding} it.
+Robustness studies show that a few semantically related distractors lower accuracy even for 70B-class models \citep{rabinovich2025robustness}. Tool order \citep{huang2024stability}, position \citep{blankenstein2026biasbusters} and metadata \citep{li2026metadata} also bias which tool a model selects.
+
+\paragraph{Large tool catalogs and tool retrieval.}
+Accuracy falls as catalogs grow.
+LongFuncEval pads BFCL queries with up to roughly 740 random BFCL functions and reports drops of 7--85\% for models of 8B parameters and above, with lost-in-the-middle-like position effects \citep{kate2025longfunceval, liu2024lost}. MCP stress tests and graded distractors show similar patterns \citep{gan2025ragmcp, choi2026toolmath}.
+The common fix is to show only a subset of tools. Proposed methods include dense or rewritten-query retrieval \citep{chen2024reinvoke, qu2024colt, mudunuri2026semantic}, taxonomy- or plan-conditioned filtering \citep{antonioni2025jsplit, patel2026dtdr, babu2026toolchoiceconfusion}, merging redundant tools \citep{liu2026toolscope}, letting the model request tools \citep{fei2025mcpzero}, and tool tokens \citep{wang2025toolgen}.
+ToolRet shows that general-purpose embedders are weak tool retrievers \citep{shi2025toolret}, and \citet{repantis2026howmany} argue that the right shortlist length varies by query.
+Almost all of this evidence comes from large, full-precision models.
+
+\paragraph{Small language models as tool users.}
+Some authors argue that small language models (SLMs) should be the default engine for agentic sub-tasks \citep{belcak2025slmfuture, sharma2025slmsurvey}. On-device systems fine-tune 1--7B models, often 4-bit, and add tool selection through classifiers, functional tokens or function masking \citep{erdogan2024tinyagent, chen2024octopusv2, lin2024hammer, zhang2025xlam}. Others split tool use across several small models \citep{shen2024smallllms}.
+Off-the-shelf SLMs often fail on output format and argument filling \citep{kavathekar2025small, mastoi2026beyond, haque2025tinyllm} and invent tool names \citep{lee2026patool}. Quantization can change the failure mix even when aggregate scores stay flat \citep{dong2025acbench, roshaan2026compression, singh2026samequant, jang2026flatscore, hu2026quantrecovery}.
+The closest study to ours routes a 1.5B model over 48 BFCL tasks padded with distractors and finds that semantic top-8 retrieval does not recover accuracy \citep{singla2026agentweave}.
+
+\paragraph{Our position.}
+We do not claim that more tools hurt; that is established for large models.
+We give a \emph{small, fully reproducible} account of the \emph{small-catalog regime} (1--64 tools) for four off-the-shelf sub-4B quantized models on a 4\,GB laptop GPU. We break their failures into a taxonomy, separate retrieval recall from end-to-end accuracy, and check whether the trends hold on native BFCL data and in BFCL's executable multi-turn environments.

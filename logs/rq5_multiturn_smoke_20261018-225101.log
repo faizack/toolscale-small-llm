@@ -1,0 +1,4 @@
+2026-10-18 22:51:01,527 INFO multi_turn_base: 200 entries, 1 sampled
+2026-10-18 22:51:07,459 INFO model=qwen2.5:1.5b-instruct multi_turn_base_64 valid=False steps=4 calls=2/5 gt err=multi_turn:instance_state_mismatch (6s)
+2026-10-18 22:51:07,459 INFO model=qwen2.5:1.5b-instruct multiturn new=1 acc_new=0.000 time=6s
+2026-10-18 22:51:07,459 INFO finished rq5_multiturn_smoke

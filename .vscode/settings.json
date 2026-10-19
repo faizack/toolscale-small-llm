@@ -1,0 +1,41 @@
+{
+  // ---- LaTeX Workshop: build paper/main.tex with latexmk, all outputs in paper/build/ ----
+  "latex-workshop.latex.search.rootFiles.include": ["paper/main.tex"],
+  "latex-workshop.latex.outDir": "%DIR%/build",
+  "latex-workshop.latex.recipe.default": "latexmk (build folder)",
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "latexmk (build folder)",
+      "tools": ["latexmk-build"]
+    }
+  ],
+  "latex-workshop.latex.tools": [
+    {
+      "name": "latexmk-build",
+      "command": "latexmk",
+      "args": [
+        "-pdf",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-outdir=%OUTDIR%",
+        "%DOC%"
+      ],
+      "env": {}
+    }
+  ],
+  "latex-workshop.latex.autoBuild.run": "onSave",
+  "latex-workshop.latex.autoClean.run": "never",
+  "latex-workshop.view.pdf.viewer": "tab",
+  "latex-workshop.synctex.afterBuild.enabled": true,
+
+  // keep build artefacts out of search results
+  "search.exclude": {
+    "paper/build/**": true,
+    ".venv/**": true
+  },
+  "files.watcherExclude": {
+    "paper/build/**": true,
+    ".venv/**": true
+  }
+}

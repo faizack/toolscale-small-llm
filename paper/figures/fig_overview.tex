@@ -1,0 +1,37 @@
+% Method overview (TikZ). Included from sections/03_setup.tex.
+% A PaperBanana version can be generated with scripts/make_diagram_paperbanana.sh (needs an API key).
+\resizebox{\linewidth}{!}{%
+\begin{tikzpicture}[
+    font=\footnotesize,
+    node distance=4mm and 6mm,
+    box/.style={draw=black!55, rounded corners=2pt, align=center, inner sep=3pt,
+                minimum height=11mm, text width=25mm, fill=white},
+    data/.style={box, fill=black!5},
+    cond/.style={box, text width=28mm, minimum height=9mm},
+    llm/.style={box, fill=blue!7, draw=blue!55!black, text width=24mm},
+    outbox/.style={box, fill=black!5, text width=22mm},
+    arr/.style={-{Latex[length=2mm]}, draw=black!65, line width=0.6pt},
+    lab/.style={font=\scriptsize\itshape, text=black!65},
+]
+% column 1: data
+\node[data] (bfcl) {\textbf{BFCL v4}\\ \texttt{simple\_python}\\ 400 queries,\\ 1 gold tool each};
+% column 2: catalogs
+\node[box, right=of bfcl] (cat) {\textbf{Catalog builder}\\ $N\in\{1,4,16,64\}$\\ distractors: gold\\ tools of other\\ queries; 3 seeds};
+% column 3: two conditions
+\node[cond, right=8mm of cat, yshift=8mm] (full) {\textbf{A: full catalog}\\ all $N$ tool schemas};
+\node[cond, right=8mm of cat, yshift=-8mm] (ret) {\textbf{B: retrieval}\\ Qwen3-Emb-0.6B\\ top-$k$ of $N{=}64$};
+% column 4: LLM
+\node[llm, right=8mm of full, yshift=-8mm] (llm) {\textbf{Small LLM}\\ 1.5B--3B, Q4/Q8\\ Ollama on a\\ 4\,GB GPU};
+% column 5: scoring
+\node[outbox, right=of llm, yshift=8mm] (score) {\textbf{BFCL checker}\\ strict / lenient};
+\node[outbox, right=of llm, yshift=-8mm] (tax) {\textbf{Failure}\\ \textbf{taxonomy}\\ 11 categories};
+
+\draw[arr] (bfcl) -- (cat);
+\draw[arr] (cat.east) -- ++(4mm,0) |- (full.west);
+\draw[arr] (cat.east) -- ++(4mm,0) |- (ret.west);
+\draw[arr] (full.east) -- ++(4mm,0) |- (llm.west);
+\draw[arr] (ret.east) -- ++(4mm,0) |- (llm.west);
+\draw[arr] (llm.east) -- ++(3mm,0) |- (score.west);
+\draw[arr] (llm.east) -- ++(3mm,0) |- (tax.west);
+\node[lab, below=1mm of llm] {raw tokens kept (logprobs)};
+\end{tikzpicture}}

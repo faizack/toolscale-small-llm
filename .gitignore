@@ -1,0 +1,30 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+# LaTeX build files
+paper/*.aux
+paper/*.log
+paper/*.bbl
+paper/*.blg
+paper/*.out
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.synctex.gz
+paper/*.toc
+# large/raw artefacts (regenerable); processed results ARE committed
+data/processed/embeddings/
+results/raw/*_smoke/
+# secrets
+*.env
+configs/*secret*
+
+# backups from repair_jsonl.py
+results/raw/**/*.bak-*
+
+# runner lock files
+results/raw/**/.lock
+
+other/*
+# LaTeX build output (latexmk / VS Code LaTeX Workshop write everything here)
+paper/build/

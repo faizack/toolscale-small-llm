@@ -1,0 +1,56 @@
+\section{RQ4--RQ5: Native Data and Agentic Episodes}
+\label{sec:native}
+
+The controlled catalogs isolate the effect of $N$, but they are artificial. We therefore repeat the measurements on data that needs no construction at all.
+
+\begin{table}[t]
+  \centering
+  \caption{Native BFCL data (\%). Left: accuracy on \texttt{live\_multiple}, real user queries with the 2--37 tools that BFCL ships with them, by native tool count (25 queries per bucket); $^\dagger$lenient. Right: abstention rate on \texttt{live\_irrelevance}, where no tool fits and the correct behaviour is to make no call (25 per bucket).}
+  \label{tab:native}
+  \small
+  \setlength{\tabcolsep}{4pt}
+  \resizebox{\linewidth}{!}{\input{tables/tab_native.tex}}
+\end{table}
+
+\paragraph{RQ4: real user queries.}
+On \texttt{live\_multiple} (\cref{tab:native}), overall accuracy is \NatAccQwenOneFive\% (Qwen2.5-1.5B), \NatAccQwenThree\% (Qwen2.5-3B), \NatAccQwenThreeFive\% (Qwen3.5-2B) and \NatLenLlama\% for Llama-3.2-3B under lenient scoring (\NatAccLlama\% strict).
+Accuracy shows no clear trend across native tool counts. This agrees with RQ1, because real BFCL queries mostly come with 2--10 tools, the range where the controlled curves are still nearly flat. With 25 queries per bucket, differences of up to about $\pm$19 points are noise.
+As in RQ2, choosing the wrong tool is rare (\NatWrongToolLlama--\NatWrongToolQwenThree\% of queries). Argument values are the main difficulty.
+
+\paragraph{Knowing when not to call.}
+\texttt{live\_irrelevance} shows a failure mode that the controlled catalogs cannot.
+The Qwen models correctly abstain in \NatAbstQwenThreeFive--\NatAbstQwenOneFive\% of cases, but \textbf{Llama-3.2-3B calls a tool \NatAbstInvLlama\% of the time when none applies} (abstention \NatAbstLlama\%). It inserts arguments that the user never gave.
+More tools do not make abstention worse for any model in our sample. If anything, abstention is slightly higher in the largest bucket.
+For an agent that executes tool calls, over-calling is arguably more dangerous than a missing call.
+
+\begin{table}[t]
+  \centering
+  \caption{RQ5: 30 randomly sampled \texttt{multi\_turn\_base} episodes in BFCL's executable environments, scored by the official checker. \emph{Calls / GT calls}: executed calls relative to the ground truth. \emph{Dropped calls}: agent steps whose raw tokens contain a call that the server silently discarded. \emph{Forced quit}: share of episodes that hit the 20-step limit of a turn.}
+  \label{tab:multiturn}
+  \small
+  \setlength{\tabcolsep}{4pt}
+  \resizebox{\linewidth}{!}{\input{tables/tab_multiturn.tex}}
+\end{table}
+
+\paragraph{RQ5: multi-turn agents.}
+Stateful, multi-step episodes (\cref{tab:multiturn}; 9--42 tools, about 4 user turns each) are far harder than single calls.
+Qwen2.5-3B completes \MtSuccQwenThree\% of episodes (95\% CI \MtLoQwenThree--\MtHiQwenThree), Qwen3.5-2B \MtSuccQwenThreeFive\%, and Qwen2.5-1.5B only \MtSuccQwenOneFive\%.
+The models fail in different ways.
+Qwen2.5-1.5B \emph{under-acts}: it makes only \MtCallsQwenOneFive{} calls per ground-truth call and often ends a turn without any call. \MtDroppedQwenOneFive\% of its steps contain a call that the server dropped because the JSON was invalid.
+Qwen3.5-2B \emph{over-acts}: \MtCallsQwenThreeFive{} calls per ground-truth call, \MtExecErrQwenThreeFive{} execution errors per episode, and some turns that loop until the step limit.
+Qwen2.5-3B lies in between; its typical failure is a final environment state that differs from the ground truth.
+Two Qwen3.5-2B episodes first ended with an internal server error from Ollama. We re-ran both: one now completes (and fails for model reasons), while the other hits the same error again after 24 calls, probably because the ever-growing dialogue exhausts the context window (unverified). It is counted as a failure. Llama-3.2-3B was excluded from RQ5 because its 16k-token episodes exceeded the system memory of our laptop (\cref{sec:limitations}).
+A typical failure is shown in \cref{app:example}. After an execution error (\texttt{lockDoors() missing 1 required positional argument: 'door'}), the 1.5B model gives up. In the next turn it misreads a tool result and reports tire pressures of 32--35\,psi as ``within the safe range of 40\,psi or higher''.
+
+\paragraph{RQ3b: retrieval over a natively large corpus.}
+On BFCL's 64-tool catalogs, the embedder almost always ranks the gold tool in the top 3 (\cref{sec:rq3}). ToolRet's native corpus is much harder: 44{,}453 tools aggregated from 35 tool-use datasets (\cref{tab:toolret}).
+Retrieving against the full corpus, BGE-M3 reaches nDCG@10 of \TrNdcgBge{} and Qwen3-Embedding-0.6B \TrNdcgQwenGen{}. With ToolRet's per-query task instruction, Qwen3-Embedding reaches \TrNdcgQwenTask, but still finds only \TrRecallQwenTaskKTen\% of the relevant tools in its top 10.
+Small LLMs therefore need a short tool list, and with realistic tool libraries a short list will often miss the right tool. In such deployments, the \emph{retriever}, not the LLM, becomes the bottleneck. This agrees with \citet{shi2025toolret}.
+
+\begin{table}[t]
+  \centering
+  \caption{RQ3b: retrieval on ToolRet's full native corpus (44{,}453 tools; 600 queries, 200 per category). Recall is the share of a query's relevant tools that are retrieved, averaged over queries.}
+  \label{tab:toolret}
+  \small
+  \input{tables/tab_toolret.tex}
+\end{table}

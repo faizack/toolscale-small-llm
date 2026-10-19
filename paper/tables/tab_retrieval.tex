@@ -1,0 +1,11 @@
+\begin{tabular}{lccc|ccc|c}
+\toprule
+ & \multicolumn{3}{c|}{Strict accuracy} & \multicolumn{3}{c|}{Lenient accuracy} & \\
+Model & $N{=}1$ & 64 all & 64$\to$top-3 & $N{=}1$ & 64 all & 64$\to$top-3 & McNemar $p$ \\
+\midrule
+Qwen2.5-1.5B & 64.0 & 44.0 & 60.0 & 64.0 & 44.0 & 60.0 & 0.005 / 0.005 \\
+Qwen2.5-3B & 83.0 & 59.0 & 73.0 & 83.0 & 59.0 & 73.0 & 0.013 / 0.013 \\
+Llama-3.2-3B & 22.0 & 20.0 & 23.0 & 86.0 & 68.0 & 83.0 & 0.549 / 0.003 \\
+Qwen3.5-2B & 70.0 & 64.0 & 74.0 & 70.0 & 64.0 & 74.0 & 0.021 / 0.021 \\
+\bottomrule
+\end{tabular}
