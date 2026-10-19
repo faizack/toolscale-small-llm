@@ -4,7 +4,7 @@ Scaling and failure analysis of tool selection in small (1.5B–3B) LLM agents, 
 **4 GB laptop GPU** with Ollama. Everything in the paper (every number, table and figure) is
 regenerated from raw model outputs by the scripts below.
 
-- Plan and learning roadmap: [`ROADMAP.md`](ROADMAP.md)
+- Setup instructions: [`setup.md`](setup.md)
 - Day-by-day research log (decisions, bugs, surprises): [`notes/lab_notebook.md`](notes/lab_notebook.md)
 - Literature: [`notes/protocol.md`](notes/protocol.md), [`notes/paper_tracker.csv`](notes/paper_tracker.csv),
   [`notes/novelty_check.md`](notes/novelty_check.md)

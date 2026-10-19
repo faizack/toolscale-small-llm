@@ -25,6 +25,6 @@ results/raw/**/*.bak-*
 # runner lock files
 results/raw/**/.lock
 
-other/*
+other/
 # LaTeX build output (latexmk / VS Code LaTeX Workshop write everything here)
 paper/build/
